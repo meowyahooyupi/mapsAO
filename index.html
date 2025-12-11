@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html id="htmlMain">
+    <head>
+        <style>
+            div {
+                margin:0;
+                padding:0
+            }
+            .centeredTransform {
+                transform:translate(-50%, -50%); 
+                position:absolute;
+            }
+            .mrkOutline {
+                position:absolute; 
+                top:0%; 
+                left:0%; 
+                height:1em; 
+                width:1em; 
+                z-index:1; 
+                image-rendering:pixelated;
+            }
+            .mrkColor {
+                position:absolute; 
+                top:0%; 
+                left:0%; 
+                height:1em; 
+                width:1em; 
+                z-index:0; 
+                image-rendering:pixelated; 
+                mask-size:100% 100%; 
+                mask-image:url(./mrkMask.png);
+            }
+            .mrkNum {
+                position:absolute; 
+                top:0%; 
+                left:0%; 
+                height:1em;
+                width:1em;
+                line-height:100%;
+                text-align:center;
+                font-family:"oranda_condensed";
+                font-size:1em;
+                color:rgb(255, 255, 255);
+                text-shadow: 
+                -.05em -.05em 0 rgba(0,0,0,0.75), 
+                .05em -.05em 0 rgba(0,0,0,0.75),
+                -.05em .05em 0 rgba(0,0,0,0.75), 
+                .05em .05em 0 rgba(0,0,0,0.75);
+                z-index:3;
+            }
+            .mrkNote {
+                position:absolute; 
+                top:100%; 
+                left:50%; 
+                height:auto;
+                width:200%; 
+                transform:translateX(-50%); 
+                text-align:center;
+                font-family:"oranda_condensed";
+                font-size:0.5em;
+                text-shadow: 
+                -.025em -.025em 0 rgba(0,0,0,0.75), 
+                .025em -.025em 0 rgba(0,0,0,0.75),
+                -.025em .025em 0 rgba(0,0,0,0.75), 
+                .025em .025em 0 rgba(0,0,0,0.75);
+                z-index:1;
+            }
+            .scrollElements {
+                position:absolute;
+                height:100%;
+                width:10%;
+                z-index:1;
+                text-align:center;
+                font-family:"oranda_condensed";
+                line-height:120%;
+                color:rgb(255, 255, 255);
+                background-color:rgba(0, 0, 0, 0.2);
+            }
+            .mrkLegend {
+                aspect-ratio:1; 
+                height:1em; 
+                width:1em; 
+                position:relative;
+                cursor: pointer;
+            }
+            .legendHeader {
+                font-size:1em;
+            }
+            .legendMisc {
+                font-size:0.8em;
+            }
+            #mapSelect, #help{
+                width: 50%; 
+                max-width: 400px;
+                height: 50%;
+                max-height:400px;
+                top:100%;
+                position:absolute; 
+                z-index: 3;
+                font-family:"oranda_condensed"; 
+                container-type: size;
+                text-align:center; 
+                background-color:rgb(0,0,0,0.7); 
+                color:white;
+            }
+            .mapFlexbox {
+                display:flex;
+                flex-wrap:wrap;
+                align-items:stretch;
+                align-content: flex-start;
+                justify-content: flex-start;
+                column-gap:1%;
+                row-gap:2%;
+                overflow-y:auto;
+                font-size: calc(90cqh/20)
+            }
+            .mapSelectElement {
+                width:calc(98%/3);
+                cursor:pointer;
+                background-color:rgba(0, 0, 0, 0.3);
+            }
+            .zoom {
+                position:absolute; 
+                top:100vh; 
+                left:100vw;
+                height:10%; 
+                width:auto; 
+                aspect-ratio: 1; 
+                background-color: rgba(0,0,0,0.4);
+                border: medium solid rgba(0,0,0,0.4);
+                color:white;
+                border-radius: 100%;
+                container-type: size;
+                cursor:pointer;
+                text-align: center;
+                z-index: 5;
+            }
+            html {
+                height:auto;
+                width:auto;
+            }
+            label {
+                display:block;
+            }
+            @font-face {
+                font-family:"oranda_condensed";
+                src:url("./Oranda Condensed Regular.otf")
+            }
+        </style>
+    </head>
+    <body style="width: 100%; height: 100%; margin:0; overflow:hidden">
+        <div id="zoomin" class="zoom" style=" transform:translate(-100%,-200%);">
+            <div class="centeredTransform" style="position: absolute; top:50%; left:50%; font-size: 100cqmin;">+</div>
+        </div>
+        <div id="zoomout" class="zoom" style="transform:translate(-100%,-100%);">
+            <div class="centeredTransform" style="position: absolute; top:50%; left:50%; font-size: 100cqmin;">-</div>
+        </div>
+        <div class="zoom" style="transform:translate(-100%,-300%); cursor: default;">
+            <div id="zoomDisplay" class="centeredTransform" style="position: absolute; top:50%; left:50%; font-size: 30cqmin;"></div>
+        </div>
+        <div id="mapSelect" style="transform: translateY(-10%);">
+            <div id="selectExpandRibbon" style="width:100%; height:10%; background-color:rgba(0, 0, 0, 0.4); cursor:pointer; font-size:9cqh">Map selection</div>
+            <div id="maps" class="mapFlexbox" style="width:100%; height:90%;"></div>
+        </div>
+        <div id="help" style="transform: translate(-100%,-10%); left:90%">
+            <div id="helpExpandRibbon" style="width:100%; height:10%; background-color:rgba(0, 0, 0, 0.4); cursor:pointer; font-size:9cqh">Help</div>
+            <div id="innerHelp" style="width:100%; height:90%; overflow: auto; text-align: left;">
+                Hey hello! Here's some info in case you're lost.
+                <br><br>
+                <strong>Loading a map</strong>
+                <br>
+                If you look at the bottom left of your screen you should see a ribbon that says "Map Selection". If you click on it, a window will expand with all the maps in their respective categories (eg: Bronze Sea, Nimbus Sea). You can click on the individual map names to load the respective map.
+                <br><br>
+                <strong>Map Interactions</strong>
+                <br>
+                Now that you have a map loaded, here's some things you can interact with in the map:
+                <br>
+                You may see that either on the top right or the top left there's a legend, it displays the icon of each marker and a short phrase describing it, you can click the icon of each of those markers to toggle the marker layer entirely.
+                <br>
+                Some maps will have more than one image associated with them, if thats the case, you'll be able to see either on the left or the right margin an arrow-like button that you can click to scroll through the different images.
+                <br>
+                Some markers may have notes associated to them, if they do, you can hover over the marker and some text will pop up under it.
+                <br><br>
+                <strong>About zoom</strong>
+                <br>
+                If you look at the bottom right, you'll see a "+" button, a "-" button, and a small display with a percentage. These refer to the zoom level, you can zoom in or out 10% at a time by clicking either the "+" or "-" buttons. When you are zoomed in, you'll get scroll bars for either the horizontal or vertical direction, letting you scroll through the entire map.
+                <br><br>
+                <strong>About the numbers</strong>
+                <br>
+                Some markers will have numbers written on top of them, if it's a chest or a private chest marker, it means quantity, if it's a cave entrance marker or similar, it usually means a link between that marker and another marker of the same number.
+            </div>
+        </div>
+        <div style="overflow:auto; width:100%; height:100%;">
+            <div style="position:relative; overflow:hidden; margin:auto">
+                <div class="centeredTransform" style="top:50%; left:50%; width: 80%; height: 100%;">
+                    <img id="mainMapImg" class="centeredTransform" src="" style="position:absolute; top:50%; left:50%; width:100%; height:100%; z-index:-2;">
+                    <div id="legend" style="z-index:1; position:relative; color:rgb(255,255,255); display:grid; line-height:100%; z-index:-1;">
+                        <div id="mapName" class="legendHeader" style="order: 1;"></div>
+                        <div id="markersLegend" class="legendMisc" style="order: 2;"></div>
+                        <div id="gatherableHeader" class="legendHeader" style="order: 3;"><br>Gatherable Items</div>
+                        <div id="gatherableList" class="legendMisc" style="order: 4;"></div>
+                    </div>
+                </div>
+
+                <div id="scrollLeft" class="scrollElements" style="top:0%; left:0%;">
+                    <div class="centeredTransform" style="top:50%; left:50%; width:100%; height:auto; font-size:1em;">
+                        <
+                    </div>
+                </div>
+                
+                <div id="scrollRight" class="scrollElements" style="top:0%; left:100%; transform:translateX(-100%)">
+                    <div class="centeredTransform" style="top:50%; left:50%; width:100%; height:auto; font-size:1em;">
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="editConfig" style="position:absolute; top:0%; left:0%; width: 20%; height:50%; background-color: rgba(0,0,0,0.5); z-index: 5;">
+            <label for="editMarkId">Marker Id: <input id="editMarkId" type="text"></label>
+            <label for="editMarkAmnt">Marker Amount (optional): <input id="editMarkAmnt" type="number" min=0></label>
+            <label for="editMarkNote">Marker Note (optional): <input id="editMarkNote" type="text"></label>
+            <button id="editPlaceMarkers">Start placing</button>
+            <button id="editRemoveMarkers">Remove Markers</button>
+            <button id="editExportJSON">Export markers</button>
+            <textarea id="editJSONOutput" placeholder="JSON will show up here when exported"></textarea>
+        </div>
+    </body>
+    <script src="source.js"></script>
+</html>

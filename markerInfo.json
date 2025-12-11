@@ -1,0 +1,60 @@
+{
+    "chest":{
+        "id":"chest",
+        "legend":"Chests",
+        "supportsNumbers":true,
+        "color":[255,0,0]
+    },
+    "private":{
+        "id":"private",
+        "legend":"Private storage",
+        "supportsNumbers":true,
+        "color":[235,127,127]
+    },
+    "quest":{
+        "id":"quest",
+        "legend":"Quests",
+        "color":[0,255,0]
+    },
+    "cook":{
+        "id":"cook",
+        "legend":"Cooking Pots",
+        "color":[255,0,255]
+    },
+    "secret":{
+        "id":"secret",
+        "legend":"Island Secret",
+        "color":[0,255,255]
+    },
+    "cave":{
+        "id":"cave",
+        "legend":"Cave Entrance",
+        "supportsNumbers":true,
+        "color":[210,210,80]
+    },
+    "cauldron":{
+        "id":"cauldron",
+        "legend":"Cauldrons",
+        "color":[255,255,0]
+    },
+    "jewel":{
+        "id":"jewel",
+        "legend":"Jewelcrafting Tables",
+        "color":[150,20,20]
+    },
+    "hunt":{
+        "id":"hunt",
+        "legend":"Huntable NPC Spawn",
+        "color":[255,145,255]
+    },
+    "boss":{
+        "id":"boss",
+        "legend":"Boss",
+        "color":[40,40,40]
+    },
+    "banditSpawn":{
+        "id":"banditSpawn",
+        "legend":"Enemy spawn",
+        "color":[255,127,0]
+    }
+}

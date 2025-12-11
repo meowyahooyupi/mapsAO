@@ -1,0 +1,1178 @@
+{
+    "ierochos":{
+        "id":"ierochos",
+        "index":0,
+        "name":"Ierochos",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY":20,
+        "imgPath":"./maps/ierochos.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.3509850278678053,"Y":0.3895409158961874},{"id":"chest","amnt":1,"note":"Behind the waterfall","X":0.31934856075876683,"Y":0.39578070173434143},{"id":"chest","amnt":1,"X":0.4789689175361879,"Y":0.592779654624633},{"id":"chest","amnt":1,"X":0.2668607857824077,"Y":0.41182586531816606},{"id":"chest","amnt":1,"X":0.44805146104326404,"Y":0.46798393786155235},{"id":"chest","amnt":2,"X":0.4358282805693174,"Y":0.5018570609829599},{"id":"chest","amnt":2,"X":0.37255534635124055,"Y":0.6088248182084577},{"id":"chest","amnt":2,"X":0.29634022104310254,"Y":0.5883226647402372},{"id":"chest","amnt":2,"X":0.25104255222788846,"Y":0.45996135606964006},{"id":"chest","amnt":2,"note":"Behind the waterfall","X":0.4128199408536531,"Y":0.4795721115609813},{"id":"chest","amnt":1,"note":"Under the island","X":0.3373238261616296,"Y":0.5571237355494671},{"id":"chest","amnt":1,"note":"Under the island","X":0.32653866691991196,"Y":0.6088248182084577},{"id":"chest","amnt":2,"note":"Under the island","X":0.34451393232277466,"Y":0.6159560020234908},{"id":"chest","amnt":1,"note":"Under the island","X":0.4034728028441645,"Y":0.41539145722568266},{"id":"chest","amnt":1,"X":0.734936718815416,"Y":0.5134452346823889},{"id":"chest","amnt":1,"X":0.7507549523699352,"Y":0.5241420104049387},{"id":"chest","amnt":1,"X":0.7579450585310803,"Y":0.5544495416188296},{"id":"chest","amnt":1,"X":0.7493169311377061,"Y":0.6525033190755358},{"id":"chest","amnt":1,"X":0.742126824976561,"Y":0.8120635569369032},{"id":"chest","amnt":1,"X":0.7284656232703853,"Y":0.822760332659453},{"id":"chest","amnt":1,"X":0.7672921965405689,"Y":0.8539592618502232},{"id":"chest","amnt":3,"X":0.8104328335074394,"Y":0.47689791763034384},{"id":"cave","amnt":1,"X":0.8363172156875618,"Y":0.5571237355494671},{"id":"cave","amnt":1,"note":"Under the island","X":0.42432411071148524,"Y":0.4956172751448059},{"id":"cave","amnt":2,"note":"Under the island","X":0.37758842066404213,"Y":0.4367850086707822},{"id":"cave","amnt":2,"X":0.7967716318012638,"Y":0.6284355736997989},{"id":"chest","amnt":3,"X":0.3722677595628415,"Y":0.33724758777959946}],        
+        "gatherable":["Grapes","Marjoram Herbs","Brown Mushrooms","White Mushrooms"],
+        "sizeX":647,
+        "sizeY":501
+    },
+    "cedar":{
+        "id":"cedar",
+        "index":0,
+        "name":"Cedar Arch",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY":20,
+        "imgPath":"./maps/cedar arch.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.5006830601092896,"Y":0.7294740100237623},{"id":"chest","amnt":1,"X":0.6536885245901639,"Y":0.6943737961523261},{"id":"chest","amnt":1,"X":0.42827868852459017,"Y":0.517346630539865},{"id":"chest","amnt":1,"X":0.6031420765027322,"Y":0.40441550764915696},{"id":"chest","amnt":1,"X":0.6181693989071039,"Y":0.5112422455187455},{"id":"chest","amnt":1,"X":0.5594262295081968,"Y":0.4471462027969924},{"id":"chest","amnt":1,"X":0.5280054644808743,"Y":0.5005595717317867},{"id":"chest","amnt":1,"note":"In a small cave","X":0.36543715846994534,"Y":0.14345304799630473},{"id":"chest","amnt":3,"note":"At sea level in a small cave","X":0.3818306010928962,"Y":0.15718791429382326},{"id":"chest","amnt":2,"note":"Behind the waterfall","X":0.5703551912568307,"Y":0.4914029942001077},{"id":"chest","amnt":2,"note":"Under the arch","X":0.44330601092896177,"Y":0.4273069514783545},{"id":"chest","amnt":1,"note":"Under the arch","X":0.4952185792349727,"Y":0.46393326160507065},{"id":"chest","amnt":3,"X":0.4187158469945355,"Y":0.4334113364994739},{"id":"chest","amnt":1,"note":"Under the arch in a small cave","X":0.30669398907103823,"Y":0.41662427769139565},{"id":"chest","amnt":2,"X":0.20423497267759563,"Y":0.46851155037091013},{"id":"cook","X":0.28620218579234974,"Y":0.39068064135163844},{"id":"cave","amnt":2,"X":0.26024590163934425,"Y":0.4471462027969924},{"id":"cave","amnt":2,"X":0.14275956284153005,"Y":0.4715637428814698},{"id":"cave","amnt":1,"X":0.2028688524590164,"Y":0.5280293043268238},{"id":"cave","amnt":1,"X":0.3176229508196721,"Y":0.4837725129237085},{"id":"cave","amnt":3,"note":"Underwater cave under the arch","X":0.4337431693989071,"Y":0.45630278032867144},{"id":"cave","amnt":3,"X":0.26844262295081966,"Y":0.723369625002643},{"id":"chest","amnt":2,"X":0.20833333333333334,"Y":0.723369625002643},{"id":"chest","amnt":4,"X":0.23975409836065573,"Y":0.8332485553827913},{"id":"chest","amnt":1,"X":0.555327868852459,"Y":0.4868247054342682},{"id":"hunt","X":0.2780054644808743,"Y":0.41051989267027633}],        
+        "gatherable":["Pinecones"],
+        "sizeX":448,
+        "sizeY":385
+    },
+    "northJaw":{
+        "id":"northJaw",
+        "index":0,
+        "name":"Northern Jaws",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY": 25,
+        "imgPath":"./maps/northern jaws.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.4668692850238479,"Y":0.4471314245756694},{"id":"chest","amnt":1,"X":0.42800918045157504,"Y":0.4017885195482776},{"id":"chest","amnt":1,"X":0.5057293895961207,"Y":0.5856791899371444},{"id":"chest","amnt":1,"X":0.5416002553551418,"Y":0.560488687144149},{"id":"chest","amnt":1,"X":0.4987544990318666,"Y":0.42194092178267395},{"id":"chest","amnt":1,"X":0.5057293895961207,"Y":0.4307575977602224},{"id":"chest","amnt":3,"X":0.41904146401181974,"Y":0.3400717877054387},{"id":"chest","amnt":5,"note":"Behind a breakable wall","X":0.5445894941683935,"Y":0.43957427373777075},{"id":"cook","X":0.48380830496560784,"Y":0.5831601396578449},{"id":"banditSpawn","X":0.4877939567166102,"Y":0.4458718994360196}],
+        "customMarkers":{
+            "banditSpawn":{
+                "legend":"Spire Bandit Spawn"
+            }
+        },
+        "gatherable":["White Mushrooms","Brown Mushrooms"],
+        "sizeX":582,
+        "sizeY":442
+    },
+    "southJaw":{
+        "id":"southJaw",
+        "index":0,
+        "name":"Southern Jaws",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY": 25,
+        "imgPath":"./maps/southern jaws.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.3648854435150227,"Y":0.5225483178239084},{"id":"chest","amnt":1,"X":0.31625250289031026,"Y":0.7301360057265569},{"id":"chest","amnt":1,"X":0.2972737943538371,"Y":0.58840372226199},{"id":"chest","amnt":2,"X":0.2521993615797134,"Y":0.7301360057265569},{"id":"chest","amnt":2,"X":0.2759227472503048,"Y":0.43808160343593416},{"id":"chest","amnt":3,"X":0.23203448375971067,"Y":0.6571224051539012},{"id":"chest","amnt":4,"X":0.1750983581502912,"Y":0.7344309234073013},{"id":"cook","X":0.30794931790560326,"Y":0.556907659269864}],
+        "gatherable":[],
+        "sizeX":391,
+        "sizeY":311
+    },
+    "redwake":{
+        "id":"redwake",
+        "index":0,
+        "name":"Redwake",
+        "category":"Bronze Sea",
+        "legendPos":1,
+        "legendFSizeY": 20,
+        "imgPath":"./maps/redwake.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.35626744893353285,"Y":0.648671976181014},{"id":"chest","amnt":1,"X":0.4519230909575891,"Y":0.5925783906576004},{"id":"chest","amnt":1,"X":0.46188722033509494,"Y":0.5968932818517092},{"id":"chest","amnt":1,"X":0.42103428988732094,"Y":0.283344521746474},{"id":"chest","amnt":1,"X":0.4638800462105961,"Y":0.3308083248816701},{"id":"chest","amnt":1,"X":0.3732064688752928,"Y":0.3149870571699381},{"id":"chest","amnt":1,"X":0.2835293044777401,"Y":0.29916578945820604},{"id":"chest","amnt":1,"X":0.2845257174154907,"Y":0.35813596911102547},{"id":"chest","amnt":1,"X":0.24666202578096844,"Y":0.42573593115206243},{"id":"chest","amnt":1,"note":"Inside storage room","X":0.27157234922473306,"Y":0.5580592611047305},{"id":"chest","amnt":1,"X":0.28751495622874246,"Y":0.5580592611047305},{"id":"chest","amnt":1,"X":0.33633919017852115,"Y":0.5264167256812664},{"id":"chest","amnt":1,"X":0.25164409046972136,"Y":0.4861444078695848},{"id":"chest","amnt":1,"X":0.25961539397172606,"Y":0.49189759612839645},{"id":"chest","amnt":1,"X":0.2845257174154907,"Y":0.48039121961077313},{"id":"chest","amnt":1,"X":0.3522817971825305,"Y":0.3854636133403809},{"id":"chest","amnt":1,"X":0.3732064688752928,"Y":0.4027231781168158},{"id":"chest","amnt":1,"X":0.34331408074277525,"Y":0.4358040106049828},{"id":"chest","amnt":1,"X":0.41107016050981504,"Y":0.5077188638401285},{"id":"chest","amnt":2,"X":0.44893385214433734,"Y":0.37539553388746044},{"id":"chest","amnt":2,"X":0.3522817971825305,"Y":0.4228593370226566},{"id":"chest","amnt":2,"note":"Inside storage room","X":0.2695795233492319,"Y":0.4142295546344391},{"id":"chest","amnt":3,"note":"Underwater","X":0.41107016050981504,"Y":0.33368491901107594},{"id":"chest","amnt":3,"note":"Underwater","X":0.37918494650179635,"Y":0.47895292254607025},{"id":"chest","amnt":3,"X":0.4728477626503514,"Y":0.47032314015785276},{"id":"chest","amnt":3,"X":0.5117078672226242,"Y":0.5192252403577519},{"id":"chest","amnt":5,"note":"Inside storage room","X":0.29548625973074716,"Y":0.31067216597582936},{"id":"chest","amnt":1,"X":0.37719212062629515,"Y":0.5781954200105712},{"id":"quest","note":"Learning to Cook","X":0.36487282342145744,"Y":0.46064933813217895},{"id":"quest","note":"Helping Hundi","X":0.38018134887262134,"Y":0.34676186339101295},{"id":"quest","note":"Bandits of the Jaws","X":0.39902261096636144,"Y":0.46064933813217895},{"id":"quest","note":"Learning to Fish","X":0.3271902992339772,"Y":0.5898351303758896},{"id":"quest","note":"Dotta's Necklace","X":0.3636952445405987,"Y":0.5116437298073279},{"id":"cook","X":0.3660504023023162,"Y":0.4810470948022385},{"id":"secret","X":0.8924281620461813,"Y":0.1444841097462554},{"id":"chest","amnt":12,"X":0.8994936353313339,"Y":0.1444841097462554},{"id":"cauldron","X":0.4096208208940903,"Y":0.5235424211981959}],
+        "customMarkers":{
+            "secret":{
+                "legend":"Island Secret (Northern Jaws)"
+            }
+        },
+        "gatherable":[],
+        "sizeX":624,
+        "sizeY":415
+    },
+    "mango":{
+        "id":"mango",
+        "index":0,
+        "name":"Mango Isle",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY": 15,
+        "markerSize":16,
+        "imgPath":"./maps/mango.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.2142149499243397,"Y":0.18425196850393702},{"id":"chest","amnt":1,"X":0.26150798762780353,"Y":0.352755905511811},{"id":"chest","amnt":1,"note":"In cave","X":0.25610306903312197,"Y":0.32440944881889766},{"id":"chest","amnt":1,"note":"In cave","X":0.1939465051942838,"Y":0.31496062992125984},{"id":"chest","amnt":2,"note":"In cave","X":0.2196198685190213,"Y":0.2503937007874016},{"id":"cave","X":0.20475634238364696,"Y":0.33385826771653543}],
+        "gatherable":["Mangos","Glowcaps","Marjoram Herbs","White Mushrooms","Blue Mushrooms","Coconuts","Beach Items"],
+        "sizeX":363,
+        "sizeY":299
+    },
+    "dawn":{
+        "id":"dawn",
+        "index":0,
+        "name":"Dawn Island",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY": 25,
+        "imgPath":"./maps/dawn island.png",
+        "markers":[
+            {"X":0.427,"Y":0.114,"amnt":3,"id":"chest"},
+            {"X":0.134,"Y":0.212,"amnt":3,"id":"chest"},
+            {"X":0.382,"Y":0.247,"amnt":1,"id":"chest"},
+            {"X":0.532,"Y":0.412,"amnt":1,"id":"chest"},
+            {"X":0.389,"Y":0.543,"amnt":1,"id":"chest"},
+            {"X":0.265,"Y":0.647,"amnt":1,"id":"chest"},
+            {"X":0.202,"Y":0.619,"amnt":1,"id":"chest"},
+            {"X":0.168,"Y":0.647,"amnt":2,"id":"chest","note":"In cave"},
+            {"X":0.194,"Y":0.693,"id":"cave"}
+        ],
+        "gatherable":["Limes","White Mushrooms","Brown Mushrooms","Coconuts","Beach items"],
+        "sizeX":506,
+        "sizeY":473
+    },
+    "elm":{
+        "id":"elm",
+        "index":0,
+        "name":"Elm Island",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY": 15,
+        "markerSize":16,
+        "imgPath":"./maps/elm.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.2573104762294809,"Y":0.11653543307086614},{"id":"chest","amnt":1,"X":0.3040608660776262,"Y":0.4519685039370079},{"id":"chest","amnt":1,"X":0.15280960480421488,"Y":0.4881889763779528},{"id":"chest","amnt":2,"X":0.2188101551780671,"Y":0.384251968503937},{"id":"chest","amnt":1,"X":0.28756072848416314,"Y":0.3102362204724409},{"id":"chest","amnt":1,"X":0.24906040743274935,"Y":0.28188976377952757},{"id":"chest","amnt":1,"X":0.31781098073884545,"Y":0.25984251968503935},{"id":"cook","X":0.272435602356822,"Y":0.2503937007874016},{"id":"quest","note":"Helping the Deserter","X":0.3563113017902592,"Y":0.2503937007874016}],
+        "gatherable":["White Mushrooms","Brown Mushrooms","Coconuts","Beach Items"],
+        "sizeX":309,
+        "sizeY":259
+    },
+    "gloam":{
+        "id":"gloam",
+        "index":0,
+        "name":"Gloam Ruins",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY": 25,
+        "markerSize":6,
+        "imgPath":"./maps/gloam ruins.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.09052499808228076,"Y":0.22412674526024712},{"id":"chest","amnt":1,"X":0.15737587460237928,"Y":0.2968622173069688},{"id":"chest","amnt":1,"X":0.23652731240217592,"Y":0.3070113529413951},{"id":"chest","amnt":1,"X":0.09480345417956706,"Y":0.4956161234811502},{"id":"chest","amnt":1,"X":0.1113824715565515,"Y":0.5252177690815603},{"id":"chest","amnt":1,"X":0.13544878710378697,"Y":0.5598939824991833},{"id":"chest","amnt":1,"X":0.0841073139363513,"Y":0.5920329120082},{"id":"chest","amnt":1,"X":0.142936085274038,"Y":0.5996447637340196},{"id":"chest","amnt":1,"X":0.23492289136569355,"Y":0.5928786733110688},{"id":"chest","amnt":1,"X":0.11084766454439071,"Y":0.7654139790963156},{"id":"chest","amnt":1,"X":0.13919243618891247,"Y":0.7730258308221353},{"id":"chest","amnt":1,"X":0.15791068161454005,"Y":0.8077020442397584},{"id":"chest","amnt":1,"X":0.11352169960519465,"Y":0.8677510967434473},{"id":"chest","amnt":1,"X":0.1472145413713243,"Y":0.8669053354405785},{"id":"chest","amnt":1,"X":0.367555030381569,"Y":0.7611851725819714},{"id":"chest","amnt":1,"X":0.43547552092598907,"Y":0.7527275595532827},{"id":"chest","amnt":1,"X":0.4162224684882007,"Y":0.8136223733598404},{"id":"chest","amnt":1,"X":0.49965236238528365,"Y":0.887203606709431},{"id":"chest","amnt":1,"X":0.5242534849446799,"Y":0.8846663228008245},{"id":"chest","amnt":3,"X":0.3664854163572474,"Y":0.9125764457954967},{"id":"chest","amnt":3,"X":0.4980479413488013,"Y":0.5827295376766425},{"id":"chest","amnt":1,"X":0.413013626415236,"Y":0.5556651759848391},{"id":"chest","amnt":1,"X":0.3996434511112163,"Y":0.5006906912983634},{"id":"chest","amnt":3,"X":0.38680808281935736,"Y":0.5049194978127076},{"id":"chest","amnt":2,"X":0.3723682934910161,"Y":0.5006906912983634},{"id":"secret","X":0.4082003633057889,"Y":0.5472075629561505},{"id":"cook","X":0.08678134899715524,"Y":0.5201432012643471},{"id":"cauldron","X":0.4033162630825938,"Y":0.5135922098551923},{"id":"secret","X":0.3803863858652406,"Y":0.5061917457362414}],
+        "gatherable":[],
+        "sizeX":682,
+        "sizeY":414
+    },
+    "darkpine":{
+        "id":"darkpine",
+        "index":0,
+        "name":"Darkpine Isle",
+        "category":"Bronze Sea",
+        "legendPos":1,
+        "legendFSizeY": 25,
+        "markerSize":14,
+        "imgPath":"./maps/pine.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.6845854922279793,"Y":0.308529945553539},{"id":"chest","amnt":1,"X":0.7532383419689119,"Y":0.6007259528130672},{"id":"chest","amnt":1,"X":0.6832901554404145,"Y":0.6261343012704175},{"id":"chest","amnt":1,"X":0.7247409326424871,"Y":0.41197822141560797},{"id":"chest","amnt":3,"X":0.7182642487046632,"Y":0.2595281306715064},{"id":"shipCriminal","X":0.719559585492228,"Y":0.3666061705989111}],
+        "customMarkers":{
+            "shipCriminal":{
+                "id":"shipCriminal",
+                "legend":"Criminal Shipwright",
+                "color":[127,0,255]
+            }
+        },
+        "gatherable":["Pinecones"],
+        "sizeX":540,
+        "sizeY":370
+    },
+    "goso":{
+        "id":"goso",
+        "index":0,
+        "name":"Goso Jungle",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY": 20,
+        "markerSize":16,
+        "imgPath":"./maps/goso jungle.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.391839378238342,"Y":0.31176090754066316},{"id":"chest","amnt":1,"X":0.2338082901554404,"Y":0.6428724921010915},{"id":"chest","amnt":1,"X":0.2933937823834197,"Y":0.7460761028731732},{"id":"chest","amnt":1,"X":0.33613989637305697,"Y":0.7546764037708467},{"id":"chest","amnt":2,"X":0.49028497409326427,"Y":0.44721564667902025},{"id":"chest","amnt":2,"note":"Inside a small cave","X":0.5032383419689119,"Y":0.6063212132859793},{"id":"chest","amnt":2,"note":"Underwater","X":0.38406735751295334,"Y":0.5310685804313365},{"id":"chest","amnt":3,"note":"Inside a small cave","X":0.4177461139896373,"Y":0.7159750497313161},{"id":"chest","amnt":4,"note":"Behind breakable wall","X":0.34520725388601037,"Y":0.4923672263918059},{"id":"cook","X":0.3711139896373057,"Y":0.8062782091568874},{"id":"quest","note":"Souvella's Challenge","X":0.2869170984455959,"Y":0.6944742974871324}],
+        "gatherable":["Watermelons","Oranges","Basil Herbs"],
+        "sizeX":536,
+        "sizeY":310
+    },
+    "frostmill":[
+        {
+            "id":"frostmill",
+            "index":0,
+            "name":"Frostmill Island",
+            "category":"Bronze Sea",
+            "legendPos":2,
+            "legendFSizeY": 22,
+            "markerSize":12,
+            "imgPath":"./maps/frostmill.png",
+            "markers":[{"id":"chest","amnt":1,"X":0.10859408333009501,"Y":0.5635545556805399},{"id":"chest","amnt":1,"X":0.23679920813451924,"Y":0.7469066366704162},{"id":"chest","amnt":1,"X":0.2813450565835141,"Y":0.7750281214848144},{"id":"chest","amnt":1,"X":0.23245327170047098,"Y":0.6659167604049494},{"id":"chest","amnt":1,"X":0.20855062131320543,"Y":0.6141732283464567},{"id":"chest","amnt":1,"X":0.24549108100261582,"Y":0.6062992125984252},{"id":"chest","amnt":1,"X":0.30524770697077963,"Y":0.5489313835770528},{"id":"chest","amnt":1,"X":0.38130159456662455,"Y":0.5185601799775028},{"id":"chest","amnt":1,"X":0.4008583085198418,"Y":0.4578177727784027},{"id":"chest","amnt":1,"X":0.31285309573036413,"Y":0.46231721034870643},{"id":"chest","amnt":1,"X":0.4779986802241988,"Y":0.38020247469066365},{"id":"chest","amnt":1,"X":0.4117231496049625,"Y":0.34533183352080987},{"id":"chest","amnt":1,"X":0.2748261519324417,"Y":0.2013498312710911},{"id":"chest","amnt":1,"X":0.3932529197602573,"Y":0.07761529808773904},{"id":"chest","amnt":1,"X":0.325890905032509,"Y":0.16422947131608548},{"id":"chest","amnt":1,"X":0.4888635213093194,"Y":0.3543307086614173},{"id":"chest","amnt":1,"X":0.18356148681742784,"Y":0.3532058492688414},{"id":"chest","amnt":1,"X":0.21398304185576578,"Y":0.3295838020247469},{"id":"chest","amnt":1,"X":0.20529116898766922,"Y":0.36670416197975253},{"id":"chest","amnt":1,"note":"Underwater","X":0.5290634333242661,"Y":0.3565804274465692},{"id":"chest","amnt":1,"note":"Underwater","X":0.512766171696585,"Y":0.3329583802024747},{"id":"chest","amnt":2,"X":0.1487939953450416,"Y":0.3565804274465692},{"id":"chest","amnt":2,"X":0.43453931588371597,"Y":0.7277840269966255},{"id":"chest","amnt":2,"X":0.36609081704745555,"Y":0.32845894263217096},{"id":"chest","amnt":3,"X":0.41280963371347457,"Y":0.2575928008998875},{"id":"chest","amnt":3,"X":0.2672207631728572,"Y":0.734533183352081},{"id":"chest","amnt":5,"X":0.44214470464330047,"Y":0.5118110236220472},{"id":"secret","X":0.2650477949558331,"Y":0.6276715410573678},{"id":"chest","amnt":3,"X":0.263961310847321,"Y":0.6209223847019123},{"id":"boss","X":0.3204584844899486,"Y":0.7806524184476941},{"id":"cave","X":0.13466970193438468,"Y":0.33070866141732286},{"id":"cave","X":0.39977182441132975,"Y":0.4364454443194601},{"id":"cave","X":0.35522597596233485,"Y":0.20247469066366705},{"id":"banditSpawn","X":0.20311820077064507,"Y":0.35208098987626546},{"id":"cook","X":0.21072358953022957,"Y":0.6445444319460067},{"id":"chest","amnt":1,"X":0.4432311887518125,"Y":0.1889763779527559},{"id":"chest","amnt":1,"X":0.4301933794496677,"Y":0.17097862767154107},{"id":"cook","X":0.43888525231776426,"Y":0.22609673790776152},{"id":"quest","note":"Enizor's research","X":0.3356692620091176,"Y":0.1766029246344207},{"id":"quest","note":"Frostmill's Ice Mines","X":0.36500433293894347,"Y":0.2013498312710911},{"id":"quest","note":"Bobby's book","X":0.38238807867513663,"Y":0.17885264341957255},{"id":"quest","note":"Defending Frostmill","X":0.4573554821624694,"Y":0.22947131608548932},{"id":"quest","note":"Coconuts for Frostmill","X":0.43888525231776426,"Y":0.2744656917885264},{"id":"quest","note":"Delivery for Enizor","X":0.466047355030566,"Y":0.26209223847019125},{"id":"quest","note":"Frostmill Fishing","X":0.4790851643327108,"Y":0.29133858267716534},{"id":"quest","note":"Delivery to Palo town","X":0.4953824259603919,"Y":0.33183352080989875},{"id":"cauldron","X":0.32697738914102104,"Y":0.17772778402699663},{"id":"jewel","note":"Inside forge","X":0.40194479262835386,"Y":0.22384701912260968}],
+            "customMarkers":{
+                "cave":{
+                    "legend":"Frostmill Mines Entrance"
+                },
+                "boss":{
+                    "legend":"Boss: Iris, The Anomaly"
+                },
+                "banditSpawn":{
+                    "legend":"Frost Brigand enemy spawn"
+                }
+            },            
+            "gatherable":[],
+            "sizeX":591,
+            "sizeY":548
+        },
+        {
+            "id":"frostmill",
+            "index":1,
+            "name":"Frostmill Mines",
+            "legendPos":2,
+            "legendFSizeY": 20,
+            "markerSize":15,
+            "imgPath":"./maps/frost isle cave.png",
+            "markers":[{"id":"chest","amnt":1,"X":0.2304895454512265,"Y":0.22362204724409449},{"id":"chest","amnt":1,"X":0.4739743349106464,"Y":0.7165354330708661},{"id":"chest","amnt":1,"X":0.13900682108786064,"Y":0.7118110236220473},{"id":"chest","amnt":1,"X":0.7385705223000737,"Y":0.7905511811023622},{"id":"chest","amnt":1,"X":0.8905725873961278,"Y":0.5889763779527559},{"id":"chest","amnt":2,"X":0.6330135326500362,"Y":0.44724409448818897},{"id":"chest","amnt":3,"X":0.260045502553237,"Y":0.10078740157480315},{"id":"chest","amnt":3,"X":0.07567262729783814,"Y":0.510236220472441},{"id":"chest","amnt":3,"X":0.8582017772367829,"Y":0.4755905511811024},{"id":"chest","amnt":4,"X":0.8441275119501113,"Y":0.7874015748031497},{"id":"chest","amnt":4,"note":"Underwater","X":0.8061269956760978,"Y":0.6393700787401575},{"id":"cave","X":0.9468696485428144,"Y":0.5921259842519685},{"id":"cave","X":0.18263704347654283,"Y":0.07716535433070866},{"id":"cave","X":0.13900682108786064,"Y":0.9212598425196851},{"id":"banditSpawn","X":0.6372358122360378,"Y":0.49133858267716535},{"id":"banditSpawn","X":0.5443456613440047,"Y":0.5779527559055118},{"id":"banditSpawn","X":0.6442729448793736,"Y":0.815748031496063},{"id":"banditSpawn","X":0.6963477264400587,"Y":0.6535433070866141},{"id":"banditSpawn","X":0.8061269956760978,"Y":0.7937007874015748}],
+            "customMarkers":{
+                "cave":{
+                    "legend":"Entrances/Exits"
+                },
+                "banditSpawn":{
+                    "legend":"Ice Smuggler enemy spawn"
+                }
+            },
+            "gatherable":[],
+            "sizeX":521,
+            "sizeY":447
+        }
+    ],
+    "thorin":{
+        "id":"thorin",
+        "index":0,
+        "name":"Thorin's Refuge",
+        "category":"Bronze Sea",
+        "legendPos":1,
+        "legendFSizeY": 20,
+        "imgPath":"./maps/thorins refuge.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.7338082901554405,"Y":0.6678421684981921},{"id":"chest","amnt":1,"X":0.9125647668393783,"Y":0.4694732075581351},{"id":"chest","amnt":1,"X":0.8620466321243523,"Y":0.33722723359809703},{"id":"chest","amnt":2,"note":"Inside a small cave","X":0.719559585492228,"Y":0.16530746745004757},{"id":"chest","amnt":2,"note":"Inside a small cave","X":0.8439119170984456,"Y":0.38847254850761176},{"id":"chest","amnt":5,"note":"Behind breakable wall","X":0.8801813471502591,"Y":0.6546175711021883},{"id":"cook","X":0.8167098445595855,"Y":0.6215560776121788},{"id":"shipNeutral","X":0.8205958549222798,"Y":0.5901476587966697},{"id":"jewel","X":0.8218777603316262,"Y":0.5712777191129884}],
+        "customMarkers":{
+            "shipNeutral":{
+                "id":"shipNeutral",
+                "legend":"Neutral Shipwright",
+                "color":[255,170,127]
+            }
+        },
+        "gatherable":["Grapes","Vanilla Herbs","Brown Mushrooms","White Mushrooms","Coconuts","Beach Items"],
+        "sizeX":444,
+        "sizeY":334
+    },
+    "whitesummit":[
+        {
+            "id":"whitesummit",
+            "index":0,
+            "name":"Whitesummit",
+            "category":"Bronze Sea",
+            "legendPos":2,
+            "legendFSizeY": 18,
+            "imgPath":"./maps/whitesummit.png",
+            "markers":[{"id":"chest","amnt":1,"X":0.447049751400529,"Y":0.6614173228346457},{"id":"chest","amnt":1,"X":0.36201108512699326,"Y":0.6724409448818898},{"id":"chest","amnt":1,"X":0.14419274695267367,"Y":0.6913385826771653},{"id":"chest","amnt":2,"X":0.3754382429596568,"Y":0.2015748031496063},{"id":"chest","amnt":3,"X":0.2590695417432395,"Y":0.5133858267716536},{"id":"chest","amnt":3,"note":"Inside small cave","X":0.18447422045066428,"Y":0.878740157480315},{"id":"chest","amnt":3,"note":"Inside small cave","X":0.3381405823133692,"Y":0.25826771653543307},{"id":"cave","X":0.4172116228834989,"Y":0.4078740157480315},{"id":"cave","X":0.12628986984245563,"Y":0.6740157480314961},{"id":"cave","X":0.3157619859255966,"Y":0.6220472440944882},{"id":"mentor","X":0.275480512427606,"Y":0.31811023622047246},{"id":"hunt","X":0.3694706172562508,"Y":0.7228346456692913},{"id":"quest","note":"Heightened Reflexes","X":0.266529073872497,"Y":0.3165354330708661},{"id":"banditSpawn","X":0.43809831284541995,"Y":0.431496062992126}],
+            "customMarkers":{
+                "cave":{
+                    "legend":"Blackwater Grotto Entrance"
+                },
+                "banditSpawn":{
+                    "legend":"Enemy spawn: Blackwater Criminal"
+                },
+                "mentor":{
+                    "id":"mentor",
+                    "legend":"Basic Style/Dodge reflex mentor",
+                    "color":[255,255,255]
+                }
+            },            
+            "gatherable":["Pinecones"],
+            "sizeX":497,
+            "sizeY":452
+        },
+        {
+            "id":"whitesummit",
+            "index":1,
+            "name":"Blackwater Grotto",
+            "legendPos":2,
+            "legendFSizeY": 20,
+            "imgPath":"./maps/blackwater grotto.png",
+            "markers":[{"id":"chest","amnt":3,"note":"On a small opening atop the pillar","X":0.2156618052756954,"Y":0.8711484593837535},{"id":"chest","amnt":1,"X":0.36973898174626374,"Y":0.6386554621848739},{"id":"chest","amnt":1,"X":0.2802912272528531,"Y":0.08739495798319327},{"id":"chest","amnt":2,"X":0.17658368581121764,"Y":0.5378151260504201},{"id":"chest","amnt":2,"X":0.4138146868589588,"Y":0.5932773109243697},{"id":"chest","amnt":3,"X":0.08130238211171506,"Y":0.44537815126050423},{"id":"chest","amnt":4,"X":0.09167313625587861,"Y":0.838655462184874},{"id":"cave","X":0.47020566251784807,"Y":0.3058823529411765},{"id":"cave","X":0.07093162796755152,"Y":0.6386554621848739},{"id":"cave","note":"Jump up to reach","X":0.38205425229245793,"Y":0.6554621848739496},{"id":"cook","X":0.312051661819354,"Y":0.7949579831932773},{"id":"cauldron","X":0.19797336623355496,"Y":0.5882352941176471},{"id":"cauldron","X":0.15908303819294167,"Y":0.7764705882352941},{"id":"jewel","X":0.36520177680819216,"Y":0.6789915966386555},{"id":"jewel","X":0.16037938246096212,"Y":0.838655462184874},{"id":"banditSpawn","X":0.2796430551188429,"Y":0.28907563025210087},{"id":"banditSpawn","X":0.2679759567066589,"Y":0.5277310924369748},{"id":"banditSpawn","X":0.3509419898599673,"Y":0.680672268907563},{"id":"banditSpawn","X":0.26927230097467936,"Y":0.8117647058823529},{"id":"banditSpawn2","X":0.1538976611208599,"Y":0.6470588235294118},{"id":"banditSpawn2","X":0.07222797223557195,"Y":0.6554621848739496},{"id":"banditSpawn2","X":0.15908303819294167,"Y":0.7310924369747899},{"id":"banditSpawn3","X":0.15519400538888034,"Y":0.8235294117647058},{"id":"boss","X":0.08000603784369462,"Y":0.7848739495798319},{"id":"reception","X":0.11111830027618526,"Y":0.7428571428571429}],
+            "customMarkers":{
+                "cave":{
+                    "legend":"Entrances/Exits"
+                },
+                "reception":{
+                    "id":"reception",
+                    "legend":"Assasin's Syndicate Reception",
+                    "color":[255,255,255]
+                },
+                "banditSpawn":{
+                    "legend":"Enemy spawn: Blackwater Criminal"
+                },
+                "banditSpawn2":{
+                    "id":"banditSpawn2",
+                    "legend":"Enemy spawn: Assasin Journeyman",
+                    "color":[150,100,70]
+                },
+                "banditSpawn3":{
+                    "id":"banditSpawn3",
+                    "legend":"Enemy spawn: Assasin",
+                    "color":[150,20,20]
+                },
+                "boss":{
+                    "legend":"Miniboss: Architect Merlot,\nThe Waltz of Death"
+                },
+                "jewel":{
+                    "color":[0,255,0]
+                }
+            },
+            "gatherable":["Brown Mushrooms","Blue Mushrooms","Glowcaps"],
+            "sizeX":682,
+            "sizeY":505
+        }
+    ],
+    "stepstones":{
+        "id":"stepstones",
+        "index":0,
+        "name":"Stepstones",
+        "category":"Bronze Sea",
+        "legendPos":1,
+        "legendFSizeY": 40,
+        "imgPath":"./maps/stepstones.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.6243556218798799,"Y":0.24468970639955248},{"id":"chest","amnt":1,"X":0.4494446012089861,"Y":0.32434401507855576},{"id":"chest","amnt":2,"X":0.6427673082662898,"Y":0.2899833329032994},{"id":"chest","amnt":1,"X":0.5286148526705485,"Y":0.3956684614120423},{"id":"chest","amnt":1,"X":0.4706180405533575,"Y":0.34673052013213185},{"id":"chest","amnt":2,"X":0.3702743497474237,"Y":0.4237817468281611},{"id":"chest","amnt":1,"X":0.6409261396276488,"Y":0.46334859296936537},{"id":"chest","amnt":2,"X":0.40341538524296144,"Y":0.5508121475972905},{"id":"chest","amnt":2,"X":0.3178010435461555,"Y":0.6564972761060334},{"id":"chest","amnt":4,"X":0.3804007772599491,"Y":0.6252602923103459},{"id":"chest","amnt":2,"X":0.3362127299325654,"Y":0.697625971437022},{"id":"chest","amnt":1,"X":0.47982388374656243,"Y":0.6997084370234011},{"id":"chest","amnt":1,"X":0.4089388911588844,"Y":0.8814035594349837},{"id":"chest","amnt":2,"X":0.5322971899478306,"Y":0.8048729491355493},{"id":"chest","amnt":3,"X":0.35554500063829575,"Y":0.9615784845105818},{"id":"chest","amnt":3,"X":0.6234350375605594,"Y":0.9870886879437266},{"id":"cook","X":0.45680927576355007,"Y":0.14004581068399918},{"id":"secret","X":0.37395668702470564,"Y":0.6242190595171563},{"id":"cave","X":0.15409457621108819,"Y":0.8831808477118567}],
+        "customMarkers":{
+            "cave":{
+                "legend":"Elysium portal"
+            }
+        },
+        "gatherable":["Sky apples","Vanilla Herbs","Coppershrooms","Cloudcaps","Aeroplast"],
+        "sizeX":800,
+        "sizeY":1358
+    },
+    "cirrus":{
+        "id":"cirrus",
+        "index":0,
+        "name":"Cirrus Island",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY": 20,
+        "imgPath":"./maps/cirrus island.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.35510379898586003,"Y":0.35927019567683244},{"id":"chest","amnt":1,"X":0.4428447764066993,"Y":0.35550820409906453},{"id":"chest","amnt":1,"X":0.4558205547576685,"Y":0.4768324324820786},{"id":"chest","amnt":1,"X":0.5954646455823845,"Y":0.6574080282149368},{"id":"chest","amnt":1,"X":0.41874690232632794,"Y":0.6498840450594011},{"id":"chest","amnt":1,"X":0.353250116364293,"Y":0.5774657071873694},{"id":"chest","amnt":1,"X":0.4793005346308508,"Y":0.5690012261373917},{"id":"chest","amnt":1,"note":"In cave","X":0.6102941065549208,"Y":0.7194808892481068},{"id":"chest","amnt":1,"note":"Inside storage rooms","X":0.46941422731582666,"Y":0.38748513251009153},{"id":"chest","amnt":2,"note":"Inside storage rooms","X":0.49227631298182,"Y":0.3884256304045335},{"id":"chest","amnt":2,"note":"In small cave","X":0.4755931693877168,"Y":0.3348172504213412},{"id":"chest","amnt":1,"note":"In cave","X":0.5824888672314154,"Y":0.68280147136487},{"id":"chest","amnt":4,"note":"In cave","X":0.5750741367451472,"Y":0.716659395564781},{"id":"chest","amnt":2,"note":"In small cave","X":0.3822911441021764,"Y":0.683741969259312},{"id":"chest","amnt":3,"note":"Under island at cloud height","X":0.3816732498949874,"Y":0.6263715976983518},{"id":"chest","amnt":3,"X":0.41812900811913895,"Y":0.43921251670439987},{"id":"chest","amnt":3,"X":0.37981956727342037,"Y":0.35927019567683244},{"id":"chest","amnt":3,"note":"Under bridge","X":0.4416089879923213,"Y":0.5473697745652264},{"id":"cook","X":0.18703657463044956,"Y":0.6197881124372581},{"id":"cook","X":0.4830078998739849,"Y":0.5097498587875476},{"id":"cook","X":0.3445995974636469,"Y":0.5831086945540213},{"id":"cauldron","X":0.37178694257996325,"Y":0.5144523482597574},{"id":"quest","note":"Cirrus Buried Treasure","X":0.353868010571482,"Y":0.524797825098619},{"id":"quest","note":"Louis' Scheme","X":0.3662258947152622,"Y":0.5407862893041326},{"id":"quest","note":"Sky Picnic","X":0.4830078998739849,"Y":0.5172738419430833},{"id":"quest","note":"The Dueling Mage","X":0.4706500157302047,"Y":0.5492507703541103},{"id":"quest","note":"Sky Apple Harvesting","X":0.38414482672374345,"Y":0.651765040848285},{"id":"quest","note":"Repairing a Skyship","X":0.424307950191029,"Y":0.651765040848285},{"id":"jewel","X":0.37673009623747533,"Y":0.37243716619902},{"id":"secret","X":0.3730227309943413,"Y":0.3573891998879485},{"id":"cave","X":0.5633341468085561,"Y":0.74487433239804}],
+        "gatherable":["Sky apples (stepstones)","Vanilla Herbs (stepstones)","Coppershrooms (stepstones)","Cloudcaps","Aeroplast","Sky Grapes","Orange Swiftcaps","Sky Pumpkins (bottom left island)"],
+        "sizeX":723,
+        "sizeY":456
+    },
+    "skycliff":{
+        "id":"skycliff",
+        "index":0,
+        "name":"Skycliff Island",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY": 20,
+        "imgPath":"./maps/skycliff.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.3757002801120448,"Y":0.5012162377160888},{"id":"chest","amnt":1,"X":0.3322829131652661,"Y":0.49555938234210384},{"id":"chest","amnt":2,"X":0.3553921568627451,"Y":0.6697905278608414},{"id":"chest","amnt":2,"note":"Inside cave entrance","X":0.32948179271708683,"Y":0.6449003642153074},{"id":"chest","amnt":4,"X":0.2692577030812325,"Y":0.46274962117299095},{"id":"chest","amnt":3,"note":"Inside small cave","X":0.3911064425770308,"Y":0.5328946278104048},{"id":"chest","amnt":5,"X":0.42401960784313725,"Y":0.21837346901683963},{"id":"secret","X":0.42051820728291317,"Y":0.2319499219144036},{"id":"chest","amnt":1,"X":0.08928571428571429,"Y":0.7184394840771122},{"id":"chest","amnt":1,"X":0.0584733893557423,"Y":0.812343283285263},{"id":"chest","amnt":3,"X":0.15231092436974789,"Y":0.8892765163714588},{"id":"cave","note":"Under island at cloud height","X":0.26295518207282914,"Y":0.5147926906136528},{"id":"cave","note":"Under island at cloud height","X":0.25945378151260506,"Y":0.6924179493567812},{"id":"cave","note":"Under island at cloud height","X":0.33648459383753504,"Y":0.6833669807584053},{"id":"cave","X":0.35749299719887956,"Y":0.7082571444039393},{"id":"cave","X":0.125,"Y":0.8711745791747068},{"id":"banditSpawn","X":0.36375431788650614,"Y":0.5670171679350472},{"id":"banditSpawn","X":0.31741225234733045,"Y":0.5210967634896032},{"id":"banditSpawn","X":0.25006178376372845,"Y":0.6139358420423486}],
+        "customMarkers":{
+            "banditSpawn":{
+                "legend":"Enemy spawn: Hooded Figure"
+            }
+        },
+        "gatherable":["Sky Pinecones","Horizon Rosemaries","Cloudcaps","Orange Swiftcaps"],
+        "sizeX":690,
+        "sizeY":410
+    },
+    "myriad":{
+        "id":"myriad",
+        "index":0,
+        "name":"Myriad",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY": 20,
+        "imgPath":"./maps/myriad.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.3707983193277311,"Y":0.6749137145882596},{"id":"chest","amnt":1,"X":0.2857142857142857,"Y":0.43086760831569687},{"id":"chest","amnt":2,"X":0.1092436974789916,"Y":0.6160060337638479},{"id":"chest","amnt":5,"note":"Behind breakable wall","X":0.3004201680672269,"Y":0.5722460422942849}],
+        "gatherable":[],
+        "sizeX":464,
+        "sizeY":278
+    },
+    "djin":{
+        "id":"djin",
+        "index":0,
+        "name":"Djin Ruins",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY": 20,
+        "imgPath":"./maps/djin ruins.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.28361344537815125,"Y":0.5362700607234305},{"id":"chest","amnt":1,"X":0.29831932773109243,"Y":0.6862979943781997},{"id":"chest","amnt":1,"X":0.11974789915966387,"Y":0.7293911242577612},{"id":"chest","amnt":3,"note":"Inside a small cave","X":0.28991596638655465,"Y":0.7437555008842817},{"id":"chest","amnt":3,"X":0.38445378151260506,"Y":0.19950523092389527},{"id":"cook","X":0.2804621848739496,"Y":0.5027531819282162},{"id":"boss","X":0.18907563025210083,"Y":0.7214109150208053}],
+        "customMarkers":{
+            "boss":{
+                "legend":"Boss: Lord Elius, Agent of the Order"
+            }
+        },
+        "gatherable":["Sky lemons","Cloudcaps"],
+        "sizeX":660,
+        "sizeY":417
+    },
+    "limeKey":{
+        "id":"limeKey",
+        "index":0,
+        "name":"Limestone Key",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY": 20,
+        "imgPath":"./maps/limestone key.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.46146926708067854,"Y":0.23492063492063492},{"id":"chest","amnt":1,"X":0.38767530408898343,"Y":0.2365079365079365},{"id":"chest","amnt":1,"X":0.4460496330227124,"Y":0.5},{"id":"chest","amnt":1,"X":0.2092481099896609,"Y":0.40476190476190477},{"id":"chest","amnt":1,"note":"Underwater","X":0.266521036490678,"Y":0.39206349206349206},{"id":"chest","amnt":4,"note":"Underwater","X":0.3281995727225426,"Y":0.4111111111111111},{"id":"chest","amnt":1,"note":"Underwater","X":0.4702804865423735,"Y":0.8095238095238095},{"id":"chest","amnt":1,"note":"Underwater","X":0.4471510354554243,"Y":0.8492063492063492},{"id":"chest","amnt":1,"note":"Atop the mast of the ship","X":0.4790917060040684,"Y":0.8412698412698413},{"id":"chest","amnt":3,"note":"Inside wrecked ship","X":0.45706365734983107,"Y":0.8301587301587302},{"id":"chest","amnt":5,"note":"Inside a small cave underwater","X":0.5198435960144075,"Y":0.8714285714285714},{"id":"secret","note":"Inside a small cave underwater","X":0.5286548154761025,"Y":0.8698412698412699},{"id":"chest","amnt":3,"X":0.3777626821945766,"Y":0.40793650793650793},{"id":"cook","X":0.3678500603001698,"Y":0.46190476190476193},{"id":"cauldron","X":0.35683603597305114,"Y":0.44603174603174606},{"id":"hunt","X":0.33921359704966125,"Y":0.3492063492063492},{"id":"chest","amnt":1,"X":0.08093472657872836,"Y":0.3492063492063492}],
+        "gatherable":["Marjoram Herbs","Sea Kales","Bananas","White Mushrooms","Brown Mushrooms","Coconuts","Beach Items"],
+        "sizeX":620,
+        "sizeY":413
+    },
+    "harvest":{
+        "id":"harvest",
+        "index":0,
+        "name":"Harvest Island",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY": 20,
+        "imgPath":"./maps/harvest.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.4916435592076323,"Y":0.13726208059623216},{"id":"chest","amnt":1,"X":0.38368266112443833,"Y":0.23746339943148165},{"id":"chest","amnt":1,"X":0.5003971455387021,"Y":0.592972188175723},{"id":"chest","amnt":1,"note":"Under the bridge","X":0.2951741771102883,"Y":0.5243411478776069},{"id":"chest","amnt":1,"X":0.24265265912386963,"Y":0.5861090841459113},{"id":"chest","amnt":1,"X":0.15025369229591082,"Y":0.6712115741155753},{"id":"chest","amnt":1,"X":0.2018025895788773,"Y":0.21275622492415985},{"id":"chest","amnt":1,"X":0.5597270084492861,"Y":0.37747072163963846},{"id":"chest","amnt":1,"X":0.42258748926252626,"Y":0.11667276850679734},{"id":"chest","amnt":2,"X":0.46246493810406636,"Y":0.550420943190891},{"id":"chest","amnt":2,"X":0.33505162595182847,"Y":0.5435578391610794},{"id":"chest","amnt":5,"note":"Behind breakable wall","X":0.3399147294690894,"Y":0.6492496412201781},{"id":"chest","amnt":5,"note":"Behind waterfall at the bottom","X":0.4663554209178752,"Y":0.34315520149058043},{"id":"chest","amnt":3,"note":"Behind waterfall at the top","X":0.48580783498691915,"Y":0.3362920974607688},{"id":"chest","amnt":3,"X":0.5665353533734515,"Y":0.3349194766548065},{"id":"chest","amnt":6,"note":"Underwater","X":0.3146265911793323,"Y":0.40904100017677186},{"id":"chest","amnt":2,"X":0.28933845288957516,"Y":0.41727672501254576},{"id":"cook","X":0.48580783498691915,"Y":0.19628477525261198},{"id":"secret","note":"Behind waterfall at the bottom","X":0.47510900724894495,"Y":0.3417825806846181},{"id":"quest","note":"Leg Day","X":0.47997211076620594,"Y":0.21824670814800914},{"id":"hunt","X":0.4614923174006142,"Y":0.09882869802928716},{"id":"hunt","X":0.2951741771102883,"Y":0.21275622492415985},{"id":"hunt","X":0.4109160408210999,"Y":0.5682650136684011},{"id":"cauldron","X":0.27766700444814874,"Y":0.4186493458185081},{"id":"jewel","X":0.46732804162132735,"Y":0.18530380880491343}],
+        "gatherable":["Vanilla Herbs","Pumpkins","Red Apples","Coconuts","White Mushrooms","Brown Mushrooms"],
+        "sizeX":663,
+        "sizeY":451
+    },
+    "palo":[
+        {
+            "id":"palo",
+            "index":0,
+            "name":"Palo Town",
+            "category":"Bronze Sea",
+            "legendPos":2,
+            "legendFSizeY": 25,
+            "imgPath":"./maps/palo town.png",
+            "markers":[{"id":"chest","amnt":1,"X":0.261913990492957,"Y":0.7988241059527842},{"id":"chest","amnt":1,"X":0.23689462954600488,"Y":0.7745398531318195},{"id":"chest","amnt":1,"X":0.24136237257224633,"Y":0.7374744146156104},{"id":"chest","amnt":1,"X":0.2815720598084193,"Y":0.6735684861393876},{"id":"chest","amnt":1,"X":0.31373980959735775,"Y":0.649284233318423},{"id":"chest","amnt":1,"X":0.18774945625734898,"Y":0.6454498776098496},{"id":"chest","amnt":1,"X":0.5541043844091476,"Y":0.3271983537982604},{"id":"chest","amnt":1,"X":0.4272204824638905,"Y":0.3604294366058962},{"id":"chest","amnt":1,"X":0.422752739437649,"Y":0.5610940520212356},{"id":"chest","amnt":1,"note":"In small cave","X":0.33339787891282013,"Y":0.6595091818746186},{"id":"chest","amnt":1,"note":"In small cave","X":0.4406237115426148,"Y":0.6620654190136676},{"id":"chest","amnt":1,"X":0.3896914410434623,"Y":0.44989773647260806},{"id":"chest","amnt":1,"note":"Behind waterfall","X":0.3593107884650205,"Y":0.34509201377160276},{"id":"chest","amnt":5,"note":"Behind breakable wall next to waterfall","X":0.376288211964738,"Y":0.3297545909373093},{"id":"chest","amnt":4,"note":"Behind breakable wall next to waterfall","X":0.3280365872813304,"Y":0.35148260661922504},{"id":"chest","amnt":2,"note":"Inside small cave","X":0.4316882254901319,"Y":0.1802147183029481},{"id":"chest","amnt":2,"note":"Inside small cave","X":0.4352624199111251,"Y":0.2479550024877442},{"id":"chest","amnt":2,"X":0.5487430927776578,"Y":0.26584866246108657},{"id":"chest","amnt":2,"X":0.5040656625152433,"Y":0.2594580696134643},{"id":"chest","amnt":1,"X":0.518362440199216,"Y":0.26457054389156215},{"id":"chest","amnt":2,"note":"Under gravestone","X":0.4888753362260224,"Y":0.28118608529538003},{"id":"chest","amnt":1,"X":0.3012301291238817,"Y":0.2760736110172822},{"id":"chest","amnt":1,"X":0.2726365737559365,"Y":0.2965235081296735},{"id":"chest","amnt":2,"note":"Inside small underwater cave","X":0.2100881713885562,"Y":0.5853783048422002},{"id":"chest","amnt":3,"X":0.3101656151763646,"Y":0.5150817835183552},{"id":"chest","amnt":1,"X":0.268168830729695,"Y":0.4294478393602168},{"id":"chest","amnt":1,"X":0.30480432354487486,"Y":0.35403884375827394},{"id":"chest","amnt":1,"note":"Inside passage","X":0.314633358202606,"Y":0.44222902505546136},{"id":"chest","amnt":1,"note":"Inside passage","X":0.27978496259792274,"Y":0.3591513180363718},{"id":"cave","X":0.29140109446615053,"Y":0.45501021075070586},{"id":"cave","X":0.3119527123868612,"Y":0.41538853509544776},{"id":"cave","X":0.2842527056241642,"Y":0.34253577663255386},{"id":"chest","amnt":3,"X":0.31105916378161286,"Y":0.3974948751221054},{"id":"chest","amnt":2,"X":0.4495591975950977,"Y":0.6134969133717383},{"id":"cook","X":0.3074849693606197,"Y":0.705521450377499},{"id":"cook","X":0.2440430183879912,"Y":0.5559815777431378},{"id":"cauldron","X":0.23242688651976343,"Y":0.6160531505107871},{"id":"cauldron","X":0.36377853149126194,"Y":0.31697340524206474},{"id":"jewel","X":0.34412046217579956,"Y":0.7042433318079745},{"id":"quest","note":"Cannon Fist Training","X":0.342333364965303,"Y":0.3284764723677849},{"id":"quest","note":"Pirates of Palo Town","X":0.2860398028346608,"Y":0.4997443606840618},{"id":"quest","note":"Repairing Adam's Ship","X":0.15826235228415544,"Y":0.5981594905374448},{"id":"quest","note":"Banana Merchant","X":0.2547656016509707,"Y":0.6684560118612898},{"id":"secret","note":"Underwater cave (accompanying map)","X":0.3745011147542414,"Y":0.47801634500214607}],
+            "customMarkers":{
+                "cave":{
+                    "legend":"Passage entrance"
+                }
+            },
+            "gatherable":["Apples","Coconuts","Lemongrass Herbs","Beach Items","White Mushrooms","Brown Mushrooms"],
+            "sizeX":669,
+            "sizeY":449
+        },
+        {
+            "id":"palo",
+            "index":1,
+            "name":"Palo Town Underwater cave",
+            "legendPos":2,
+            "legendFSizeY": 20,
+            "markerSize":20,
+            "imgPath":"./maps/palo town underwater.png",
+            "markers":[{"id":"chest","amnt":2,"X":0.3401058945436971,"Y":0.3312883435582822},{"id":"chest","amnt":2,"X":0.43405161821443494,"Y":0.28016359918200406},{"id":"chest","amnt":2,"X":0.10971519125593536,"Y":0.3374233128834356},{"id":"chest","amnt":3,"X":0.1812928854812594,"Y":0.10020449897750511},{"id":"chest","amnt":1,"X":0.12089920597864225,"Y":0.2474437627811861},{"id":"cave","X":0.7293096068938966,"Y":0.8486707566462167}],
+            "gatherable":[],
+            "sizeX":400,
+            "sizeY":420
+        }
+    ],
+    "silverhold":[
+        {
+            "id":"silverhold",
+            "index":0,
+            "name":"Silverhold",
+            "category":"Bronze Sea",
+            "legendPos":2,
+            "legendFSizeY": 25,
+            "imgPath":"./maps/silverhold.png",
+            "markers":[{"id":"private","amnt":1,"X":0.45526197710410016,"Y":0.6023939821843408},{"id":"private","amnt":1,"X":0.39434208449474584,"Y":0.6739526625734094},{"id":"private","amnt":1,"X":0.328091701282073,"Y":0.6635441272440903},{"id":"private","amnt":1,"X":0.27554829390650487,"Y":0.633619588172298},{"id":"private","amnt":1,"X":0.3958650818099797,"Y":0.5009107627234799},{"id":"private","amnt":2,"X":0.42556352945703996,"Y":0.42154568083742205},{"id":"banditSpawn","X":0.295347259004545,"Y":0.3747072718554863},{"id":"banditSpawn","X":0.29915475229262967,"Y":0.4319542161667411},{"id":"banditSpawn","X":0.2801172858522064,"Y":0.5672651754478889},{"id":"banditSpawn","X":0.3189537173906698,"Y":0.5633619746993943},{"id":"banditSpawn","X":0.3562671516138994,"Y":0.6505334580824415},{"id":"banditSpawn","X":0.4476469905279309,"Y":0.5581577070347348},{"id":"banditSpawn","X":0.4171870442232537,"Y":0.3864168741009702},{"id":"banditSpawn","X":0.4011955724132982,"Y":0.39942754326261903},{"id":"banditSpawn","X":0.32199971202113753,"Y":0.3252667290412207},{"id":"banditSpawn2","X":0.349413663695347,"Y":0.32266459520889096},{"id":"banditSpawn2","X":0.25955682209654934,"Y":0.5009107627234799},{"id":"banditSpawn2","X":0.32504570665160526,"Y":0.6349206550884628},{"id":"banditSpawn3","X":0.29153976571646034,"Y":0.49700756197498525},{"id":"banditSpawn3","X":0.38368110328810884,"Y":0.5152224988012937},{"id":"ship","X":0.31438472544496826,"Y":0.6544366588309362},{"id":"jewel","X":0.3318991945701576,"Y":0.43845955074756554}],
+            "customMarkers":{
+                "ship":{
+                    "id":"ship",
+                    "legend":"Shipwright",
+                    "color":[210,210,80]
+                },
+                "banditSpawn":{
+                    "legend":"Enemy spawn: Marine",
+                    "color":[50,140,230]
+                },
+                "banditSpawn2":{
+                    "id":"banditSpawn2",
+                    "legend":"Enemy spawn: Navy Vice Captain",
+                    "color":[40,80,250]
+                },
+                "banditSpawn3":{
+                    "id":"banditSpawn3",
+                    "legend":"Enemy spawn: Navy Captain",
+                    "color":[50,40,100]
+                }
+            },            
+            "gatherable":[],
+            "sizeX":703,
+            "sizeY":395
+        },
+        {
+            "id":"silverhold",
+            "index":1,
+            "name":"Silverhold Interior",
+            "legendPos":1,
+            "legendFSizeY": 15,
+            "imgPath":"./maps/silverhold interior.png",
+            "markers":[{"id":"private","amnt":3,"X":0.568568744149675,"Y":0.8217915619321755},{"id":"private","amnt":3,"X":0.568568744149675,"Y":0.8816978627085397},{"id":"private","amnt":1,"X":0.05890080337301987,"Y":0.8310079158977699},{"id":"private","amnt":1,"X":0.2953446934240454,"Y":0.8463685058404274},{"id":"private","amnt":1,"X":0.47083860292858437,"Y":0.39323110253203164},{"id":"private","amnt":1,"X":0.6957230139104487,"Y":0.5084355271019627},{"id":"cook","X":0.4267024101190596,"Y":0.8340800338863015},{"id":"cook","X":0.4235498249183793,"Y":0.8955223936569314},{"id":"cauldron","X":0.5790773614852761,"Y":0.8018227950067207},{"id":"stair","X":0.20602144607143577,"Y":0.7127313733393074},{"id":"stair","X":0.560161850281194,"Y":0.6989068423909156},{"id":"reception","X":0.4971101462675872,"Y":0.4746422292281163},{"id":"banditSpawn","X":0.726198004183692,"Y":0.5284042940274175},{"id":"banditSpawn","X":0.7251471424501319,"Y":0.9047387476225259},{"id":"banditSpawn","X":0.532839445208631,"Y":0.7864622050640633},{"id":"banditSpawn","X":0.05784994163945976,"Y":0.7588131431672798},{"id":"boss","X":0.2711748735521628,"Y":0.8463685058404274}],
+            "customMarkers":{
+                "ship":{
+                    "id":"ship",
+                    "legend":"Shipwright",
+                    "color":[210,210,80]
+                },
+                "banditSpawn":{
+                    "legend":"Enemy spawn: Marine",
+                    "color":[50,140,230]
+                },
+                "boss":{
+                    "legend":"Miniboss: Commodore Kai, The Red Sabre"
+                },
+                "reception":{
+                    "id":"reception",
+                    "legend":"Navy Reception",
+                    "color":[255,255,255]
+                },
+                "stair":{
+                    "id":"stair",
+                    "legend":"Stairway",
+                    "color":[135,90,60]
+                }
+            },            
+            "gatherable":[],
+            "sizeX":606,
+            "sizeY":398
+        }
+    ],
+    "whispering":[
+        {
+            "id":"whispering",
+            "index":0,
+            "name":"Whispering Caverns",
+            "category":"Bronze Sea",
+            "legendPos":2,
+            "legendFSizeY": 20,
+            "imgPath":"./maps/whispering caverns.png",
+            "markers":[{"id":"chest","amnt":1,"X":0.3394808743169399,"Y":0.39987882952775256},{"id":"chest","amnt":1,"X":0.32581967213114754,"Y":0.6785822561683074},{"id":"chest","amnt":3,"X":0.03763336452061036,"Y":0.2375418780870745},{"id":"chest","amnt":3,"X":0.3648516550365556,"Y":0.5063473655784794},{"id":"chest","amnt":2,"note":"In small cave","X":0.16774003289037187,"Y":0.6563762146387695},{"id":"chest","amnt":2,"note":"In small cave","X":0.23409444034552282,"Y":0.19186381658671725},{"id":"chest","amnt":1,"X":0.270199044402002,"Y":0.643392948854706},{"id":"chest","amnt":1,"X":0.25165884231894514,"Y":0.6015579813282789},{"id":"cave","X":0.283860245936886,"Y":0.43277552613545245},{"id":"hunt","X":0.1443208302591421,"Y":0.32313905951447114},{"id":"hunt","X":0.30532784834884663,"Y":0.5640507690632064},{"id":"hunt","X":0.1589578319036607,"Y":0.6015579813282789},{"id":"jewel","X":0.256537842867118,"Y":0.6217541725479333}],
+            "customMarkers":{
+                "cave":{
+                    "legend":"Underwater Maze entrance"
+                }
+            },
+            "gatherable":["Giant Greencaps"],
+            "sizeX":559,
+            "sizeY":363
+        },
+        {
+            "id":"whispering",
+            "index":1,
+            "name":"Whispering Caverns Underwater Maze",
+            "legendPos":2,
+            "legendFSizeY": 20,
+            "markerSize":22,
+            "imgPath":"./maps/whispering caverns maze.png",
+            "markers":[{"id":"chest","amnt":13,"X":0.37363387978142076,"Y":0.8543325526932084},{"id":"secret","X":0.42418032786885246,"Y":0.8562060889929742}],
+            "gatherable":[],
+            "sizeX":500,
+            "sizeY":350
+        }
+    ],
+    "cernunno":{
+        "id":"cernunno",
+        "index":0,
+        "name":"Forest of Cernunno",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY": 20,
+        "imgPath":"./maps/forest of cernunno.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.19064566047426965,"Y":0.470511054033412},{"id":"chest","amnt":2,"note":"Inside a small cave","X":0.1935217029387277,"Y":0.4542246548047893},{"id":"chest","amnt":2,"note":"Inside a small cave","X":0.34091887924220216,"Y":0.40536545711892125},{"id":"chest","amnt":3,"note":"Inside a small cave","X":0.2330672868250257,"Y":0.21264306624688603},{"id":"chest","amnt":4,"X":0.3603321658772939,"Y":0.5953734481195193},{"id":"chest","amnt":8,"X":0.21077795772547592,"Y":0.47684465373343193},{"id":"chest","amnt":5,"note":"Behind breakable wall","X":0.45811760966886717,"Y":0.25697826414702557},{"id":"shipCriminal","X":0.5243624772313297,"Y":0.4504125958879895},{"id":"quest","note":"The Cult of Greenwish","X":0.44512750455373407,"Y":0.1982732292331353},{"id":"banditSpawn","X":0.44512750455373407,"Y":0.30485941604632366},{"id":"banditSpawn","X":0.421448087431694,"Y":0.33236552877230774},{"id":"banditSpawn","X":0.4077868852459016,"Y":0.306005504076573},{"id":"banditSpawn","X":0.3859289617486339,"Y":0.30715159210682236},{"id":"banditSpawn","X":0.37864298724954465,"Y":0.3426803210445518},{"id":"banditSpawn","X":0.3986794171220401,"Y":0.3403881449840531},{"id":"boss","X":0.3394808743169399,"Y":0.32663508862106105},{"id":"hunt","X":0.3813752276867031,"Y":0.10658618681318835},{"id":"hunt","X":0.14458105646630237,"Y":0.26703851104809556},{"id":"hunt","X":0.1545992714025501,"Y":0.7094284907243397},{"id":"hunt","X":0.33583788706739526,"Y":0.81257641344678},{"id":"hunt","X":0.44512750455373407,"Y":0.7185971949663343},{"id":"cauldron","X":0.4378415300546448,"Y":0.1386766516601698},{"id":"jewel","X":0.531648451730419,"Y":0.4733343564929762}],
+        "customMarkers":{
+            "shipCriminal":{
+                "id":"shipCriminal",
+                "legend":"Criminal Shipwright",
+                "color":[127,0,255]
+            },
+            "boss":{
+                "legend":"Boss: Cernyx, Archon of Greenwish"
+            },
+            "banditSpawn":{
+                "legend":"Enemy spawn: Greenwish Cultist",
+                "color":[60,170,60]
+            }
+        },
+        "gatherable":["Basil Herbs","Green Apples","White Mushrooms","Brown Mushrooms"],
+        "sizeX":738,
+        "sizeY":563
+    },
+    "munera":{
+        "id":"munera",
+        "index":0,
+        "name":"Munera Garden",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY": 20,
+        "imgPath":"./maps/munera garden.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.33752928869661586,"Y":0.14251395167448921},{"id":"chest","amnt":1,"X":0.37330862889115013,"Y":0.1864896853340459},{"id":"chest","amnt":1,"X":0.3928246326336234,"Y":0.2475670931945413},{"id":"chest","amnt":1,"X":0.28548661205002057,"Y":0.1864896853340459},{"id":"chest","amnt":1,"X":0.2152289985771169,"Y":0.22557922636476294},{"id":"chest","amnt":1,"X":0.15342832005928494,"Y":0.2874709996633983},{"id":"chest","amnt":1,"X":0.1560304538916147,"Y":0.32900363700853513},{"id":"chest","amnt":1,"X":0.19441192791847875,"Y":0.4951341863890826},{"id":"chest","amnt":1,"X":0.36159902664566623,"Y":0.5602834214402777},{"id":"chest","amnt":1,"X":0.3154111511218129,"Y":0.820880361645058},{"id":"chest","amnt":2,"X":0.36159902664566623,"Y":0.8233234579594778},{"id":"chest","amnt":2,"X":0.3323250210319563,"Y":0.5317806311053798},{"id":"chest","amnt":2,"X":0.314110084205648,"Y":0.25082455494710104},{"id":"chest","amnt":4,"note":"Inside small cave","X":0.39998050067253027,"Y":0.39659596837415},{"id":"chest","amnt":4,"X":0.15342832005928494,"Y":0.40636835363182927},{"id":"chest","amnt":2,"note":"Behind breakable wall","X":0.37135702851690283,"Y":0.2459383623182614},{"id":"cauldron","X":0.36810436122649065,"Y":0.17427420376194683},{"id":"cook","X":0.16448738884668646,"Y":0.30864450105503666},{"id":"secret","note":"Behind breakable wall","X":0.3629000935618311,"Y":0.2394234388131419},{"id":"quest","note":"Arena Repair","X":0.18075072529874747,"Y":0.3607638890959927},{"id":"chest","amnt":1,"X":0.2528004873285498,"Y":0.33620689655172414}],
+        "gatherable":["Basil Herbs","Peaches","White Mushrooms","Brown Mushrooms","Coconuts","Beach Items"],
+        "sizeX":652,
+        "sizeY":500
+    },
+    "talos":[
+        {
+            "id":"talos",
+            "index":0,
+            "name":"Fort Talos",
+            "category":"Bronze Sea",
+            "legendPos":2,
+            "legendFSizeY": 20,
+            "imgPath":"./maps/fort talos.png",
+            "markers":[{"id":"chest","amnt":1,"X":0.21653004794428163,"Y":0.23565992845237374},{"id":"chest","amnt":1,"X":0.15384923914509582,"Y":0.3031666787902933},{"id":"chest","amnt":1,"X":0.3089440609174402,"Y":0.31544063339718775},{"id":"chest","amnt":1,"X":0.37885727073191666,"Y":0.5069143252647414},{"id":"chest","amnt":1,"X":0.3925184726496879,"Y":0.7045249944357423},{"id":"chest","amnt":1,"X":0.1578672397091462,"Y":0.6848866670647111},{"id":"chest","amnt":1,"X":0.13456283643765404,"Y":0.5155060934895676},{"id":"chest","amnt":1,"X":0.27278205584098686,"Y":0.6492921987047172},{"id":"chest","amnt":2,"X":0.2502812526823048,"Y":0.39890352472407015},{"id":"chest","amnt":1,"X":0.3234088629480215,"Y":0.3841747791957968},{"id":"chest","amnt":1,"X":0.3507312667835641,"Y":0.7217085308853946},{"id":"chest","amnt":4,"X":0.2591208539232156,"Y":0.5609197255350771},{"id":"chest","amnt":2,"note":"Inside the tower","X":0.17474284207815777,"Y":0.6136977303447233},{"id":"chest","amnt":2,"note":"Inside the tower","X":0.3362664647529827,"Y":0.38294738373510734},{"id":"chest","amnt":1,"note":"Inside the tower","X":0.3426952656554633,"Y":0.6677031306150589},{"id":"chest","amnt":2,"X":0.3362664647529827,"Y":0.7020702035143634},{"id":"chest","amnt":1,"X":0.1803680428678283,"Y":0.6136977303447233},{"id":"cave","X":0.23099484997486297,"Y":0.33262416984684},{"id":"cave","X":0.5861860998369158,"Y":0.44677194769095857},{"id":"cave","X":0.2751928561794171,"Y":0.7597577901667674},{"id":"banditSpawn","X":0.177153642416588,"Y":0.37558301097097063},{"id":"banditSpawn","X":0.22858404963643275,"Y":0.38908436103855454},{"id":"banditSpawn","X":0.23260205020048313,"Y":0.42836101578061686},{"id":"banditSpawn","X":0.2984972594509092,"Y":0.3142132379364983},{"id":"banditSpawn","X":0.37001766949100584,"Y":0.3571720790606289},{"id":"banditSpawn","X":0.3185872622711611,"Y":0.41240487479165405},{"id":"banditSpawn","X":0.32260526283521146,"Y":0.44186236584820077},{"id":"banditSpawn","X":0.349927666670754,"Y":0.4038131065668279},{"id":"banditSpawn","X":0.32581966328645173,"Y":0.5044595343433625},{"id":"banditSpawn","X":0.3692140693781958,"Y":0.5547827482316299},{"id":"banditSpawn","X":0.39573287310092825,"Y":0.5756484710633505},{"id":"banditSpawn","X":0.37323206994224617,"Y":0.6517469896260961},{"id":"banditSpawn","X":0.3242124630608316,"Y":0.7045249944357423},{"id":"banditSpawn","X":0.3443024658810835,"Y":0.7462564400991835},{"id":"banditSpawn","X":0.24144165144139393,"Y":0.6677031306150589},{"id":"banditSpawn","X":0.21251204738023127,"Y":0.64315522140127},{"id":"banditSpawn","X":0.20367244613932045,"Y":0.5253252571750832},{"id":"banditSpawn","X":0.220548048508332,"Y":0.4848212069723314},{"id":"banditSpawn","X":0.16831404117567716,"Y":0.49709516157922584},{"id":"banditSpawn","X":0.13375923632484396,"Y":0.6198347076481705},{"id":"banditSpawn","X":0.155456439370716,"Y":0.5830128438274871},{"id":"banditSpawn","X":0.177153642416588,"Y":0.6885688534467795},{"id":"banditSpawn2","X":0.2398344512157738,"Y":0.32894198346477166},{"id":"banditSpawn2","X":0.36439246870133535,"Y":0.29334751510477775},{"id":"banditSpawn2","X":0.3587672679116648,"Y":0.48359381151164194},{"id":"banditSpawn2","X":0.3876968719728275,"Y":0.503232138882673},{"id":"banditSpawn2","X":0.2518884529079249,"Y":0.503232138882673},{"id":"banditSpawn2","X":0.26394245460007604,"Y":0.6247442894909283},{"id":"banditSpawn2","X":0.2832288573075178,"Y":0.758530394706078},{"id":"banditSpawn2","X":0.41019767513150956,"Y":0.7290729036495313},{"id":"banditSpawn2","X":0.1417952374529447,"Y":0.7045249944357423},{"id":"banditSpawn2","X":0.123312434858313,"Y":0.5179608844109465},{"id":"banditSpawn3","X":0.23822725099015366,"Y":0.4038131065668279},{"id":"banditSpawn3","X":0.28242525719470774,"Y":0.5572375391530088}],
+            "customMarkers":{
+                "cave":{
+                    "legend":"Fort Talos Dungeons entrance",
+                    "color":[140,95,60]
+                },
+                "banditSpawn":{
+                    "legend":"Enemy spawn: Ravenna Ensign"
+                },
+                "banditSpawn2":{
+                    "id":"banditSpawn2",
+                    "legend":"Enemy spawn: Ravenna Legionnaire",
+                    "color":[195,160,80]
+                },
+                "banditSpawn3":{
+                    "id":"banditSpawn3",
+                    "legend":"Enemy spawn: Ravenna Centurion",
+                    "color":[240,70,30]
+                }
+            },
+            "gatherable":["Oranges"],
+            "sizeX":743,
+            "sizeY":467
+        },
+        {
+            "id":"talos",
+            "index":1,
+            "name":"Fort Talos Dungeon",
+            "legendPos":2,
+            "legendFSizeY": 20,
+            "imgPath":"./maps/fort talos dungeons.png",
+            "markers":[{"id":"chest","amnt":1,"X":0.5145150539842221,"Y":0.16875171593454016},{"id":"chest","amnt":1,"X":0.48719264847354776,"Y":0.26408547753392325},{"id":"chest","amnt":1,"X":0.5179303546730565,"Y":0.32654552823696736},{"id":"chest","amnt":1,"X":0.4863388233013392,"Y":0.6881563480966962},{"id":"chest","amnt":1,"X":0.5170765295008479,"Y":0.8196511916820522},{"id":"chest","amnt":1,"X":0.3761953760864331,"Y":0.9347091798192387},{"id":"chest","amnt":1,"X":0.3335041174760044,"Y":0.6333668299361312},{"id":"chest","amnt":1,"X":0.3890027536695617,"Y":0.4613277429119572},{"id":"chest","amnt":1,"X":0.30618171196533,"Y":0.14574011830710287},{"id":"chest","amnt":1,"X":0.30788936230974717,"Y":0.10738745559470739},{"id":"chest","amnt":1,"X":0.40693308228594177,"Y":0.10848324595791868},{"id":"chest","amnt":7,"X":0.22848362129434976,"Y":0.2597023160810781},{"id":"cauldron","X":0.22592214577772404,"Y":0.23011597627437297},{"id":"banditSpawn","X":0.2805669567990728,"Y":0.16765592557132886},{"id":"banditSpawn","X":0.3070355371375386,"Y":0.16765592557132886},{"id":"banditSpawn","X":0.30618171196533,"Y":0.8667701773001382},{"id":"banditSpawn","X":0.2839822574879071,"Y":0.8656743869369269},{"id":"banditSpawn","X":0.30618171196533,"Y":0.9325175990928162},{"id":"banditSpawn","X":0.3565573971256359,"Y":0.9664871003523664},{"id":"banditSpawn","X":0.47267762054600204,"Y":0.9610081485363099},{"id":"banditSpawn","X":0.5162227043286393,"Y":0.9007396785596884},{"id":"banditSpawn","X":0.48890029881796493,"Y":0.7922564326017698},{"id":"banditSpawn","X":0.5136612288120136,"Y":0.5237877936150013},{"id":"banditSpawn","X":0.48463117295692204,"Y":0.3199707860576995},{"id":"banditSpawn","X":0.5179303546730565,"Y":0.2597023160810781},{"id":"banditSpawn","X":0.4863388233013392,"Y":0.20820016901014696},{"id":"banditSpawn","X":0.48121587226808776,"Y":0.13697379540141247},{"id":"banditSpawn","X":0.3659494740199302,"Y":0.10629166523149608},{"id":"banditSpawn","X":0.3198429147206672,"Y":0.10410008450507348},{"id":"cave","X":0.18579236268392105,"Y":0.946762873814563},{"id":"cave","X":0.19689208992263252,"Y":0.09095060014653789},{"id":"cave","X":0.967896174863388,"Y":0.49967854082360325},{"id":"boss","X":0.16188524590163936,"Y":0.5522762819629299}],
+            "customMarkers":{
+                "cave":{
+                    "legend":"Entrance/Exit",
+                    "color":[140,95,60]
+                },
+                "banditSpawn":{
+                    "legend":"Enemy spawn: Ravenna Guard"
+                },
+                "boss":{
+                    "legend":"Boss: General Argos,\nThe Lion of Old Ravenna"
+                }
+            },
+            "gatherable":[],
+            "sizeX":631,
+            "sizeY":472
+        }
+    ],
+    "sailors":{
+        "id":"sailors",
+        "index":0,
+        "name":"Sailor's Lodge",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY": 20,
+        "imgPath":"./maps/sailors lodge.png",
+        "markers":[{"id":"chest","amnt":2,"note":"Under the deck","X":0.29713114754098363,"Y":0.3787906366107227},{"id":"chest","amnt":2,"note":"Under the deck","X":0.23155737704918034,"Y":0.5758493492983819},{"id":"chest","amnt":2,"note":"Under the deck","X":0.3435792349726776,"Y":0.6875159531547221},{"id":"chest","amnt":3,"note":"Under the deck","X":0.24795081967213115,"Y":0.5211108179962544},{"id":"chest","amnt":3,"note":"Under the deck","X":0.40505464480874315,"Y":0.49045724046706296},{"id":"chest","amnt":3,"note":"Under the deck","X":0.32991803278688525,"Y":0.6568623756255307},{"id":"chest","amnt":2,"note":"Atop the lodge","X":0.3203551912568306,"Y":0.5233003592483395},{"id":"cook","X":0.3859289617486339,"Y":0.6524832931213606},{"id":"quest","note":"Learning to Brew","X":0.3572404371584699,"Y":0.3941174253753184},{"id":"quest","note":"Prove Yourself","X":0.29849726775956287,"Y":0.5014049467274885},{"id":"quest","note":"Lodge Maintenance","X":0.4064207650273224,"Y":0.5583330192817011},{"id":"quest","note":"Anglerfishing","X":0.20013661202185792,"Y":0.685326411902637},{"id":"quest","note":"The Starving Woman","X":0.2916666666666667,"Y":0.7225486131880838},{"id":"quest","note":"Elliot's Lost Hat","X":0.2657103825136612,"Y":0.40287559038365883},{"id":"cauldron","X":0.34084699453551914,"Y":0.3831697191148929},{"id":"jewel","X":0.24795081967213115,"Y":0.42477100290450986}],
+        "gatherable":[],
+        "sizeX":586,
+        "sizeY":351
+    },
+    "sandfall":{
+        "id":"sandfall",
+        "index":0,
+        "name":"Sandfall Isle",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY": 20,
+        "imgPath":"./maps/sandfall isle.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.1914845231683917,"Y":0.3043786772826724},{"id":"chest","amnt":1,"X":0.16188525121739106,"Y":0.42690399229052783},{"id":"chest","amnt":1,"X":0.16340316259949364,"Y":0.48752177971546684},{"id":"chest","amnt":1,"X":0.2924256300782145,"Y":0.39595022849906963},{"id":"chest","amnt":1,"X":0.19679721300575082,"Y":0.5816728112478189},{"id":"chest","amnt":2,"X":0.2059046812983664,"Y":0.615206055355232},{"id":"chest","amnt":1,"X":0.222601706501495,"Y":0.718385267993426},{"id":"chest","amnt":1,"note":"Inside the mountain","X":0.23095021910305927,"Y":0.7235442286253356},{"id":"chest","amnt":1,"note":"Inside the mountain","X":0.2787644276392911,"Y":0.294060756018853},{"id":"chest","amnt":2,"X":0.2711748707287781,"Y":0.29664023633480785},{"id":"chest","amnt":2,"X":0.3106405666634457,"Y":0.1973302441705461},{"id":"chest","amnt":1,"X":0.2749696491840346,"Y":0.2386019292258237},{"id":"hunt","X":0.23929873170462357,"Y":0.5236345041388347}],
+        "gatherable":["Prickly Pears","Sun Caraways","Coconuts","Beach Items"],
+        "sizeX":570,
+        "sizeY":322
+    },
+    "shell":{
+        "id":"shell",
+        "index":0,
+        "name":"Shell Island",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY": 20,
+        "imgPath":"./maps/shell island.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.3756428702806764,"Y":0.2968213453908352},{"id":"chest","amnt":2,"X":0.3443024658810835,"Y":0.258057363716659},{"id":"chest","amnt":2,"X":0.38689327186001743,"Y":0.2713478717192337},{"id":"chest","amnt":2,"X":0.3209980626095913,"Y":0.3156495650611494},{"id":"chest","amnt":2,"X":0.35394566723480436,"Y":0.3953926130765977},{"id":"chest","amnt":2,"X":0.2896576582099984,"Y":0.3931775284095019},{"id":"chest","amnt":1,"X":0.26394245460007604,"Y":0.35330600440177773},{"id":"chest","amnt":4,"X":0.23260205020048313,"Y":0.4042529517449808},{"id":"chest","amnt":2,"X":0.21251204738023127,"Y":0.4673828647572107},{"id":"chest","amnt":2,"X":0.30653326057901,"Y":0.6955365854680766},{"id":"chest","amnt":2,"X":0.38850047208563754,"Y":0.691106416133885},{"id":"chest","amnt":1,"X":0.3941256728753081,"Y":0.7564514138132107},{"id":"chest","amnt":1,"X":0.4487704805463931,"Y":0.7309779401416091},{"id":"chest","amnt":1,"X":0.5042188883302883,"Y":0.5759220134449041},{"id":"chest","amnt":1,"X":0.52350529103773,"Y":0.47402811875849804},{"id":"chest","amnt":1,"X":0.4881468860740868,"Y":0.4651677800901149},{"id":"chest","amnt":1,"X":0.2832288573075178,"Y":0.609148283451341},{"id":"chest","amnt":3,"X":0.32581966328645173,"Y":0.5626315054423294},{"id":"chest","amnt":1,"X":0.3796608708447267,"Y":0.5836748097797394},{"id":"chest","amnt":1,"X":0.35716006768604464,"Y":0.5338354047700843},{"id":"chest","amnt":1,"X":0.34189166554265327,"Y":0.47624320342559384},{"id":"chest","amnt":1,"X":0.37885727073191666,"Y":0.44190939108560917},{"id":"chest","amnt":1,"X":0.43350207840300176,"Y":0.4485546450868965},{"id":"chest","amnt":3,"X":0.5090404890071487,"Y":0.49174879609526434},{"id":"chest","amnt":3,"note":"Inside mineshaft","X":0.4937720868637573,"Y":0.5205448967675095},{"id":"chest","amnt":3,"X":0.4785036847203659,"Y":0.3566286314024214},{"id":"chest","amnt":3,"X":0.41421567569555995,"Y":0.7132572628048428},{"id":"chest","amnt":3,"note":"Inside cave","X":0.3338556644145525,"Y":0.5748144711113563},{"id":"chest","amnt":2,"X":0.4110012752443196,"Y":0.4518772720875402},{"id":"chest","amnt":1,"X":0.45600288156168384,"Y":0.402037867077885},{"id":"chest","amnt":1,"X":0.4110012752443196,"Y":0.37324176640563983},{"id":"chest","amnt":4,"note":"Inside secret cave","X":0.2567100535847854,"Y":0.46849040709075856},{"id":"chest","amnt":2,"note":"Inside secret cave","X":0.26554965482569615,"Y":0.5504485397733027},{"id":"chest","amnt":1,"note":"Inside secret cave","X":0.285639657645948,"Y":0.5150071850997701},{"id":"chest","amnt":1,"note":"Inside secret cave","X":0.2494776525694947,"Y":0.4806733727597854},{"id":"chest","amnt":1,"note":"Inside secret cave","X":0.23501285053891335,"Y":0.526082608435249},{"id":"cook","X":0.4069832746802693,"Y":0.6180086221197241},{"id":"cook","X":0.40778687479307935,"Y":0.4496621874204444},{"id":"cook","X":0.39091127242406776,"Y":0.33669286939855936},{"id":"quest","note":"Sailing and Shark Hunting","X":0.39332207276249803,"Y":0.32450990372953253},{"id":"quest","note":"Mysterious Reward","X":0.4190372763724204,"Y":0.3588437160695172},{"id":"quest","note":"The Ancient Cave","X":0.4029652741162189,"Y":0.40093032474433715},{"id":"quest","note":"Monoah Village's Harvest","X":0.44314527975672263,"Y":0.4053604940785287},{"id":"quest","note":"The Wooden Daggers","X":0.447163280320773,"Y":0.45741498375527967},{"id":"quest","note":"Shell Island Criminals","X":0.4158228759211801,"Y":0.630191587788751},{"id":"cave","note":"Behind waterfall","X":0.35957086802447485,"Y":0.5316203201029884},{"id":"cave","X":0.371624869716626,"Y":0.6025030294500536},{"id":"secret","note":"Secret cave","X":0.24063805132858387,"Y":0.6002879447829578},{"id":"hunt","X":0.2904612583228085,"Y":0.2868534643889042},{"id":"hunt","X":0.35957086802447485,"Y":0.27577804105342524},{"id":"hunt","X":0.4777000846075558,"Y":0.6069331987842451},{"id":"cauldron","X":0.4656460829154047,"Y":0.4441244757527049},{"id":"jewel","X":0.38930407219844765,"Y":0.3566286314024214},{"id":"jewel","X":0.3989472735521685,"Y":0.630191587788751},{"id":"chest","amnt":2,"X":0.380482946133309,"Y":0.3474128827877508}],
+        "gatherable":["Bananas","Giant Bananas","Basil Herbs","Brown Mushrooms","White Mushrooms","Coconuts","Beach Items"],
+        "sizeX":781,
+        "sizeY":544
+    },
+    "akursius":{
+        "id":"akursius",
+        "index":0,
+        "name":"Akursius Keep",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY": 25,
+        "imgPath":"./maps/akursius keep.png",
+        "markers":[{"id":"chest","amnt":2,"X":0.23829586710506576,"Y":0.1752212389380531},{"id":"chest","amnt":2,"X":0.47324592640366414,"Y":0.8743362831858407},{"id":"chest","amnt":2,"X":0.334952537069679,"Y":0.6},{"id":"chest","amnt":2,"X":0.3810503335143407,"Y":0.4389380530973451},{"id":"chest","amnt":2,"X":0.10595058053813376,"Y":0.5451327433628319},{"id":"chest","amnt":3,"note":"Inside a cave","X":0.2724974580156212,"Y":0.5964601769911504},{"id":"chest","amnt":3,"X":0.28439366354972745,"Y":0.6053097345132743},{"id":"chest","amnt":1,"X":0.41673895011665946,"Y":0.6141592920353982},{"id":"chest","amnt":1,"X":0.5014994145471665,"Y":0.7699115044247787},{"id":"chest","amnt":1,"X":0.6264095726552821,"Y":0.7451327433628319},{"id":"chest","amnt":1,"X":0.7513197307633976,"Y":0.8513274336283185},{"id":"chest","amnt":1,"X":0.6829165489422867,"Y":0.9097345132743363},{"id":"chest","amnt":1,"X":0.47473295209542743,"Y":0.8991150442477877},{"id":"chest","amnt":1,"X":0.3185952544602829,"Y":0.6690265486725664},{"id":"chest","amnt":1,"X":0.2992639204673603,"Y":0.5486725663716814},{"id":"chest","amnt":1,"X":0.1713797109757181,"Y":0.2513274336283186},{"id":"chest","amnt":1,"X":0.06580088686052518,"Y":0.2336283185840708},{"id":"chest","amnt":1,"X":0.09108032362050095,"Y":0.215929203539823},{"id":"chest","amnt":1,"X":0.1327170429898728,"Y":0.4814159292035398},{"id":"chest","amnt":3,"X":0.15502242836632202,"Y":0.07256637168141593},{"id":"chest","amnt":3,"X":0.14610027421574234,"Y":0.5699115044247788},{"id":"cave","amnt":1,"X":0.34090063983673213,"Y":0.5345132743362832},{"id":"chest","amnt":1,"X":0.23383479002977592,"Y":0.5469026548672566},{"id":"cave","amnt":1,"X":0.18178889081806107,"Y":0.511504424778761},{"id":"cave","amnt":2,"X":0.1104116576134236,"Y":0.5168141592920354},{"id":"cave","amnt":2,"X":0.2724974580156212,"Y":0.5185840707964602},{"id":"cave","amnt":3,"X":0.16989268528395485,"Y":0.4584070796460177},{"id":"cave","amnt":3,"X":0.07323601531934158,"Y":0.10619469026548672},{"id":"cave","X":0.287367714933254,"Y":0.5752212389380531},{"id":"quest","note":"Inside the Nightmare","X":0.4866291576295336,"Y":0.7893805309734513},{"id":"secret","X":0.25167909833093527,"Y":0.5380530973451327}],
+        "gatherable":["Cursed Mushrooms"],
+        "sizeX":672,
+        "sizeY":542
+    },
+    "blackreach":[
+        {
+            "id":"blackreach",
+            "index":0,
+            "name":"Blackreach Island",
+            "category":"Bronze Sea",
+            "legendPos":1,
+            "legendFSizeY": 23,
+            "imgPath":"./maps/blackreach.png",
+            "markers":[{"id":"chest","amnt":1,"X":0.10475478486256522,"Y":0.5697357615050063},{"id":"chest","amnt":1,"X":0.3710227129613913,"Y":0.7107055221685553},{"id":"chest","amnt":1,"X":0.5289174382758299,"Y":0.547262321399223},{"id":"chest","amnt":1,"X":0.444587300891982,"Y":0.4524652462484204},{"id":"chest","amnt":1,"note":"Under breakable ground","X":0.31782669457931073,"Y":0.42543543798824535},{"id":"chest","amnt":1,"X":0.3411764925137517,"Y":0.38453146109759423},{"id":"chest","amnt":1,"X":0.5207903227786821,"Y":0.1841019743334036},{"id":"chest","amnt":1,"X":0.4327795459488662,"Y":0.09820362286303622},{"id":"chest","amnt":1,"X":0.36991470535614057,"Y":0.19023757086700127},{"id":"chest","amnt":1,"X":0.29268075834222046,"Y":0.23523194544671755},{"id":"chest","amnt":1,"X":0.7129771211621576,"Y":0.4663394148788965},{"id":"chest","amnt":2,"note":"At sea level on a hidden dock","X":0.4094596489374018,"Y":0.0654804413505153},{"id":"chest","amnt":2,"X":0.3645561913711692,"Y":0.07775163441771064},{"id":"chest","amnt":2,"X":0.43819786177979064,"Y":0.42339023914371277},{"id":"chest","amnt":2,"note":"Behind the waterfall","X":0.5082472555831135,"Y":0.30885910384988957},{"id":"chest","amnt":2,"X":0.6896572241506932,"Y":0.44384222758903835},{"id":"chest","amnt":2,"X":0.13644662693470758,"Y":0.5910965443953825},{"id":"chest","amnt":3,"X":0.558539128057294,"Y":0.6872208900884127},{"id":"chest","amnt":3,"X":0.5495584365440475,"Y":0.8344752068947567},{"id":"chest","amnt":3,"X":0.4633437980168809,"Y":0.33340148998428026},{"id":"chest","amnt":3,"X":0.2909145209625477,"Y":0.50110779523595},{"id":"chest","amnt":3,"X":0.2837299677519505,"Y":0.16160478704354547},{"id":"secret","note":"Note","X":0.535051532943803,"Y":0.83640081799591},{"id":"secret","X":0.0914452013792981,"Y":0.6073619631901841},{"id":"cave","note":"Maze entrance","X":0.2765454145413533,"Y":0.38657665994212675},{"id":"cave","note":"Maze entrance","X":0.5747043727811377,"Y":0.32522069460615005},{"id":"cave","note":"Maze entrance","X":0.4292171702665441,"Y":0.6647237027985545},{"id":"cave","amnt":1,"note":"Tavern entrance","X":0.3304295636208324,"Y":0.6115485328407081},{"id":"cave","amnt":1,"note":"Tavern entrance","X":0.375333021187065,"Y":0.5461021698156662},{"id":"cave","amnt":1,"note":"Tavern exit","X":0.09333930767112426,"Y":0.7056276796892057},{"id":"cave","amnt":1,"note":"Tavern exit","X":0.13644662693470758,"Y":0.6381361178196313},{"id":"cave","amnt":2,"X":0.4687322129248288,"Y":0.37430546687493144},{"id":"cave","amnt":2,"X":0.470072416910979,"Y":0.29037315080316195},{"id":"cave","amnt":2,"X":0.7555814724497903,"Y":0.4007837875310069},{"id":"cave","amnt":2,"X":0.7555814724497903,"Y":0.48256944436644755},{"id":"hunt","X":0.522479693587724,"Y":0.5398773006134969},{"id":"hunt","X":0.3949653229760646,"Y":0.38650306748466257},{"id":"hunt","X":0.3770055524673802,"Y":0.6584867075664622}],
+            "gatherable":["Oranges","Giant Oranges","Basil Herbs","Brown/White/Blue\nmushrooms","Beach Items"],
+            "sizeX":650,
+            "sizeY":548
+        },
+        {
+            "id":"blackreach",
+            "index":1,
+            "name":"Blackreach Maze",
+            "legendPos":2,
+            "legendFSizeY": 15,
+            "imgPath":"./maps/blackreach maze.png",
+            "markers": [{"id":"cave","X":0.07861650592359648,"Y":0.3039647577092511},{"id":"cave","X":0.35489962025130584,"Y":0.9317180616740088},{"id":"cave","X":0.7118946556185707,"Y":0.18502202643171806},{"id":"chest","amnt":4,"X":0.14535905601399818,"Y":0.16740088105726872},{"id":"chest","amnt":1,"X":0.4619981308614853,"Y":0.14096916299559473},{"id":"chest","amnt":1,"X":0.5396057472456733,"Y":0.30837004405286345},{"id":"chest","amnt":1,"X":0.45423736922306646,"Y":0.5704845814977973},{"id":"chest","amnt":1,"X":0.18105855955072467,"Y":0.76431718061674},{"id":"chest","amnt":1,"X":0.29902213645469045,"Y":0.3392070484581498},{"id":"chest","amnt":2,"X":0.46044597853380154,"Y":0.43612334801762115},{"id":"chest","amnt":4,"X":0.5023540913812631,"Y":0.7555066079295154},{"id":"chest","amnt":7,"X":0.35024316326825455,"Y":0.460352422907489}],
+            "customMarkers":{
+                "cave":{
+                    "legend":"Maze entrance/exit"
+                }
+            },
+            "gatherable":[],
+            "sizeX":340,
+            "sizeY":230
+        }
+    ],
+    "thrylos":{
+        "id":"thrylos",
+        "index":0,
+        "name":"Thrylos Crossing",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY": 25,
+        "imgPath":"./maps/thrylos crossing.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.3463114682646376,"Y":0.08536142768619548},{"id":"chest","amnt":1,"X":0.3047068986022783,"Y":0.12440974035115725},{"id":"chest","amnt":1,"X":0.35562592415919564,"Y":0.165274253605187},{"id":"chest","amnt":1,"X":0.2953924427077202,"Y":0.24609517981871248},{"id":"chest","amnt":1,"X":0.3786015820324388,"Y":0.2769705898328683},{"id":"chest","amnt":1,"X":0.39226278401112397,"Y":0.31329460161422806},{"id":"chest","amnt":1,"X":0.35997267024332275,"Y":0.30875410014155813},{"id":"chest","amnt":1,"X":0.3245777378440021,"Y":0.3586996163409278},{"id":"chest","amnt":2,"note":"In a cave behind a breakable wall","X":0.258134619129488,"Y":0.27152198806566435},{"id":"chest","amnt":4,"X":0.26372329266622285,"Y":0.4177261354856375},{"id":"chest","amnt":2,"X":0.17119969744694616,"Y":0.42045043636923946},{"id":"chest","amnt":1,"X":0.2935295515288086,"Y":0.5902651914470964},{"id":"chest","amnt":1,"X":0.31340039077053244,"Y":0.642935008530068},{"id":"chest","amnt":1,"X":0.5406731240729035,"Y":0.8436251736220809},{"id":"chest","amnt":1,"X":0.5667536005776661,"Y":0.8063930615461871},{"id":"chest","amnt":1,"X":0.5779309476511357,"Y":0.7401017400452055},{"id":"chest","amnt":1,"X":0.6369225016500034,"Y":0.497638961404629},{"id":"chest","amnt":1,"note":"Under the bridge","X":0.39660953957040557,"Y":0.5530330793712026},{"id":"chest","amnt":3,"note":"Under the bridge","X":0.4413189278642842,"Y":0.5938975926252323},{"id":"chest","amnt":2,"note":"Under the bridge","X":0.6139468437767602,"Y":0.5630221826110766},{"id":"chest","amnt":2,"note":"Under the bridge","X":0.6307128643869647,"Y":0.5121685661171729},{"id":"chest","amnt":1,"X":0.7840909047840207,"Y":0.7464584421069435},{"id":"chest","amnt":1,"X":0.7952682518574904,"Y":0.7228478344490595},{"id":"chest","amnt":1,"X":0.8182439097307336,"Y":0.7074101294419817},{"id":"chest","amnt":1,"X":0.830663184256811,"Y":0.7364693388670696},{"id":"chest","amnt":1,"X":0.8312841479831148,"Y":0.7727933506484292},{"id":"chest","amnt":1,"X":0.8145181273729103,"Y":0.7891391559500411},{"id":"chest","amnt":2,"X":0.7989940342153136,"Y":0.7727933506484292},{"id":"chest","amnt":2,"X":0.04266020610204499,"Y":0.7046858285583797},{"id":"chest","amnt":1,"note":"Under a ledge","X":0.0886115218485314,"Y":0.6483836102972721},{"id":"secret","X":0.811413308741391,"Y":0.7473665424014775},{"id":"secret","note":"Inside corroding water in a small cave","X":0.32395677411769824,"Y":0.2306574748116346},{"id":"cave","amnt":1,"X":0.3369970123700795,"Y":0.3804940234097437},{"id":"cave","amnt":1,"X":0.1594013866471726,"Y":0.6029785955705723},{"id":"cave","amnt":2,"X":0.24198956224558738,"Y":0.5730112858509505},{"id":"cave","amnt":2,"X":0.07246646496463076,"Y":0.805484961251653},{"id":"cave","amnt":3,"X":0.02899900412335984,"Y":0.6601889141262139},{"id":"cave","amnt":3,"X":0.19417535532018934,"Y":0.4286233390200454},{"id":"cave","amnt":4,"X":0.5735842015670086,"Y":0.7155830320927876},{"id":"cave","amnt":4,"X":0.7915424694996671,"Y":0.6393026073519321},{"id":"hunt","X":0.3531420692539802,"Y":0.5067199643499689},{"id":"hunt","X":0.3084326809601015,"Y":0.3069378995524901}],
+        "gatherable":["Vanilla Herbs","Pinecones"],
+        "sizeX":783,
+        "sizeY":514
+    },
+    "ravenna":{
+        "id":"ravenna",
+        "index":0,
+        "name":"Ravenna",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY": 14,
+        "imgPath":"./maps/ravenna.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.1134500709006862,"Y":0.25904663476278356},{"id":"chest","amnt":1,"X":0.13866120218579234,"Y":0.27050770028744625},{"id":"chest","amnt":1,"X":0.148224043715847,"Y":0.21580945206755822},{"id":"chest","amnt":2,"X":0.1837431693989071,"Y":0.31327178525935867},{"id":"chest","amnt":2,"X":0.19603825136612021,"Y":0.3182443532793485},{"id":"chest","amnt":3,"X":0.2716302367941712,"Y":0.38189322393521824},{"id":"chest","amnt":3,"X":0.24749544626593806,"Y":0.46145431225505534},{"id":"chest","amnt":3,"X":0.29849726775956287,"Y":0.5042183972269678},{"id":"chest","amnt":3,"X":0.36316029143898,"Y":0.5111799924549536},{"id":"chest","amnt":3,"X":0.2661657559198543,"Y":0.5937246215867846},{"id":"chest","amnt":1,"X":0.21243169398907105,"Y":0.5479769958028782},{"id":"chest","amnt":2,"X":0.16552823315118398,"Y":0.5241086693069271},{"id":"chest","amnt":1,"X":0.10132058287795993,"Y":0.608642325646754},{"id":"chest","amnt":1,"X":0.13365209471766848,"Y":0.7866602607623896},{"id":"chest","amnt":1,"X":0.14959016393442623,"Y":0.7777096383264079},{"id":"chest","amnt":1,"X":0.18875227686703097,"Y":0.8463310770022675},{"id":"chest","amnt":1,"X":0.24977231329690347,"Y":0.8532926722302532},{"id":"chest","amnt":1,"X":0.22199453551912568,"Y":0.7757206111184121},{"id":"chest","amnt":3,"note":"Inside cave","X":0.22244990892531877,"Y":0.6792527915306095},{"id":"chest","amnt":1,"X":0.34904371584699456,"Y":0.6961595227985748},{"id":"chest","amnt":1,"X":0.37135701275045535,"Y":0.8980457844101616},{"id":"chest","amnt":1,"X":0.35769581056466304,"Y":0.886111621162186},{"id":"chest","amnt":1,"X":0.3481329690346084,"Y":0.8841225939541901},{"id":"chest","amnt":1,"X":0.34676684881602915,"Y":0.8304188593383001},{"id":"chest","amnt":2,"X":0.3622495446265938,"Y":0.7578193662464486},{"id":"chest","amnt":3,"note":"Inside cave","X":0.4483151183970856,"Y":0.694170495590579},{"id":"chest","amnt":1,"X":0.5480418943533698,"Y":0.722016876502522},{"id":"chest","amnt":3,"X":0.595856102003643,"Y":0.748868743810467},{"id":"chest","amnt":1,"X":0.613615664845173,"Y":0.8244517777143122},{"id":"chest","amnt":1,"X":0.6737249544626593,"Y":0.8503091314182594},{"id":"chest","amnt":2,"X":0.6596083788706739,"Y":0.6782582779266115},{"id":"chest","amnt":2,"X":0.5334699453551912,"Y":0.470404934691037},{"id":"chest","amnt":1,"X":0.5061475409836066,"Y":0.414712172867151},{"id":"chest","amnt":1,"X":0.4861111111111111,"Y":0.37592614231123045},{"id":"chest","amnt":1,"X":0.45150273224043713,"Y":0.39283287357919583},{"id":"chest","amnt":3,"note":"Inside secret","X":0.41188524590163933,"Y":0.4276408497191246},{"id":"chest","amnt":2,"X":0.38866120218579236,"Y":0.14320995897570682},{"id":"chest","amnt":2,"X":0.36589253187613846,"Y":0.25161194181148494},{"id":"chest","amnt":2,"X":0.30305100182149364,"Y":0.12033614608375366},{"id":"chest","amnt":4,"note":"Inside cave","X":0.3271857923497268,"Y":0.24266131937550325},{"id":"chest","amnt":5,"note":"Underwater","X":0.21835154826958106,"Y":0.15713314943167833},{"id":"cook","X":0.09528687912329505,"Y":0.304568520215731},{"id":"cook","X":0.13570126779966182,"Y":0.42018024421598804},{"id":"cook","X":0.3929872351477997,"Y":0.21133325892520108},{"id":"cook","X":0.3508651962456709,"Y":0.781933058023244},{"id":"cook","X":0.5062613667900109,"Y":0.8241997098082843},{"id":"cave","X":0.4516165595656276,"Y":0.7272350380661331},{"id":"cave","X":0.23872949808730112,"Y":0.687454659915507},{"id":"cave","X":0.3132968912789075,"Y":0.2038744380219587},{"id":"secret","X":0.4043715699862129,"Y":0.3779135924309478},{"id":"mentor","X":0.32468122611732064,"Y":0.13425877625836305},{"id":"hunt","X":0.2876821378924778,"Y":0.323215572473837},{"id":"hunt","X":0.270605635634858,"Y":0.609137040431462},{"id":"hunt","X":0.15107011983151963,"Y":0.8353879411631479},{"id":"hunt","X":0.6309198332706352,"Y":0.8353879411631479},{"id":"hunt","X":0.5034152830804076,"Y":0.3679684978932913},{"id":"cauldron","X":0.3981101858250856,"Y":0.8639800879589103},{"id":"cauldron","X":0.12602458318701062,"Y":0.34807830881797824},{"id":"cauldron","X":0.4316939735984045,"Y":0.24489795298979183},{"id":"jewel","X":0.40778687043773687,"Y":0.15912151260250434},{"id":"jewel","X":0.38274133379322783,"Y":0.23868226890375652},{"id":"jewel","X":0.13683970128350315,"Y":0.36299595062446305},{"id":"jewel","X":0.06739525876918274,"Y":0.4239096546676092},{"id":"jewel","X":0.3679416985032907,"Y":0.8366310779803549},{"id":"banditSpawn","X":0.09687676143121055,"Y":0.2808641975308642},{"id":"banditSpawn","X":0.1251413170275431,"Y":0.26337448559670784},{"id":"banditSpawn","X":0.17319106154130845,"Y":0.294238683127572},{"id":"banditSpawn","X":0.184967959706447,"Y":0.3713991769547325},{"id":"banditSpawn","X":0.12043055776148769,"Y":0.49588477366255146},{"id":"banditSpawn","X":0.14963726521103132,"Y":0.5113168724279835},{"id":"banditSpawn","X":0.0719097373211168,"Y":0.411522633744856},{"id":"banditSpawn","X":0.3828198488807749,"Y":0.8199588477366255},{"id":"banditSpawn","X":0.37810908961471945,"Y":0.8816872427983539},{"id":"banditSpawn","X":0.39459674704591347,"Y":0.11213991769547325},{"id":"banditSpawn","X":0.4492415545321564,"Y":0.1419753086419753},{"id":"banditSpawn","X":0.44547294711931207,"Y":0.2716049382716049},{"id":"banditSpawn2","X":0.4139108600367407,"Y":0.14609053497942387},{"id":"banditSpawn2","X":0.40920010077068525,"Y":0.2345679012345679},{"id":"banditSpawn2","X":0.17460428932112507,"Y":0.4783950617283951},{"id":"banditSpawn2","X":0.08933954660552187,"Y":0.3323045267489712},{"id":"banditSpawn2","X":0.10865365959634911,"Y":0.3786008230452675},{"id":"banditSpawn2","X":0.31121630803673245,"Y":0.8117283950617284},{"id":"banditSpawn2","X":0.3295882691743486,"Y":0.7705761316872428},{"id":"banditSpawn3","X":0.35361314143123124,"Y":0.7962962962962963},{"id":"banditSpawn3","X":0.20098454121103546,"Y":0.4156378600823045},{"id":"banditSpawn3","X":0.19862916157800775,"Y":0.448559670781893},{"id":"banditSpawn3","X":0.15199264484405903,"Y":0.34670781893004116},{"id":"banditSpawn3","X":0.140686822605526,"Y":0.404320987654321},{"id":"banditSpawn3","X":0.37763801368811395,"Y":0.21296296296296297},{"id":"banditSpawn3","X":0.45536554157802844,"Y":0.30761316872427985},{"id":"boss2","X":0.5806717524311992,"Y":0.602880658436214},{"id":"boss","X":0.2801252968807666,"Y":0.4886831275720165},{"id":"quest","note":"Pirates of the Bronze Sea","X":0.06372697601315919,"Y":0.24641791372939617},{"id":"quest","note":"Mamercus' Challenge","X":0.10354822295834194,"Y":0.2612721495133183},{"id":"quest","note":"Stolen Heirloom","X":0.1375166188072661,"Y":0.30400891438581107},{"id":"quest","note":"Seashell Collector","X":0.1220093076588442,"Y":0.3862570279140048},{"id":"quest","note":"Ravenna's Lacking Exports","X":0.07105671388545798,"Y":0.3540028657460857},{"id":"quest","note":"Double Crosser","X":0.09025624197398033,"Y":0.450765352249843},{"id":"quest","note":"Traveller in Distress","X":0.14010117066533642,"Y":0.49511482523073175},{"id":"quest","note":"The Bored Centurion","X":0.1489624913215775,"Y":0.4459272279246551},{"id":"quest","note":"Ravenna's Lost Treasure","X":0.32840424024433534,"Y":0.14112539543781963},{"id":"quest","note":"Misplaced Ship Order","X":0.3900642631440129,"Y":0.1322555008416419},{"id":"quest","note":"Plinia's Gift","X":0.4177558901947662,"Y":0.18466851436451043},{"id":"quest","note":"Cooking Expertise","X":0.4026178007403544,"Y":0.2177290305866275},{"id":"quest","note":"Shining Plains Duel","X":0.45320117281973055,"Y":0.1532207062507893},{"id":"quest","note":"Injured Ensign","X":0.46797004058013236,"Y":0.2540149630255365},{"id":"quest","note":"Stranded at Sea","X":0.44175530030541915,"Y":0.27659287654307985},{"id":"quest","note":"Ravenna Farm Work","X":0.514122752331388,"Y":0.8281256136613229},{"id":"quest","note":"Assasins in Tiberia","X":0.3878489329799526,"Y":0.8482844650162723},{"id":"quest","note":"Tiberia Fishing","X":0.34908065510889785,"Y":0.7813570785178401},{"id":"quest","note":"Fishing for Gold","X":0.3180660328120541,"Y":0.8708623785338157}],
+        "customMarkers":{
+            "mentor":{
+                "id":"mentor",
+                "legend":"Thermo fist mentor",
+                "color":[255,255,255]
+            },
+            "banditSpawn":{
+                "legend":"Enemy spawn: Ravenna Ensign"
+            },
+            "banditSpawn2":{
+                "id":"banditSpawn2",
+                "legend":"Enemy spawn: Ravenna Legionnaire",
+                "color":[195,160,80]
+            },
+            "banditSpawn3":{
+                "id":"banditSpawn3",
+                "legend":"Enemy spawn: Ravenna Centurion",
+                "color":[240,70,30]
+            },
+            "boss":{
+                "legend":"Boss: King Calvus, Ruler of the Ravenna Realm"
+            },
+            "boss2":{
+                "id":"boss2",
+                "legend":"Boss: Lady Carina, Officer of the Order",
+                "color":[140,95,60]
+            }
+        },
+        "gatherable":["Marulas","Oranges","Tomatoes","Wheat","Lemongrass Herbs","Coconuts","White Mushrooms","Brown Mushrooms","Beach Items"],
+        "sizeX":935,
+        "sizeY":411
+    },
+    "blasted":{
+        "id":"blasted",
+        "index":0,
+        "name":"Blasted Rock",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY": 25,
+        "imgPath":"./maps/blasted rock.png",
+        "markers":[{"id":"chest","amnt":3,"X":0.22222221257160202,"Y":0.21639246681264324},{"id":"chest","amnt":3,"X":0.42998632337264253,"Y":0.13413368662016584},{"id":"chest","amnt":3,"X":0.5734289423366487,"Y":0.5750703912555176},{"id":"chest","amnt":3,"X":0.19205372524980707,"Y":0.5928560734592966},{"id":"chest","amnt":1,"X":0.19831510941093433,"Y":0.5595079193272111},{"id":"chest","amnt":1,"X":0.18180782389523523,"Y":0.6247220874077337},{"id":"chest","amnt":1,"X":0.49829233240312165,"Y":0.25937453213844225},{"id":"chest","amnt":1,"X":0.2945127387955257,"Y":0.29272268627052767},{"id":"chest","amnt":1,"X":0.370787782212894,"Y":0.23417814901642214},{"id":"chest","amnt":2,"X":0.34858832927798833,"Y":0.3053208778315377},{"id":"chest","amnt":2,"X":0.44763204237218296,"Y":0.2401067097510151},{"id":"chest","amnt":2,"X":0.497723115661201,"Y":0.2289906583736533},{"id":"chest","amnt":2,"X":0.5552140065951875,"Y":0.6625166620907639},{"id":"chest","amnt":2,"X":0.26889798540909604,"Y":0.8218467318329499},{"id":"chest","amnt":2,"X":0.17554643973410797,"Y":0.4446420550944724},{"id":"chest","amnt":2,"X":0.3081739406016215,"Y":0.3801689571057739},{"id":"chest","amnt":3,"note":"Inside mountain","X":0.41860198853422936,"Y":0.2467763405774322},{"id":"chest","amnt":5,"note":"In cave","X":0.539275937821409,"Y":0.4513116859208895},{"id":"chest","amnt":3,"note":"Inside small cave","X":0.3872950677285931,"Y":0.7410700918241206},{"id":"chest","amnt":6,"note":"Under breakable floor","X":0.21368396144279211,"Y":0.6639988022744121},{"id":"cook","X":0.16416210489569477,"Y":0.435749213992583},{"id":"jewel","X":0.4402322247272144,"Y":0.3609011347183468},{"id":"cave","X":0.5540755731113463,"Y":0.43871349435987944},{"id":"journal","X":0.5211748633879781,"Y":0.46776345042240997}],
+        "customMarkers":{
+            "journal":{
+                "id":"journal",
+                "legend":"General Zaix's Journal",
+                "color":[255,255,0]
+            }
+        },
+        "gatherable":[],
+        "sizeX":693,
+        "sizeY":511
+    },
+    "cassia":{
+        "id":"cassia",
+        "index":0,
+        "name":"Cassia Bay",
+        "category":"Bronze Sea",
+        "legendPos":1,
+        "legendFSizeY": 25,
+        "imgPath":"./maps/cassia bay.png",
+        "markers":[{"id":"chest","amnt":5,"note":"Inside small cave","X":0.6191056125554978,"Y":0.4135593220338983},{"id":"chest","amnt":6,"note":"Inside small cave","X":0.7126364003291403,"Y":0.8694915254237288},{"id":"chest","amnt":4,"X":0.4861165236898499,"Y":0.523728813559322},{"id":"hunt","X":0.4758865937771078,"Y":0.5203389830508475}],
+        "gatherable":[],
+        "sizeX":627,
+        "sizeY":519
+    },
+    "windrow":{
+        "id":"windrow",
+        "index":0,
+        "name":"Wind-Row Island",
+        "category":"Bronze Sea",
+        "legendPos":2,
+        "legendFSizeY": 23,
+        "imgPath":"./maps/wind row.png",
+        "markers":[{"id":"chest","amnt":2,"X":0.06215846994535519,"Y":0.726353443781853},{"id":"chest","amnt":1,"X":0.09153005464480875,"Y":0.6003097579491197},{"id":"chest","amnt":1,"X":0.16393442622950818,"Y":0.6099232594109383},{"id":"chest","amnt":2,"X":0.17076502732240437,"Y":0.6376955969673033},{"id":"chest","amnt":2,"X":0.22540983606557377,"Y":0.5586512516145722},{"id":"chest","amnt":2,"X":0.16120218579234974,"Y":0.4678570711418406},{"id":"chest","amnt":2,"X":0.2226775956284153,"Y":0.41124422920001974},{"id":"chest","amnt":2,"X":0.2698087431693989,"Y":0.4368802330982028},{"id":"chest","amnt":1,"X":0.2527322404371585,"Y":0.3898808926182005},{"id":"chest","amnt":1,"X":0.2786885245901639,"Y":0.3824037248145638},{"id":"chest","amnt":1,"X":0.29098360655737704,"Y":0.41872139700365646},{"id":"chest","amnt":1,"X":0.31010928961748635,"Y":0.3824037248145638},{"id":"chest","amnt":2,"note":"Inside cave","X":0.3203551912568306,"Y":0.4091078955418378},{"id":"chest","amnt":1,"note":"Inside cave","X":0.3401639344262295,"Y":0.39094905944729147},{"id":"chest","amnt":1,"note":"Inside cave","X":0.3203551912568306,"Y":0.32899538336001577},{"id":"chest","amnt":2,"X":0.34972677595628415,"Y":0.34501788579638015},{"id":"chest","amnt":2,"X":0.34153005464480873,"Y":0.42085773066183835},{"id":"chest","amnt":1,"X":0.3005464480874317,"Y":0.2798597092218316},{"id":"chest","amnt":5,"note":"Inside cave","X":0.41530054644808745,"Y":0.2884050438545593},{"id":"chest","amnt":2,"X":0.4501366120218579,"Y":0.3012230458036508},{"id":"chest","amnt":1,"X":0.46789617486338797,"Y":0.323654549214561},{"id":"chest","amnt":1,"X":0.5047814207650273,"Y":0.2371330360581932},{"id":"chest","amnt":1,"X":0.5020491803278688,"Y":0.32258638238547},{"id":"chest","amnt":1,"X":0.5881147540983607,"Y":0.2339285355709203},{"id":"chest","amnt":1,"X":0.46584699453551914,"Y":0.38667639213092764},{"id":"chest","amnt":2,"X":0.412568306010929,"Y":0.4411529004145666},{"id":"chest","amnt":2,"X":0.45150273224043713,"Y":0.484947740407296},{"id":"chest","amnt":2,"X":0.5286885245901639,"Y":0.5244699130836615},{"id":"chest","amnt":1,"X":0.33060109289617484,"Y":0.5009702428436604},{"id":"chest","amnt":3,"X":0.4077868852459016,"Y":0.5768100877091186},{"id":"chest","amnt":1,"X":0.3271857923497268,"Y":0.6419682642836672},{"id":"chest","amnt":1,"X":0.35792349726775957,"Y":0.618468594043666},{"id":"chest","amnt":1,"X":0.3401639344262295,"Y":0.6708087686691231},{"id":"chest","amnt":1,"X":0.3394808743169399,"Y":0.7103309413454886},{"id":"chest","amnt":2,"X":0.25,"Y":0.6120595930691203},{"id":"chest","amnt":2,"X":0.2807377049180328,"Y":0.5832190886836643},{"id":"chest","amnt":3,"X":0.28415300546448086,"Y":0.6782859364727598},{"id":"chest","amnt":3,"X":0.20833333333333334,"Y":0.6825586037891236},{"id":"chest","amnt":3,"note":"Inside cave","X":0.23497267759562843,"Y":0.7327624447563987},{"id":"hunt","X":0.10109289617486339,"Y":0.5981734242909378},{"id":"hunt","X":0.2506830601092896,"Y":0.7381032789018536},{"id":"hunt","X":0.3394808743169399,"Y":0.6035142584363926},{"id":"hunt","X":0.5362021857923497,"Y":0.5287425804000253},{"id":"hunt","X":0.4385245901639344,"Y":0.23606486922910222},{"id":"cave","X":0.40846994535519127,"Y":0.20615619801455534},{"id":"cave","X":0.34972677595628415,"Y":0.3898808926182005},{"id":"cave","X":0.226775956284153,"Y":0.7904434535273106},{"id":"secret","X":0.27527322404371585,"Y":0.671876935498214},{"id":"cauldron","X":0.40095628415300544,"Y":0.5682647530763909},{"id":"banditSpawn","X":0.16939890710382513,"Y":0.5511740838109355},{"id":"banditSpawn","X":0.19398907103825136,"Y":0.4539709023636581},{"id":"banditSpawn","X":0.22472677595628415,"Y":0.4870840740654779},{"id":"banditSpawn","X":0.2739071038251366,"Y":0.4261985648072932},{"id":"banditSpawn","X":0.2575136612021858,"Y":0.3984262272509282},{"id":"banditSpawn","X":0.29713114754098363,"Y":0.4229940643200203},{"id":"banditSpawn","X":0.36885245901639346,"Y":0.3653130555491084},{"id":"boss","X":0.3271857923497268,"Y":0.3087002136072875}],
+        "customMarkers":{
+            "banditSpawn":{
+                "legend":"Enemy Spawn: Wolves Bandit"
+            },
+            "boss":{
+                "legend":"Miniboss: Alpha,\nLeader of the Wolves"
+            }
+        },
+        "gatherable":["Pinecones","Marjoram Herbs","Blue Mushrooms","Brown Mushrooms","Glowcaps"],
+        "sizeX":720,
+        "sizeY":442
+    },
+    "othrys":[
+        {
+            "id":"othrys",
+            "index":0,
+            "name":"Mount Othrys",
+            "category":"Bronze Sea",
+            "legendPos":1,
+            "legendFSizeY": 50,
+            "imgPath":"./maps/mount othrys.png",
+            "markers":[{"id":"chest","amnt":1,"X":0.10040398706590627,"Y":0.5108843537414965},{"id":"chest","amnt":1,"X":0.09535967236195965,"Y":0.5557823129251701},{"id":"chest","amnt":4,"X":0.09376673087650284,"Y":0.6605442176870748},{"id":"chest","amnt":1,"X":0.21270636584167213,"Y":0.7115646258503401},{"id":"chest","amnt":1,"X":0.2235914659922938,"Y":0.7278911564625851},{"id":"chest","amnt":1,"X":0.312796189177876,"Y":0.7680272108843538},{"id":"chest","amnt":2,"X":0.33722129195488065,"Y":0.8040816326530612},{"id":"chest","amnt":1,"X":0.4301428786065288,"Y":0.6517006802721088},{"id":"chest","amnt":1,"X":0.44341739098533567,"Y":0.6666666666666666},{"id":"chest","amnt":1,"X":0.5395204206464818,"Y":0.8074829931972789},{"id":"chest","amnt":1,"X":0.5830608212489683,"Y":0.8360544217687075},{"id":"chest","amnt":2,"X":0.5259804180200987,"Y":0.6687074829931973},{"id":"chest","amnt":1,"X":0.6321765170505538,"Y":0.7972789115646258},{"id":"chest","amnt":3,"X":0.6996110399348927,"Y":0.7857142857142857},{"id":"chest","amnt":1,"X":0.8249224691993071,"Y":0.8013605442176871},{"id":"chest","amnt":1,"X":0.8822683626757528,"Y":0.7557823129251701},{"id":"chest","amnt":4,"X":0.9653668101670838,"Y":0.501360544217687},{"id":"chest","amnt":1,"X":0.9069589557003336,"Y":0.42993197278911566},{"id":"chest","amnt":2,"X":0.8233295277138503,"Y":0.36666666666666664},{"id":"chest","amnt":4,"X":0.7795236368637876,"Y":0.5605442176870749},{"id":"chest","amnt":2,"X":0.6919118551636622,"Y":0.5700680272108843},{"id":"chest","amnt":1,"X":0.7033279034009586,"Y":0.3149659863945578},{"id":"chest","amnt":1,"X":0.6287251438320639,"Y":0.3197278911564626},{"id":"chest","amnt":3,"X":0.526511398515251,"Y":0.3761904761904762},{"id":"chest","amnt":2,"X":0.46544864157273935,"Y":0.5183673469387755},{"id":"chest","amnt":1,"X":0.44553687300452904,"Y":0.563265306122449},{"id":"chest","amnt":1,"X":0.4681035440485007,"Y":0.39591836734693875},{"id":"chest","amnt":1,"X":0.4758027612282087,"Y":0.29863945578231293},{"id":"chest","amnt":1,"X":0.4460678534996813,"Y":0.27414965986394557},{"id":"chest","amnt":1,"X":0.4014654919068902,"Y":0.3142857142857143},{"id":"chest","amnt":1,"X":0.3871334584991945,"Y":0.44081632653061226},{"id":"chest","amnt":1,"X":0.3927087536982934,"Y":0.49523809523809526},{"id":"chest","amnt":1,"X":0.36111541423673305,"Y":0.36666666666666664},{"id":"chest","amnt":1,"X":0.34279658715397954,"Y":0.44761904761904764},{"id":"chest","amnt":1,"X":0.3496993335909591,"Y":0.4857142857142857},{"id":"chest","amnt":2,"X":0.3364248212121522,"Y":0.4129251700680272},{"id":"chest","amnt":2,"X":0.3988150293925446,"Y":0.5115646258503401},{"id":"chest","amnt":2,"X":0.418992288208331,"Y":0.3340136054421769},{"id":"chest","amnt":2,"X":0.428549937121072,"Y":0.3340136054421769},{"id":"chest","amnt":3,"X":0.42350562241712536,"Y":0.3326530612244898},{"id":"chest","amnt":1,"X":0.2865126546678384,"Y":0.38095238095238093},{"id":"chest","amnt":1,"X":0.299256186551493,"Y":0.4013605442176871},{"id":"cook","X":0.4237666727032857,"Y":0.5619047619047619},{"id":"cave","X":0.44712981448998584,"Y":0.6340136054421769},{"id":"cave","X":0.4420854997860392,"Y":0.23333333333333334}],
+            "customMarkers":{
+                "cave":{
+                    "legend":"Titan Caverns Entrance/exit"
+                }
+            },
+            "gatherable":["Pinecones","Coppershrooms"],
+            "sizeX":2928,
+            "sizeY":1097
+        },
+        {
+            "id":"othrys",
+            "index":1,
+            "name":"Titan Caverns",
+            "legendPos":1,
+            "legendFSizeY": 15,
+            "imgPath":"./maps/titan caverns.png",
+            "markers":[{"id":"chest","amnt":2,"X":0.5297618868088526,"Y":0.020735567230295446},{"id":"chest","amnt":1,"X":0.7094564011989323,"Y":0.10586052743887675},{"id":"chest","amnt":1,"X":0.4904537117860227,"Y":0.13996507880449427},{"id":"chest","amnt":1,"X":0.9026280041682678,"Y":0.20790134512480435},{"id":"chest","amnt":1,"X":0.6499325933072184,"Y":0.2621957908988674},{"id":"chest","amnt":2,"X":0.37477536814740897,"Y":0.19780639792058155},{"id":"chest","amnt":1,"X":0.18497303732288733,"Y":0.2531921893383444},{"id":"chest","amnt":1,"X":0.11646450371166948,"Y":0.3331332577393518},{"id":"chest","amnt":2,"X":0.31525156025569506,"Y":0.39261159532098877},{"id":"chest","amnt":2,"X":0.18048067446313534,"Y":0.4223507641118072},{"id":"chest","amnt":3,"X":0.2096810330515233,"Y":0.4373567667126789},{"id":"chest","amnt":1,"X":0.13331086443573945,"Y":0.49165121248674204},{"id":"chest","amnt":1,"X":0.07154087511414958,"Y":0.5546764234104031},{"id":"chest","amnt":1,"X":0.47697662320676676,"Y":0.692458810927498},{"id":"chest","amnt":2,"X":0.0681716029693356,"Y":0.6730874257518272},{"id":"chest","amnt":1,"X":0.4140835431702389,"Y":0.8269671615134934},{"id":"chest","amnt":2,"X":0.32423628597519905,"Y":0.8894466996153046},{"id":"chest","amnt":4,"X":0.797057476964096,"Y":0.887809681149755},{"id":"cave","note":"You can go upwards to leave the cavern in this area","X":0.5645776989719306,"Y":0.9270981243229464},{"id":"cave","X":0.42194517817480487,"Y":0.003546873342024221}],
+            "customMarkers":{
+                "cave":{
+                    "legend":"Entrance/exit"
+                }
+            },
+            "gatherable":["Blue Mushrooms","Brown Mushrooms","Glowcaps"],
+            "sizeX":352,
+            "sizeY":1391
+        }
+    ],
+
+    "mastForest":{
+        "id":"mastForest",
+        "index":0,
+        "name":"Forest of Masts",
+        "category":"Nimbus Sea",
+        "legendPos":2,
+        "legendFSizeY": 25,
+        "markerSize":12,
+        "imgPath":"./maps/forest of masts.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.6196711453640145,"Y":0.6813045061171142},{"id":"chest","amnt":1,"X":0.6007707287796372,"Y":0.7114411983308254},{"id":"chest","amnt":1,"X":0.2643433231909711,"Y":0.6468625721585871},{"id":"chest","amnt":1,"X":0.28198371200305655,"Y":0.6317942260517315},{"id":"chest","amnt":1,"X":0.5831303399675518,"Y":0.37347972136277824},{"id":"chest","amnt":4,"X":0.5913205204874487,"Y":0.5812076355501448},{"id":"chest","amnt":2,"X":0.3355348923254588,"Y":0.8115380688977948},{"id":"chest","amnt":4,"note":"Inside a small cave","X":0.519498947080064,"Y":0.5941233607845925},{"id":"chest","amnt":2,"X":0.5018585582679786,"Y":0.43590572666260863},{"id":"chest","amnt":2,"note":"Under the deck","X":0.389086072647861,"Y":0.4003874822678775},{"id":"chest","amnt":1,"note":"Under the deck","X":0.37018565606348375,"Y":0.4014637927040815},{"id":"chest","amnt":6,"note":"Inside the ship cabin","X":0.36514554497431645,"Y":0.36702185874555443},{"id":"chest","amnt":2,"X":0.3670355866327542,"Y":0.34657196045767896},{"id":"cook","note":"Inside the ship cabin","X":0.38152590601411007,"Y":0.37240341092657425},{"id":"boss","X":0.40168635037077915,"Y":0.4133032075023252}],
+        "customMarkers":{
+            "boss":{
+                "legend":"Boss: Captain Maria, Corsair Captain"
+            }
+        },
+        "gatherable":[],
+        "sizeX":767,
+        "sizeY":431
+    },
+    "claw":{
+        "id":"claw",
+        "index":0,
+        "name":"Claw Island",
+        "category":"Nimbus Sea",
+        "legendPos":2,
+        "legendFSizeY": 25,
+        "imgPath":"./maps/claw island.png",
+        "markers":[{"id":"chest","amnt":1,"note":"Under the arch","X":0.21451144870552347,"Y":0.49795918367346936},{"id":"chest","amnt":2,"X":0.328536048459454,"Y":0.2795918367346939},{"id":"chest","amnt":2,"X":0.2580714081620812,"Y":0.3183673469387755},{"id":"chest","amnt":3,"X":0.6501110432711007,"Y":0.3653061224489796},{"id":"chest","amnt":3,"X":0.3592842551346712,"Y":0.7591836734693878},{"id":"chest","amnt":3,"X":0.2965066665061027,"Y":0.536734693877551},{"id":"chest","amnt":3,"note":"Inside small cave","X":0.23757260371193636,"Y":0.7142857142857143},{"id":"chest","amnt":4,"note":"Inside small cave","X":0.4694653290541996,"Y":0.5918367346938775},{"id":"secret","X":0.5040570615638189,"Y":0.2571428571428571},{"id":"hunt","X":0.39515716292242464,"Y":0.7061224489795919},{"id":"hunt","X":0.2503843564932769,"Y":0.33877551020408164}],
+        "gatherable":["Pinecones","Brown Mushrooms","White Mushrooms"],
+        "sizeX":677,
+        "sizeY":408
+    },
+    "drakos":[
+        {
+            "id":"drakos",
+            "index":0,
+            "name":"Drakos Arch",
+            "category":"Nimbus Sea",
+            "legendPos":2,
+            "legendFSizeY": 25,
+            "imgPath":"./maps/drakos1.png",
+            "markers":[{"id":"chest","amnt":1,"X":0.5435697075401149,"Y":0.21137165130165403},{"id":"chest","amnt":1,"X":0.503930860405403,"Y":0.22533791586234864},{"id":"chest","amnt":1,"X":0.7060889807924334,"Y":0.33427477943576656},{"id":"chest","amnt":1,"X":0.3869962714386832,"Y":0.39107092198259125},{"id":"chest","amnt":1,"X":0.4524003692109577,"Y":0.37896682602998927},{"id":"chest","amnt":1,"X":0.49534245360689555,"Y":0.33334369513172024},{"id":"chest","amnt":3,"X":0.47486237250661434,"Y":0.25327044498373785},{"id":"chest","amnt":3,"X":0.6063312155034086,"Y":0.29703140727391425},{"id":"chest","amnt":3,"X":0.6525765371605724,"Y":0.4162101981918416},{"id":"chest","amnt":2,"X":0.3876569088102483,"Y":0.3277571893074424},{"id":"chest","amnt":2,"X":0.6948579741042651,"Y":0.3947952591987765},{"id":"chest","amnt":2,"X":0.5818872597703363,"Y":0.40224393363114697},{"id":"chest","amnt":3,"X":0.5151618670935714,"Y":0.3929330905906839},{"id":"chest","amnt":2,"X":0.3500000141129522,"Y":0.5093186285964723},{"id":"chest","amnt":2,"X":0.47816561984852046,"Y":0.6080135648253808},{"id":"chest","amnt":2,"X":0.6426668354575745,"Y":0.6163933235617975},{"id":"chest","amnt":2,"X":0.2694010249390381,"Y":0.7616424749930214},{"id":"chest","amnt":2,"X":0.5488548972387566,"Y":0.7681600651213456},{"id":"chest","amnt":2,"X":0.22513764563860988,"Y":0.778401992465855},{"id":"chest","amnt":3,"X":0.47816561984852046,"Y":0.7383653673918638},{"id":"chest","amnt":1,"X":0.47552303003953966,"Y":0.660154285851974},{"id":"chest","amnt":1,"X":0.43059900328686623,"Y":0.6014959746970566},{"id":"chest","amnt":1,"X":0.6737172657130989,"Y":0.6284974195143995},{"id":"chest","amnt":1,"X":0.6135983475587858,"Y":0.5744945298797137},{"id":"chest","amnt":1,"X":0.6043492832273532,"Y":0.6852935620612243},{"id":"chest","amnt":1,"X":0.4583461962811645,"Y":0.7467451261282805},{"id":"chest","amnt":1,"X":0.2594913131553601,"Y":0.7290545243514007},{"id":"chest","amnt":1,"X":0.11414887366141672,"Y":0.855666475418556},{"id":"hunt","X":0.5600859039269249,"Y":0.36034513994906314},{"id":"hunt","X":0.4504184268542222,"Y":0.4068993551513785},{"id":"hunt","X":0.3883175663431736,"Y":0.7430052746289529}],
+            "gatherable":["Basil Herbs","Lemons","Giant Lemons","White Mushrooms","Brown Mushrooms","Beach Items"],
+            "sizeX":690,
+            "sizeY":470
+        },
+        {
+            "id":"drakos",
+            "index":1,
+            "name":"Drakos Arch",
+            "legendPos":2,
+            "legendFSizeY": 25,
+            "imgPath":"./maps/drakos2.png",
+            "markers":[{"id":"chest","amnt":6,"X":0.5561220192134537,"Y":0.37338032020571144},{"id":"chest","amnt":3,"X":0.606991873036334,"Y":0.399450680719008},{"id":"chest","amnt":2,"X":0.30045145519456234,"Y":0.7336944315884898},{"id":"secret","X":0.5699956157106029,"Y":0.3761735731178504},{"id":"chest","amnt":4,"X":0.350067372418773,"Y":0.5112512266767191}],
+            "gatherable":["Basil Herbs","Lemons","Giant Lemons","White Mushrooms","Brown Mushrooms","Beach Items"],
+            "sizeX":690,
+            "sizeY":470
+        },
+        {
+            "id":"drakos",
+            "index":2,
+            "name":"Drakos Arch",
+            "legendPos":2,
+            "legendFSizeY": 25,
+            "imgPath":"./maps/drakos3.png",
+            "markers":[{"id":"chest","amnt":1,"X":0.5181222641963065,"Y":0.36405541763564275},{"id":"chest","amnt":1,"X":0.44837200558835616,"Y":0.7322762290657436},{"id":"chest","amnt":2,"X":0.5098468007656642,"Y":0.4065424343391159},{"id":"chest","amnt":3,"X":0.5677749816434535,"Y":0.381550071572367},{"id":"chest","amnt":1,"X":0.6126988770180656,"Y":0.397378567991308}],
+            "gatherable":["Basil Herbs","Lemons","Giant Lemons","White Mushrooms","Brown Mushrooms","Beach Items"],
+            "sizeX":690,
+            "sizeY":470
+        },
+        {
+            "id":"drakos",
+            "index":3,
+            "name":"Drakos Arch",
+            "legendPos":2,
+            "legendFSizeY": 25,
+            "imgPath":"./maps/drakos4.png",
+            "markers":[{"id":"chest","amnt":3,"X":0.5219002518042867,"Y":0.25641702390597054},{"id":"chest","amnt":1,"X":0.5297618868088526,"Y":0.3862083569941778},{"id":"chest","amnt":1,"X":0.5443620661030466,"Y":0.4400242755917272},{"id":"chest","amnt":2,"X":0.5690700618316825,"Y":0.40995067402250845},{"id":"chest","amnt":2,"X":0.5612084268271166,"Y":0.6014720313843753},{"id":"chest","amnt":3,"X":0.5342542496686046,"Y":0.5318279014346056},{"id":"chest","amnt":1,"X":0.5162847982295966,"Y":0.6109689581957075}],
+            "gatherable":["Basil Herbs","Lemons","Giant Lemons","White Mushrooms","Brown Mushrooms","Beach Items"],
+            "sizeX":690,
+            "sizeY":470
+        }
+    ],
+    "shieldguard":[
+        {
+            "id":"shieldguard",
+            "index":0,
+            "name":"Shieldguard",
+            "category":"Nimbus Sea",
+            "legendPos":1,
+            "legendFSizeY": 20,
+            "imgPath":"./maps/shieldguard.png",
+            "markers":[{"id":"chest","amnt":3,"X":0.4532655556471053,"Y":0.2710262218039137},{"id":"chest","amnt":3,"X":0.4647631773441108,"Y":0.29899689949897956},{"id":"chest","amnt":3,"X":0.4708501535366431,"Y":0.3221450465569651},{"id":"chest","amnt":3,"X":0.5094010027560145,"Y":0.3317901078311257},{"id":"chest","amnt":2,"X":0.4431205953262181,"Y":0.34722220586978275},{"id":"chest","amnt":2,"X":0.6507541165603763,"Y":0.3124999852828044},{"id":"chest","amnt":2,"X":0.7048605716051081,"Y":0.5594135539013166},{"id":"chest","amnt":4,"X":0.7352954525677697,"Y":0.5526620110094042},{"id":"chest","amnt":1,"X":0.5783867329380475,"Y":0.6664737340444996},{"id":"chest","amnt":3,"X":0.585150039818639,"Y":0.6385030563494338},{"id":"chest","amnt":1,"X":0.5729760874335744,"Y":0.6095678725269519},{"id":"chest","amnt":5,"X":0.5094010027560145,"Y":0.4726080024338709},{"id":"banditSpawn","X":0.2894528047177449,"Y":0.49382716049382713},{"id":"banditSpawn","X":0.30893121665968537,"Y":0.5648148148148148},{"id":"banditSpawn","X":0.7104029377190406,"Y":0.3873456790123457},{"id":"banditSpawn","X":0.7309634836577555,"Y":0.4591049382716049},{"id":"banditSpawn","X":0.5989431360512704,"Y":0.4868827160493827},{"id":"banditSpawn","X":0.5881217960835257,"Y":0.42978395061728397},{"id":"banditSpawn2","X":0.5502471061964193,"Y":0.47762345679012347},{"id":"banditSpawn2","X":0.5453775032109341,"Y":0.46219135802469136},{"id":"banditSpawn3","X":0.4717923914302702,"Y":0.47530864197530864},{"id":"banditSpawn3","X":0.4793673294076915,"Y":0.5015432098765432}],
+            "customMarkers":{
+                "banditSpawn":{
+                    "legend":"Navy Captain",
+                    "color":[50,140,230]
+                },
+                "banditSpawn2":{
+                    "id":"banditSpawn2",
+                    "legend":"Navy Liutenaut",
+                    "color":[40,80,250]
+                },
+                "banditSpawn3":{
+                    "id":"banditSpawn3",
+                    "legend":"Navy Major",
+                    "color":[50,40,100]
+                }
+            },
+            "gatherable":[],
+            "sizeX":820,
+            "sizeY":552
+        },
+        {
+            "id":"shieldguard",
+            "index":1,
+            "name":"Shieldguard Structure",
+            "legendPos":1,
+            "legendFSizeY": 20,
+            "markerSize":10,
+            "imgPath":"./maps/shieldguard insides.png",
+            "markers":[{"id":"private","amnt":1,"X":0.2431734199434966,"Y":0.6959876543209876},{"id":"private","amnt":1,"X":0.2425052387218522,"Y":0.7978395061728395},{"id":"private","amnt":1,"X":0.2545325007114515,"Y":0.7530864197530864},{"id":"private","amnt":1,"X":0.21510980863443155,"Y":0.7407407407407407},{"id":"private","amnt":1,"X":0.21510980863443155,"Y":0.7669753086419753},{"id":"private","amnt":1,"X":0.20508709030976546,"Y":0.7746913580246914},{"id":"private","amnt":2,"X":0.20375072786647663,"Y":0.7330246913580247},{"id":"private","amnt":3,"X":0.21778253352100918,"Y":0.7175925925925926},{"id":"private","amnt":3,"X":0.22045525840758678,"Y":0.7839506172839507},{"id":"private","amnt":1,"X":0.4449641488801072,"Y":0.4737654320987654},{"id":"private","amnt":1,"X":0.421577806122553,"Y":0.47530864197530864},{"id":"private","amnt":1,"X":0.41021872535459813,"Y":0.42746913580246915},{"id":"private","amnt":1,"X":0.4302641620039303,"Y":0.42901234567901236},{"id":"private","amnt":1,"X":0.38015057038059985,"Y":0.4166666666666667},{"id":"private","amnt":1,"X":0.37948238915895544,"Y":0.4799382716049383},{"id":"private","amnt":1,"X":0.400196007029932,"Y":0.49382716049382713},{"id":"private","amnt":2,"X":0.400196007029932,"Y":0.4089506172839506},{"id":"private","amnt":1,"X":0.4516459610965513,"Y":0.779320987654321},{"id":"private","amnt":1,"X":0.5866185780643576,"Y":0.3765432098765432},{"id":"private","amnt":1,"X":0.587286759286002,"Y":0.44135802469135804},{"id":"private","amnt":1,"X":0.5859503968427132,"Y":0.5740740740740741},{"id":"private","amnt":1,"X":0.5846140343994244,"Y":0.6435185185185185},{"id":"private","amnt":1,"X":0.9240500949947826,"Y":0.36882716049382713},{"id":"private","amnt":1,"X":0.9247182762164271,"Y":0.44598765432098764},{"id":"private","amnt":1,"X":0.9240500949947826,"Y":0.5694444444444444},{"id":"private","amnt":1,"X":0.9233819137731383,"Y":0.6450617283950617},{"id":"private","amnt":1,"X":0.7002093857439067,"Y":0.8333333333333334},{"id":"private","amnt":1,"X":0.687513942532663,"Y":0.8858024691358025},{"id":"private","amnt":1,"X":0.6527685190071538,"Y":0.8858024691358025},{"id":"private","amnt":5,"X":0.9387500818709597,"Y":0.7438271604938271},{"id":"private","amnt":2,"X":0.761682058135192,"Y":0.47530864197530864},{"id":"private","amnt":2,"X":0.7623502393568364,"Y":0.5370370370370371},{"id":"private","amnt":2,"X":0.6674685058833307,"Y":0.8395061728395061},{"id":"private","amnt":2,"X":0.7924183943308347,"Y":0.8055555555555556},{"id":"banditSpawn","X":0.4516459610965513,"Y":0.4351851851851852},{"id":"banditSpawn","X":0.4516459610965513,"Y":0.46296296296296297},{"id":"banditSpawn","X":0.7815036290299924,"Y":0.8058984742153158},{"id":"banditSpawn","X":0.7202533822943793,"Y":0.7433127416432752},{"id":"banditSpawn","X":0.6664274078903557,"Y":0.7664608893069067},{"id":"banditSpawn","X":0.5684270131133747,"Y":0.7330246760149947},{"id":"banditSpawn","X":0.5691694403465337,"Y":0.5118312650069612},{"id":"banditSpawn","X":0.5687982267299543,"Y":0.2966392256154247},{"id":"banditSpawn","X":0.6552909993929715,"Y":0.19804526334440206},{"id":"banditSpawn","X":0.7358443541907171,"Y":0.3000685808248516},{"id":"banditSpawn","X":0.8460947983148207,"Y":0.2829218047777172},{"id":"banditSpawn","X":0.7833596971128898,"Y":0.20661865136796925},{"id":"banditSpawn","X":0.7881854741284229,"Y":0.19290123053026176},{"id":"banditSpawn","X":0.7781627064807771,"Y":0.24262688106695143},{"id":"banditSpawn","X":0.7918976102942176,"Y":0.2451988974740216},{"id":"banditSpawn","X":0.7926400375273766,"Y":0.2777777719635769},{"id":"banditSpawn","X":0.7800187745636744,"Y":0.27692043316122017},{"id":"banditSpawn","X":0.9433527658586427,"Y":0.3180726956743427},{"id":"banditSpawn","X":0.9429815522420631,"Y":0.5075445709951776},{"id":"banditSpawn","X":0.882473732739609,"Y":0.7270233043984976},{"id":"banditSpawn","X":0.7911551830610587,"Y":0.5606995767412941},{"id":"banditSpawn","X":0.7815036290299924,"Y":0.4578189204584879},{"id":"banditSpawn2","X":0.40954760787444133,"Y":0.771604922121047},{"id":"banditSpawn2","X":0.4091763942578619,"Y":0.7938957309823217},{"id":"boss","X":0.7614580937347009,"Y":0.5058298933904641},{"id":"reception","X":0.19201642855887008,"Y":0.7536008072715559},{"id":"cook","X":0.7993218826258071,"Y":0.8050411354129591},{"id":"cave","amnt":1,"note":"To floor 1","X":0.20909225492152583,"Y":0.7150205611655035},{"id":"cave","amnt":1,"note":"To floor 1","X":0.2098346821546848,"Y":0.7921810533776082},{"id":"cave","amnt":1,"note":"To ground floor","X":0.4656008639779418,"Y":0.4175239967477221},{"id":"cave","amnt":1,"note":"To ground floor","X":0.4652296503613623,"Y":0.4861111009362596},{"id":"cave","amnt":2,"note":"To floor 2","X":0.4099188214910208,"Y":0.4123799639335818},{"id":"cave","amnt":2,"note":"To floor 2","X":0.4099188214910208,"Y":0.49211247255275664},{"id":"cave","amnt":2,"note":"To floor 1","X":0.39729755852731874,"Y":0.7458847580503454},{"id":"cave","amnt":2,"note":"To floor 1","X":0.39841119937705716,"Y":0.8179012174483098},{"id":"cave","amnt":3,"note":"To floor 3","X":0.46003265972924967,"Y":0.783607665354041},{"id":"cave","amnt":3,"note":"To floor 2","X":0.8230795540868934,"Y":0.5101165874022477}],
+            "customMarkers":{
+                "cave":{
+                    "legend":"Transition"
+                },
+                "banditSpawn":{
+                    "legend":"Navy Captain",
+                    "color":[50,140,230]
+                },
+                "banditSpawn2":{
+                    "id":"banditSpawn2",
+                    "legend":"Navy Liutenaut",
+                    "color":[40,80,250]
+                },
+                "boss":{
+                    "legend":"Miniboss: Rear Admiral Amelia"
+                },
+                "reception":{
+                    "id":"reception",
+                    "legend":"Navy Reception",
+                    "color":[255,255,255]
+                }
+            },
+            "gatherable":[],
+            "sizeX":830,
+            "sizeY":345
+        }
+    ],
+    "sameria":{
+        "id":"sameria",
+        "index":0,
+        "name":"Sameria",
+        "category":"Nimbus Sea",
+        "legendPos":1,
+        "legendFSizeY": 25,
+        "imgPath":"./maps/sameria.png",
+        "markers":[{"id":"chest","amnt":3,"X":0.14917998317914213,"Y":0.3942139717443404},{"id":"chest","amnt":3,"X":0.20174516400336417,"Y":0.41408362757822853},{"id":"chest","amnt":3,"X":0.2280487804878049,"Y":0.520902374274503},{"id":"chest","amnt":4,"note":"Inside small cave","X":0.20853658536585365,"Y":0.27773777035432573},{"id":"chest","amnt":2,"X":0.2548780487804878,"Y":0.3716615391670956},{"id":"chest","amnt":2,"X":0.2701219512195122,"Y":0.2639085037806663},{"id":"chest","amnt":2,"X":0.3051829268292683,"Y":0.17689936825472613},{"id":"chest","amnt":2,"X":0.3475609756097561,"Y":0.2178109485351351},{"id":"chest","amnt":2,"X":0.3679878048780488,"Y":0.1878475376255398},{"id":"chest","amnt":2,"X":0.3951219512195122,"Y":0.25238411496928354},{"id":"chest","amnt":2,"X":0.4225609756097561,"Y":0.19879570699635346},{"id":"chest","amnt":2,"X":0.39207317073170733,"Y":0.20225302363976833},{"id":"chest","amnt":2,"note":"Inside small cave","X":0.4054878048780488,"Y":0.1751707099330187},{"id":"chest","amnt":2,"X":0.4405487804878049,"Y":0.16018900447822107},{"id":"chest","amnt":2,"X":0.4475609756097561,"Y":0.23509753175220932},{"id":"chest","amnt":2,"X":0.4548780487804878,"Y":0.27255179538920343},{"id":"chest","amnt":2,"X":0.5170731707317073,"Y":0.2673658204240812},{"id":"chest","amnt":1,"X":0.5036585365853659,"Y":0.26217984545895895},{"id":"chest","amnt":1,"X":0.47560975609756095,"Y":0.1792042460170027},{"id":"chest","amnt":1,"X":0.4689024390243902,"Y":0.1336829102120406},{"id":"chest","amnt":1,"X":0.5222560975609756,"Y":0.15788412671594448},{"id":"chest","amnt":1,"X":0.5451219512195122,"Y":0.16134144335935935},{"id":"chest","amnt":1,"X":0.5396341463414634,"Y":0.1751707099330187},{"id":"chest","amnt":1,"X":0.5396341463414634,"Y":0.19591460979350778},{"id":"chest","amnt":2,"X":0.5048780487804878,"Y":0.19303351259066207},{"id":"chest","amnt":2,"X":0.5,"Y":0.21838716797570426},{"id":"chest","amnt":2,"X":0.5420731707317074,"Y":0.2304877762276562},{"id":"chest","amnt":2,"X":0.5756097560975609,"Y":0.246045701123023},{"id":"chest","amnt":2,"X":0.5932926829268292,"Y":0.17113717384903473},{"id":"chest","amnt":1,"X":0.5402439024390244,"Y":0.2713993565080652},{"id":"chest","amnt":2,"X":0.6121951219512195,"Y":0.30712496182335186},{"id":"chest","amnt":2,"X":0.5804878048780487,"Y":0.3612895892368511},{"id":"chest","amnt":2,"X":0.5475609756097561,"Y":0.36589934476140423},{"id":"chest","amnt":3,"X":0.5329268292682927,"Y":0.3670517836425425},{"id":"chest","amnt":3,"note":"Inside small cave","X":0.5378048780487805,"Y":0.33766459217351635},{"id":"chest","amnt":3,"X":0.5426829268292683,"Y":0.44945116364392956},{"id":"chest","amnt":2,"X":0.5155487804878048,"Y":0.39932007231441435},{"id":"chest","amnt":2,"X":0.4722560975609756,"Y":0.33766459217351635},{"id":"chest","amnt":2,"X":0.4024390243902439,"Y":0.3762712946916487},{"id":"chest","amnt":2,"X":0.46463414634146344,"Y":0.484024330078078},{"id":"chest","amnt":1,"X":0.4121951219512195,"Y":0.3272926422432718},{"id":"chest","amnt":1,"X":0.31859756097560976,"Y":0.2765853314731874},{"id":"chest","amnt":2,"X":0.35030487804878047,"Y":0.44138409147596164},{"id":"chest","amnt":3,"X":0.3399390243902439,"Y":0.389524341824739},{"id":"chest","amnt":3,"note":"Inside the temple in the mountain","X":0.35335365853658535,"Y":0.39355787790872293},{"id":"chest","amnt":3,"note":"Inside the temple in the mountain","X":0.3399390243902439,"Y":0.40911580280408977},{"id":"chest","amnt":3,"note":"Inside small cave","X":0.28780487804878047,"Y":0.45348469972791355},{"id":"chest","amnt":3,"X":0.3466463414634146,"Y":0.508801766022551},{"id":"chest","amnt":1,"X":0.18810975609756098,"Y":0.6545852844865436},{"id":"chest","amnt":2,"X":0.1722560975609756,"Y":0.7410182005719147},{"id":"chest","amnt":2,"X":0.23231707317073172,"Y":0.7168169840680108},{"id":"chest","amnt":3,"X":0.21707317073170732,"Y":0.8095883139996424},{"id":"chest","amnt":4,"X":0.27713414634146344,"Y":0.7196980812708564},{"id":"chest","amnt":4,"X":0.2682926829268293,"Y":0.8009450223911053},{"id":"chest","amnt":6,"note":"Inside small cave","X":0.2371951219512195,"Y":0.668414551060203},{"id":"chest","amnt":3,"X":0.2972560975609756,"Y":0.6626523566545116},{"id":"chest","amnt":2,"X":0.3570121951219512,"Y":0.8280273360978548},{"id":"chest","amnt":2,"X":0.4030487804878049,"Y":0.811893191761919},{"id":"chest","amnt":3,"X":0.3923780487804878,"Y":0.8107407528807806},{"id":"chest","amnt":3,"X":0.4222560975609756,"Y":0.701259059172644},{"id":"chest","amnt":3,"X":0.4396341463414634,"Y":0.5986919987513369},{"id":"chest","amnt":2,"X":0.48902439024390243,"Y":0.6430608956751608},{"id":"chest","amnt":2,"X":0.46432926829268295,"Y":0.811893191761919},{"id":"chest","amnt":3,"X":0.4475609756097561,"Y":0.8314846527412697},{"id":"chest","amnt":1,"X":0.4695121951219512,"Y":0.8562620886857428},{"id":"chest","amnt":1,"X":0.4929878048780488,"Y":0.8574145275668811},{"id":"chest","amnt":1,"X":0.5176829268292683,"Y":0.8579907470074501},{"id":"chest","amnt":1,"X":0.5234756097560975,"Y":0.8649053802942799},{"id":"chest","amnt":1,"X":0.5365853658536586,"Y":0.8435852609932217},{"id":"chest","amnt":2,"X":0.5125,"Y":0.7911492919014299},{"id":"chest","amnt":2,"X":0.5295731707317073,"Y":0.819960263929887},{"id":"chest","amnt":2,"X":0.5579268292682927,"Y":0.8412803832309451},{"id":"chest","amnt":4,"note":"Inside the well","X":0.4975609756097561,"Y":0.8389755054686686},{"id":"chest","amnt":2,"X":0.5588414634146341,"Y":0.734103567285085},{"id":"chest","amnt":3,"X":0.5542682926829269,"Y":0.6251980930175174},{"id":"chest","amnt":3,"X":0.6158536585365854,"Y":0.6021493153947518},{"id":"chest","amnt":2,"X":0.6539634146341463,"Y":0.8170791667270412},{"id":"chest","amnt":2,"X":0.6689024390243903,"Y":0.5710334656040182},{"id":"chest","amnt":2,"X":0.7469512195121951,"Y":0.8101645334402116},{"id":"chest","amnt":2,"X":0.7609756097560976,"Y":0.6563139428082511},{"id":"chest","amnt":2,"X":0.7408536585365854,"Y":0.5664237100794651},{"id":"chest","amnt":3,"X":0.7140243902439024,"Y":0.5969633404296295},{"id":"chest","amnt":3,"X":0.8167682926829268,"Y":0.590624926583369},{"id":"chest","amnt":4,"note":"Inside small cave","X":0.7911585365853658,"Y":0.766948075397526},{"id":"chest","amnt":2,"X":0.813109756097561,"Y":0.6597712594516658},{"id":"chest","amnt":2,"X":0.8057926829268293,"Y":0.5600852962332046},{"id":"chest","amnt":2,"X":0.8051829268292683,"Y":0.5180212770716573},{"id":"chest","amnt":2,"X":0.7820121951219512,"Y":0.49727737721116827},{"id":"chest","amnt":2,"X":0.7161585365853659,"Y":0.4724999412666952},{"id":"chest","amnt":2,"X":0.8143292682926829,"Y":0.4678901857421421},{"id":"chest","amnt":1,"X":0.7676829268292683,"Y":0.5306981047641784},{"id":"chest","amnt":1,"X":0.7402439024390244,"Y":0.49036274392433854},{"id":"chest","amnt":1,"X":0.7067073170731707,"Y":0.44599384700051475},{"id":"chest","amnt":1,"X":0.7057926829268293,"Y":0.4684664051827112},{"id":"chest","amnt":3,"X":0.7,"Y":0.5324267630858858},{"id":"chest","amnt":3,"X":0.6439024390243903,"Y":0.5364602991698698},{"id":"chest","amnt":3,"X":0.5503048780487805,"Y":0.5007346938545831},{"id":"chest","amnt":2,"X":0.5521341463414634,"Y":0.4892103050432003},{"id":"chest","amnt":2,"X":0.552439024390244,"Y":0.5404938352538537},{"id":"chest","amnt":2,"X":0.5615853658536586,"Y":0.5502895657435292},{"id":"chest","amnt":5,"note":"Inside the castle in the storage room","X":0.5689024390243902,"Y":0.5358840797293006},{"id":"chest","amnt":2,"X":0.5170731707317073,"Y":0.5255121297990561},{"id":"chest","amnt":2,"X":0.5295731707317073,"Y":0.4932438411271843},{"id":"chest","amnt":1,"X":0.6152439024390244,"Y":0.4177590944126269},{"id":"chest","amnt":1,"X":0.6579268292682927,"Y":0.4557895774901901},{"id":"chest","amnt":3,"X":0.3125,"Y":0.33651215329237805},{"id":"chest","amnt":2,"X":0.5073170731707317,"Y":0.15442681007252965},{"id":"chest","amnt":2,"X":0.6728658536585366,"Y":0.33939325049522373},{"id":"chest","amnt":2,"X":0.6707317073170732,"Y":0.29099081748741595},{"id":"chest","amnt":2,"X":0.650609756097561,"Y":0.21032009580773628},{"id":"chest","amnt":2,"X":0.660670731707317,"Y":0.17228961273017301},{"id":"chest","amnt":2,"X":0.738109756097561,"Y":0.3889481223841698},{"id":"chest","amnt":1,"X":0.7173780487804878,"Y":0.352646297628314},{"id":"chest","amnt":1,"X":0.7579268292682927,"Y":0.4482987247627913},{"id":"chest","amnt":1,"X":0.7746951219512195,"Y":0.4229450693777491},{"id":"chest","amnt":1,"X":0.6743902439024391,"Y":0.20398168196147573},{"id":"chest","amnt":1,"X":0.8051829268292683,"Y":0.29905788965538393},{"id":"chest","amnt":1,"X":0.8009146341463415,"Y":0.33190239776782493},{"id":"chest","amnt":2,"X":0.7365853658536585,"Y":0.1734420516113113},{"id":"chest","amnt":2,"X":0.7134146341463414,"Y":0.28695728140343196},{"id":"chest","amnt":2,"X":0.7439024390243902,"Y":0.29848167021481475},{"id":"chest","amnt":2,"X":0.7777439024390244,"Y":0.23567375119277847},{"id":"chest","amnt":2,"X":0.839329268292683,"Y":0.20571034028318316},{"id":"chest","amnt":2,"X":0.8439024390243902,"Y":0.36071336979628194},{"id":"chest","amnt":2,"X":0.8216463414634146,"Y":0.40392982783896747},{"id":"chest","amnt":2,"X":0.7692073170731707,"Y":0.3589847114745745},{"id":"chest","amnt":3,"X":0.8567073170731707,"Y":0.19821948755578433},{"id":"chest","amnt":3,"X":0.8201219512195121,"Y":0.42236884993718},{"id":"chest","amnt":3,"X":0.8228658536585366,"Y":0.25411277329099097},{"id":"chest","amnt":5,"note":"Around the portal","X":0.7036585365853658,"Y":0.26967069818635775},{"id":"hunt","X":0.30844947735191636,"Y":0.32598699420757177},{"id":"hunt","X":0.17709059233449478,"Y":0.6927813623621428},{"id":"hunt","X":0.4035714285714286,"Y":0.7974888116164971},{"id":"hunt","X":0.7474738675958188,"Y":0.6282556684701417},{"id":"hunt","X":0.6711672473867596,"Y":0.3174260077905491},{"id":"hunt","X":0.6899825783972126,"Y":0.1962551231188435},{"id":"hunt","X":0.5070557491289198,"Y":0.4471578788792774},{"id":"hunt","X":0.43458188153310107,"Y":0.2917430485394811},{"id":"cook","X":0.5050813008130082,"Y":0.8315275285847543},{"id":"cook","X":0.673311444652908,"Y":0.7434695315988777},{"id":"cook","X":0.5263445903689806,"Y":0.19916473143785518},{"id":"cook","X":0.5444809255784866,"Y":0.26417399095762983},{"id":"cook","X":0.5848186366479049,"Y":0.4172412474632812},{"id":"cook","X":0.6692464040025016,"Y":0.4881604396666717},{"id":"cook","X":0.601078799249531,"Y":0.5017532848389883},{"id":"cook","X":0.8377892432770482,"Y":0.2612190246158219},{"id":"cauldron","X":0.8465447154471545,"Y":0.24762617944350537},{"id":"cauldron","X":0.6179643527204502,"Y":0.5313029482570677},{"id":"cauldron","X":0.5044559099437148,"Y":0.8480753400988789},{"id":"cauldron","X":0.526031894934334,"Y":0.187935859338985},{"id":"jewel","X":0.5044559099437148,"Y":0.839210441073455},{"id":"jewel","X":0.6179643527204502,"Y":0.5248020223050902},{"id":"jewel","X":0.8465447154471545,"Y":0.2624010111525451},{"id":"jewel","X":0.5297842401500938,"Y":0.19384579202260088},{"id":"secret","note":"Behind breakable wall","X":0.7364759224515323,"Y":0.19916473143785518},{"id":"chest","amnt":10,"note":"Behind breakable wall","X":0.7405409631019387,"Y":0.1973917516327704},{"id":"quest","note":"Amarut's Wall","X":0.47224828017510945,"Y":0.8002048853615902},{"id":"quest","note":"Samerian Smoothies","X":0.6073327079424641,"Y":0.5052992444491577},{"id":"quest","note":"Samira's Wallet","X":0.6901969981238274,"Y":0.4982073252288187},{"id":"quest","note":"Neferu's Game","X":0.6654940587867417,"Y":0.748788471014132},{"id":"jewel","X":0.6673702313946216,"Y":0.7375595989152619},{"id":"quest","note":"Sameria's Treasures","X":0.8446685428392745,"Y":0.29490564091243243},{"id":"quest","note":"Merchant Competitor","X":0.5204033771106942,"Y":0.187935859338985},{"id":"cave","note":"Inside a cave","X":0.7036429018136335,"Y":0.28426776208192384}],
+        "customMarkers":{
+            "cave":{
+                "legend":"Elysium portal"
+            }
+        },
+        "gatherable":["Basil Herbs","Brown Mushrooms","White Mushrooms","Oranges","Coconuts"],
+        "sizeX":1638,
+        "sizeY":832
+    },
+    "shale":{
+        "id":"shale",
+        "index":0,
+        "name":"Shale Reef",
+        "category":"Nimbus Sea",
+        "legendPos":1,
+        "legendFSizeY": 20,
+        "markerSize":12,
+        "imgPath":"./maps/shale reef.png",
+        "markers":[{"id":"chest","amnt":4,"X":0.2757760532150776,"Y":0.44312568623131166},{"id":"chest","amnt":2,"X":0.44761640798226165,"Y":0.28172229058414516},{"id":"chest","amnt":1,"X":0.4592572062084257,"Y":0.3413926368537037},{"id":"chest","amnt":4,"note":"Behind breakable wall","X":0.485310421286031,"Y":0.32769780328364106},{"id":"chest","amnt":2,"note":"Inside small cave","X":0.522450110864745,"Y":0.34530544644515015},{"id":"chest","amnt":1,"X":0.575110864745011,"Y":0.3756297207788602},{"id":"chest","amnt":1,"X":0.4847560975609756,"Y":0.46758074617785206},{"id":"chest","amnt":1,"X":0.45870288248337027,"Y":0.5340985092324418},{"id":"chest","amnt":1,"X":0.4332039911308204,"Y":0.5702919979533216},{"id":"chest","amnt":1,"X":0.4808758314855876,"Y":0.6847416785031306},{"id":"chest","amnt":1,"X":0.5252217294900222,"Y":0.5839868315233843},{"id":"chest","amnt":2,"X":0.47477827050997784,"Y":0.6270277370292954},{"id":"chest","amnt":3,"X":0.47311529933481156,"Y":0.5800740219319378},{"id":"chest","amnt":2,"X":0.501940133037694,"Y":0.5673573907597368},{"id":"chest","amnt":3,"note":"Inside a cave","X":0.494179600886918,"Y":0.5986598674913085},{"id":"chest","amnt":3,"note":"Under the spire at sea level","X":0.5534922394678492,"Y":0.721913369621872},{"id":"chest","amnt":9,"X":0.4708980044345898,"Y":0.8872295748604849},{"id":"chest","amnt":1,"X":0.674889135254989,"Y":0.6250713322335721},{"id":"chest","amnt":1,"X":0.6116962305986696,"Y":0.4969268181137005},{"id":"chest","amnt":1,"X":0.6139135254988913,"Y":0.45584231740351266},{"id":"chest","amnt":1,"X":0.9176829268292683,"Y":0.43627826944628034},{"id":"chest","amnt":1,"X":0.9210088691796009,"Y":0.5145344612752096},{"id":"chest","amnt":1,"X":0.7092572062084257,"Y":0.46758074617785206},{"id":"chest","amnt":2,"X":0.8849778270509978,"Y":0.42747444786552585},{"id":"chest","amnt":2,"X":0.9315410199556541,"Y":0.4646461389842672},{"id":"chest","amnt":2,"X":0.9038248337028825,"Y":0.47931917495219145},{"id":"chest","amnt":2,"X":0.66990022172949,"Y":0.5487715452003661},{"id":"chest","amnt":2,"X":0.6643569844789357,"Y":0.5145344612752096},{"id":"chest","amnt":2,"X":0.6848669623059866,"Y":0.518447270866656},{"id":"chest","amnt":5,"X":0.6992793791574279,"Y":0.4969268181137005},{"id":"chest","amnt":2,"X":0.6560421286031042,"Y":0.40301938791898545},{"id":"chest","amnt":3,"X":0.7397450110864745,"Y":0.4069321975104319},{"id":"chest","amnt":3,"X":0.772450110864745,"Y":0.4529077102099278},{"id":"chest","amnt":3,"X":0.7735587583148559,"Y":0.5340985092324418},{"id":"chest","amnt":3,"note":"Inside small cave","X":0.7192350332594235,"Y":0.5702919979533216},{"id":"chest","amnt":1,"X":0.7292128603104213,"Y":0.5380113188238883},{"id":"chest","amnt":4,"note":"Behind breakable wall","X":0.7031596452328159,"Y":0.4255180430698026},{"id":"chest","amnt":1,"note":"Inside small cave","X":0.6438470066518847,"Y":0.45584231740351266},{"id":"hunt","X":0.5551552106430155,"Y":0.31987218410074814},{"id":"hunt","X":0.4332039911308204,"Y":0.5859432363191075},{"id":"hunt","X":0.6909645232815964,"Y":0.4910576037265308},{"id":"secret","X":0.47865853658536583,"Y":0.8852731700647617},{"id":"cave","X":0.6809866962305987,"Y":0.43725647184414196},{"id":"cave","X":0.6953991130820399,"Y":0.5556189619853974},{"id":"cave","X":0.9237804878048781,"Y":0.5360549140281651},{"id":"cave","X":0.9104767184035477,"Y":0.3951937687360925}],
+        "gatherable":["Green Apples","Omprela Mushrooms","White Mushrooms","Brown Mushrooms","Beach Items"],
+        "sizeX":693,
+        "sizeY":377
+    },
+    "mistral":{
+        "id":"mistral",
+        "index":0,
+        "name":"Port Mistral",
+        "category":"Nimbus Sea",
+        "legendPos":2,
+        "legendFSizeY": 20,
+        "imgPath":"./maps/port mistral.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.5362466124661247,"Y":0.5954534343681251},{"id":"chest","amnt":1,"X":0.7808265582655827,"Y":0.8076264971889514},{"id":"chest","amnt":1,"X":0.7388211382113821,"Y":0.8213150818870691},{"id":"chest","amnt":1,"X":0.7625338753387534,"Y":0.8809582009288682},{"id":"chest","amnt":1,"X":0.7191734417344173,"Y":0.7606942067954046},{"id":"chest","amnt":2,"X":0.7212059620596206,"Y":0.7949156685406991},{"id":"chest","amnt":2,"X":0.6900406504065041,"Y":0.8672696162307504},{"id":"chest","amnt":2,"X":0.616869918699187,"Y":0.7949156685406991},{"id":"chest","amnt":5,"X":0.6785230352303523,"Y":0.8174040576876069},{"id":"chest","amnt":3,"X":0.6527777777777778,"Y":0.7450501099975556},{"id":"chest","amnt":5,"X":0.48204607046070463,"Y":0.7665607430945979},{"id":"chest","amnt":1,"X":0.46646341463414637,"Y":0.6492300171107309},{"id":"chest","amnt":1,"X":0.44342818428184283,"Y":0.575898313370814},{"id":"chest","amnt":1,"X":0.4867886178861789,"Y":0.5279882669274016},{"id":"chest","amnt":1,"X":0.3377371273712737,"Y":0.7342947934490345},{"id":"chest","amnt":1,"X":0.23001355013550134,"Y":0.7186506966511855},{"id":"chest","amnt":2,"X":0.16700542005420055,"Y":0.7577609386458078},{"id":"chest","amnt":2,"X":0.380420054200542,"Y":0.6580298215595209},{"id":"chest","amnt":2,"X":0.33570460704607047,"Y":0.6580298215595209},{"id":"chest","amnt":2,"X":0.19817073170731708,"Y":0.6472745050109997},{"id":"chest","amnt":2,"X":0.27947154471544716,"Y":0.5485211439745783},{"id":"chest","amnt":2,"X":0.3004742547425474,"Y":0.567098508922024},{"id":"chest","amnt":3,"X":0.33028455284552843,"Y":0.6013199706673185},{"id":"chest","amnt":1,"X":0.24966124661246614,"Y":0.684429234905891},{"id":"chest","amnt":4,"note":"Inside small cave","X":0.2611788617886179,"Y":0.6971400635541433},{"id":"chest","amnt":4,"note":"Atop the tree","X":0.25846883468834686,"Y":0.6286971400635541},{"id":"chest","amnt":4,"note":"Behind the waterfall","X":0.25237127371273715,"Y":0.6042532388169152},{"id":"chest","amnt":1,"X":0.16361788617886178,"Y":0.6228306037643608},{"id":"chest","amnt":1,"X":0.24830623306233063,"Y":0.5710095331214862},{"id":"chest","amnt":1,"X":0.22459349593495934,"Y":0.5455878758249817},{"id":"chest","amnt":1,"X":0.21510840108401083,"Y":0.4996333414813004},{"id":"chest","amnt":1,"X":0.3018292682926829,"Y":0.49865558543143484},{"id":"chest","amnt":1,"X":0.3119918699186992,"Y":0.41652407724272794},{"id":"chest","amnt":1,"X":0.23814363143631437,"Y":0.4321681740405769},{"id":"chest","amnt":1,"X":0.15955284552845528,"Y":0.560254216572965},{"id":"chest","amnt":2,"X":0.3282520325203252,"Y":0.47812270838425813},{"id":"chest","amnt":2,"X":0.4854336043360434,"Y":0.48007822048398924},{"id":"chest","amnt":2,"X":0.5376016260162602,"Y":0.49474456123197263},{"id":"chest","amnt":2,"X":0.5829945799457995,"Y":0.48007822048398924},{"id":"chest","amnt":4,"X":0.5348915989159891,"Y":0.5328770471767295},{"id":"chest","amnt":2,"X":0.6588753387533876,"Y":0.3627474945001222},{"id":"chest","amnt":3,"note":"Inside small cave","X":0.6521002710027101,"Y":0.39599120019555123},{"id":"chest","amnt":5,"note":"Under the terrain arch","X":0.4576558265582656,"Y":0.4957223172818382},{"id":"chest","amnt":3,"X":0.4576558265582656,"Y":0.4223906135419213},{"id":"chest","amnt":2,"X":0.2320460704607046,"Y":0.39208017599608896},{"id":"hunt","X":0.24966124661246614,"Y":0.42043510144219015},{"id":"hunt","X":0.15142276422764228,"Y":0.6101197751161085},{"id":"hunt","X":0.3926151761517615,"Y":0.626741627963823},{"id":"hunt","X":0.6893631436314364,"Y":0.8301148863358592},{"id":"secret","X":0.660230352303523,"Y":0.8359814226350526},{"id":"cook","X":0.38109756097560976,"Y":0.5084331459300905}],
+        "gatherable":["Red Apples","Basil Herbs","Lemongrass Herbs","Brown Mushrooms","White Mushrooms","Coconuts","Beach Items"],
+        "sizeX":681,
+        "sizeY":453
+    },
+    "tidecliff":{
+        "id":"tidecliff",
+        "index":0,
+        "name":"Tidecliff Isle",
+        "category":"Nimbus Sea",
+        "legendPos":1,
+        "legendFSizeY": 20,
+        "imgPath":"./maps/tidecliff isle.png",
+        "markers":[{"id":"chest","amnt":3,"X":0.3,"Y":0.39377518952349827},{"id":"chest","amnt":2,"X":0.34573170731707314,"Y":0.4153409706941564},{"id":"chest","amnt":2,"X":0.38658536585365855,"Y":0.47524591839042896},{"id":"chest","amnt":1,"X":0.39390243902439026,"Y":0.47125225521067743},{"id":"chest","amnt":1,"X":0.4652439024390244,"Y":0.3993663179751504},{"id":"chest","amnt":1,"X":0.5085365853658537,"Y":0.44729027613216843},{"id":"chest","amnt":1,"X":0.551219512195122,"Y":0.48882437320158406},{"id":"chest","amnt":2,"X":0.5560975609756098,"Y":0.44489407822431754},{"id":"chest","amnt":2,"X":0.5274390243902439,"Y":0.3594296861776353},{"id":"chest","amnt":3,"X":0.5414634146341464,"Y":0.3147006585644185},{"id":"chest","amnt":3,"X":0.5036585365853659,"Y":0.37141067571688985},{"id":"chest","amnt":2,"X":0.6536585365853659,"Y":0.37859926944044253},{"id":"chest","amnt":2,"X":0.6487804878048781,"Y":0.4185359012379576},{"id":"chest","amnt":1,"X":0.6475609756097561,"Y":0.4424978803164666},{"id":"chest","amnt":2,"X":0.6219512195121951,"Y":0.4680573246668762},{"id":"chest","amnt":1,"X":0.7018292682926829,"Y":0.4456928108602678},{"id":"chest","amnt":3,"X":0.6951219512195121,"Y":0.46406366148712475},{"id":"chest","amnt":3,"note":"In a small cave behind a breakable wall (which is at sea level)","X":0.6689024390243903,"Y":0.49920789746893796},{"id":"chest","amnt":3,"note":"In a small cave under the bridge","X":0.6329268292682927,"Y":0.5255660744552979},{"id":"chest","amnt":1,"X":0.6469512195121951,"Y":0.5415407271743039},{"id":"chest","amnt":1,"X":0.6908536585365853,"Y":0.5846722895156201},{"id":"chest","amnt":1,"note":"In a small cave","X":0.5920731707317073,"Y":0.5750874978842165},{"id":"chest","amnt":2,"X":0.6347560975609756,"Y":0.6302000497647873},{"id":"chest","amnt":2,"X":0.4396341463414634,"Y":0.669337948926352},{"id":"chest","amnt":4,"X":0.5128048780487805,"Y":0.6174203275895824},{"id":"chest","amnt":2,"X":0.4878048780487805,"Y":0.5399432619024033},{"id":"chest","amnt":2,"X":0.39207317073170733,"Y":0.5918608832391729},{"id":"chest","amnt":2,"X":0.27926829268292686,"Y":0.5543204493495087},{"id":"chest","amnt":2,"X":0.3103658536585366,"Y":0.5447356577181051},{"id":"chest","amnt":1,"X":0.3518292682926829,"Y":0.5647039736168626},{"id":"chest","amnt":3,"note":"Underwater in a small cave","X":0.38353658536585367,"Y":0.5407419945383536},{"id":"chest","amnt":3,"X":0.4201219512195122,"Y":0.6254076539490855},{"id":"chest","amnt":7,"note":"In an underwater cave next to a shipwreck","X":0.4920731707317073,"Y":0.7052809175441156},{"id":"secret","note":"In an underwater cave next to a shipwreck","X":0.4975609756097561,"Y":0.7132682439036185},{"id":"cook","X":0.44243185078909614,"Y":0.5375170197951545},{"id":"jewel","X":0.335545193687231,"Y":0.5553710860206543}],
+        "gatherable":["Brown Mushrooms","White Mushrooms","Coppershrooms"],
+        "sizeX":715,
+        "sizeY":524
+    },
+    "makrinaos":[
+        {
+            "id":"makrinaos",
+            "index":0,
+            "name":"Makrinaos",
+            "category":"Nimbus Sea",
+            "legendPos":2,
+            "legendFSizeY": 20,
+            "imgPath":"./maps/makrinaos.png",
+            "markers":[{"id":"chest","amnt":2,"X":0.34817073170731705,"Y":0.23204419889502761},{"id":"chest","amnt":2,"X":0.42865853658536585,"Y":0.3709550118389897},{"id":"chest","amnt":2,"X":0.15426829268292683,"Y":0.36621941594317287},{"id":"chest","amnt":2,"X":0.14573170731707316,"Y":0.47040252565114443},{"id":"chest","amnt":2,"X":0.3079268292682927,"Y":0.4561957379636938},{"id":"chest","amnt":2,"X":0.723780487804878,"Y":0.6219415943172849},{"id":"chest","amnt":2,"X":0.723780487804878,"Y":0.6471981057616417},{"id":"chest","amnt":2,"X":0.44939024390243903,"Y":0.77663772691397},{"id":"chest","amnt":1,"X":0.5347560975609756,"Y":0.5919494869771112},{"id":"chest","amnt":3,"X":0.17134146341463416,"Y":0.7513812154696132},{"id":"chest","amnt":4,"note":"Inside a small cave","X":0.18353658536585366,"Y":0.5777426992896606},{"id":"chest","amnt":1,"X":0.5676829268292682,"Y":0.7861089187056038},{"id":"chest","amnt":4,"note":"Behind a breakable wall","X":0.5676829268292682,"Y":0.8034727703235991},{"id":"chest","amnt":4,"X":0.6957317073170731,"Y":0.8176795580110497},{"id":"chest","amnt":7,"note":"Inside a small cave","X":0.8115853658536586,"Y":0.7750591949486977},{"id":"hunt","X":0.36402439024390243,"Y":0.2573007103393844},{"id":"hunt","X":0.349390243902439,"Y":0.3330702446724546},{"id":"hunt","X":0.3335365853658537,"Y":0.43725335438042623},{"id":"hunt","X":0.2628048780487805,"Y":0.4861878453038674},{"id":"hunt","X":0.32134146341463415,"Y":0.6724546172059984},{"id":"hunt","X":0.5237804878048781,"Y":0.5730071033938438},{"id":"cave","note":"Ancient catacombs entrance","X":0.22378048780487805,"Y":0.56353591160221},{"id":"cave","note":"Dead halls entrance","X":0.5810975609756097,"Y":0.8555643251775849},{"id":"cook","X":0.32378048780487806,"Y":0.31570639305445936},{"id":"cook","X":0.5567073170731708,"Y":0.6566692975532754},{"id":"cauldron","X":0.3603658536585366,"Y":0.30939226519337015},{"id":"jewel","X":0.29329268292682925,"Y":0.3362273086029992}],
+            "gatherable":["Pinecones","Brown Mushrooms","White Mushrooms"],
+            "sizeX":569,
+            "sizeY":422
+        },
+        {
+            "id":"makrinaos",
+            "index":1,
+            "name":"Makrinaos Sub",
+            "legendPos":1,
+            "legendFSizeY": 12,
+            "markerSize":14,
+            "imgPath":"./maps/makrinaos catacombs.png",
+            "markers":[{"id":"chest","amnt":2,"X":0.23841463414634145,"Y":0.7342626296018581},{"id":"chest","amnt":2,"X":0.2725609756097561,"Y":0.7325018079481366},{"id":"chest","amnt":2,"X":0.6798780487804879,"Y":0.15143066222004747},{"id":"chest","amnt":1,"X":0.6286585365853659,"Y":0.14966984056632598},{"id":"chest","amnt":1,"X":0.7347560975609756,"Y":0.11973587245306079},{"id":"chest","amnt":1,"X":0.7359756097560975,"Y":0.34688186578313196},{"id":"chest","amnt":2,"X":0.7347560975609756,"Y":0.4032281587022194},{"id":"chest","amnt":2,"X":0.8152439024390243,"Y":0.26412324805822235},{"id":"chest","amnt":7,"X":0.6615853658536586,"Y":0.3926632287798905},{"id":"chest","amnt":7,"X":0.8530487804878049,"Y":0.3451210441294105},{"id":"chest","amnt":3,"X":0.9640243902439024,"Y":0.7043286614885929},{"id":"chest","amnt":2,"X":0.9213414634146342,"Y":0.7835656359060595},{"id":"chest","amnt":2,"X":0.8140243902439024,"Y":0.6039618272264684},{"id":"chest","amnt":2,"X":0.7786585365853659,"Y":0.6655905851067203},{"id":"chest","amnt":1,"X":0.7810975609756098,"Y":0.744827559524187},{"id":"chest","amnt":1,"X":0.8579268292682927,"Y":0.7430667378704655},{"id":"chest","amnt":3,"X":0.7664634146341464,"Y":0.6268525087248477},{"id":"chest","amnt":3,"X":0.5030487804878049,"Y":0.7325018079481366},{"id":"chest","amnt":1,"X":0.6128048780487805,"Y":0.7465883811779085},{"id":"chest","amnt":1,"X":0.6323170731707317,"Y":0.7589141327539588},{"id":"chest","amnt":1,"X":0.6310975609756098,"Y":0.8099779607118818},{"id":"chest","amnt":1,"X":0.6079268292682927,"Y":0.8944974000905129},{"id":"chest","amnt":1,"X":0.6579268292682927,"Y":0.6515040118769484},{"id":"chest","amnt":1,"X":0.6664634146341464,"Y":0.6867204449513781},{"id":"chest","amnt":1,"X":0.6676829268292683,"Y":0.7148935914109218},{"id":"chest","amnt":1,"X":0.699390243902439,"Y":0.6444607252620624},{"id":"chest","amnt":1,"X":0.7176829268292683,"Y":0.6920029099125425},{"id":"chest","amnt":1,"X":0.6884146341463414,"Y":0.8029346740969958},{"id":"chest","amnt":5,"X":0.7103658536585366,"Y":0.8240645339416537},{"id":"secret","X":0.5908536585365853,"Y":0.1179750507993393},{"id":"secret","X":0.6591463414634147,"Y":0.34336022247568904},{"id":"secret","X":0.8079268292682927,"Y":0.13382244568283264},{"id":"secret","X":0.8408536585365853,"Y":0.33983857916824606},{"id":"secret","X":0.7189024390243902,"Y":0.8205428906342107},{"id":"secret","X":0.8176829268292682,"Y":0.6831988016439351},{"id":"cave","amnt":1,"note":"To ancient catacombs","X":0.05914634146341463,"Y":0.7694790626762877},{"id":"cave","amnt":1,"note":"To the dead halls","X":0.6189024390243902,"Y":0.9173880815888922},{"id":"cave","amnt":2,"note":"To ancient catacombs","X":0.8176829268292682,"Y":0.13206162402911117},{"id":"cave","amnt":2,"note":"To abyss of charon (under breakable floor)","X":0.8176829268292682,"Y":0.7043286614885929},{"id":"cave","note":"To exterior","X":0.5664634146341463,"Y":0.5652237508445958},{"id":"cave","note":"To exterior","X":0.29085365853658535,"Y":0.9297138331649426},{"id":"jewel","X":0.32621951219512196,"Y":0.8539985020549189},{"id":"cook","X":0.32621951219512196,"Y":0.8435115800816618},{"id":"cauldron","X":0.32621951219512196,"Y":0.8309343696430684},{"id":"reception","X":0.29079558652729387,"Y":0.7906872962395697},{"id":"banditSpawn","X":0.304732868757259,"Y":0.8988513060114726},{"id":"banditSpawn","X":0.25653310104529614,"Y":0.8401576572980369},{"id":"banditSpawn","X":0.2664053426248548,"Y":0.7068392266489472},{"id":"banditSpawn","X":0.27163182346109177,"Y":0.6623997497659173},{"id":"banditSpawn2","X":0.2269163763066202,"Y":0.7009698617776037},{"id":"banditSpawn3","X":0.3546747967479675,"Y":0.6246681184501373},{"id":"boss","X":0.437137049941928,"Y":0.6456301358477928},{"id":"armor","X":0.7733739837398373,"Y":0.28340647521630385}],
+            "customMarkers":{
+                "cave":{
+                    "legend":"Entrance/Exit"
+                },
+                "jewel":{
+                    "color":[0,255,0]
+                },
+                "banditSpawn":{
+                    "legend":"Assasin Sponsor"
+                },
+                "banditSpawn2":{
+                    "id":"banditSpawn2",
+                    "legend":"Assasin Lord",
+                    "color":[150,100,70]
+                },
+                "banditSpawn3":{
+                    "id":"banditSpawn3",
+                    "legend":"Assasin",
+                    "color":[150,20,20]
+                },
+                "boss":{
+                    "legend":"Miniboss: Architect Kalliste"
+                },
+                "reception":{
+                    "id":"reception",
+                    "legend":"Assasin Syndicate reception",
+                    "color":[255,255,255]
+                },
+                "armor":{
+                    "id":"armor",
+                    "legend":"Visigoth Set",
+                    "color":[50,140,230]
+                }
+            },
+            "gatherable":[],
+            "sizeX":561,
+            "sizeY":373
+        }
+    ],
+    "toymaker":{
+        "id":"toymaker",
+        "index":0,
+        "name":"Toymaker Isle",
+        "category":"Special",
+        "legendPos":2,
+        "legendFSizeY": 25,
+        "imgPath":"./maps/toymaker.png",
+        "markers":[{"id":"chest","amnt":1,"X":0.4396341463414634,"Y":0.2532087554669442},{"id":"chest","amnt":1,"X":0.500609756097561,"Y":0.4278354833751816},{"id":"chest","amnt":1,"X":0.4091463414634146,"Y":0.6461188932604784},{"id":"chest","amnt":1,"X":0.36890243902439024,"Y":0.8766261740993517},{"id":"chest","amnt":1,"X":0.05720946915351507,"Y":0.5577812018489985},{"id":"chest","amnt":1,"X":0.10096843615494978,"Y":0.384180790960452},{"id":"chest","amnt":2,"X":0.0859038737446198,"Y":0.6348228043143297},{"id":"chest","amnt":2,"X":0.30254662840746055,"Y":0.6882383153569595},{"id":"chest","amnt":2,"X":0.4919296987087518,"Y":0.8495120698510529},{"id":"chest","amnt":2,"X":0.508428981348637,"Y":0.5998972778633795},{"id":"chest","amnt":2,"X":0.5349713055954088,"Y":0.31432973805855163},{"id":"chest","amnt":2,"X":0.23870157819225252,"Y":0.2978941961992809},{"id":"chest","amnt":2,"X":0.1633787661406026,"Y":0.20749871597329225},{"id":"chest","amnt":3,"X":0.17629124820659972,"Y":0.3246019517205958},{"id":"chest","amnt":3,"X":0.48906025824964133,"Y":0.3081664098613251},{"id":"chest","amnt":5,"note":"Under the deck","X":0.3484576757532281,"Y":0.16538263995891114},{"id":"chest","amnt":5,"X":0.0871951219512195,"Y":0.3169475111534509},{"id":"chest","amnt":1,"X":0.27300443458980045,"Y":0.27622700523373017},{"id":"cook","X":0.27965631929046564,"Y":0.5445164528458014},{"id":"cauldron","X":0.2829822616407982,"Y":0.5270538260781518},{"id":"jewel","X":0.18763858093126387,"Y":0.43815318071557197},{"id":"ship","X":0.2208980044345898,"Y":0.7381928588142789},{"id":"boss","X":0.7541574279379157,"Y":0.68580497851133}],
+        "customMarkers":{
+            "boss":{
+                "legend":"Miniboss: Renegade Natasha,\n The Spiteful Ranger"
+            },
+            "ship":{
+                "id":"ship",
+                "legend":"Shipwright",
+                "color":[255,255,255]
+            }
+        },
+        "gatherable":[],
+        "sizeX":889,
+        "sizeY":596
+    }
+}
