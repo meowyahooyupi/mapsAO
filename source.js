@@ -551,9 +551,6 @@ if (!debugEnabled) {
 
 let htmlMain = document.getElementById("htmlMain")
 function resizeRefresh() {
-    let dpr = window.devicePixelRatio
-    htmlMain.style.height = (window.innerHeight*dpr).toString()+"px"
-    htmlMain.style.width = (window.innerWidth*dpr).toString()+"px"
     calculateXYSize(containerMain, mapScale, mapAspect)
     refreshExistingMarkers()
     refreshScrollVisibility()

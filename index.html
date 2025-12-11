@@ -39,7 +39,6 @@
                 width:1em;
                 line-height:100%;
                 text-align:center;
-                font-family:"oranda_condensed";
                 font-size:1em;
                 color:rgb(255, 255, 255);
                 text-shadow: 
@@ -57,7 +56,6 @@
                 width:200%; 
                 transform:translateX(-50%); 
                 text-align:center;
-                font-family:"oranda_condensed";
                 font-size:0.5em;
                 text-shadow: 
                 -.025em -.025em 0 rgba(0,0,0,0.75), 
@@ -72,7 +70,6 @@
                 width:10%;
                 z-index:1;
                 text-align:center;
-                font-family:"oranda_condensed";
                 line-height:120%;
                 color:rgb(255, 255, 255);
                 background-color:rgba(0, 0, 0, 0.2);
@@ -98,7 +95,6 @@
                 top:100%;
                 position:absolute; 
                 z-index: 3;
-                font-family:"oranda_condensed"; 
                 container-type: size;
                 text-align:center; 
                 background-color:rgb(0,0,0,0.7); 
@@ -139,13 +135,18 @@
             label {
                 display:block;
             }
+            html {
+                overflow:hidden;
+                width: 100vw;
+                height: 100vh;
+            }
             @font-face {
                 font-family:"oranda_condensed";
                 src:url("./Oranda Condensed Regular.otf")
             }
         </style>
     </head>
-    <body style="width: 100vw; height: 100vh; margin:0; overflow:hidden">
+    <body style="width: 100vw; height: 100vh; margin:0; overflow:hidden; font-family: oranda_condensed;">
         <div id="zoomin" class="zoom" style=" transform:translate(-100%,-200%);">
             <div class="centeredTransform" style="position: absolute; top:50%; left:50%; font-size: 100cqmin;">+</div>
         </div>
