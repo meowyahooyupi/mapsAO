@@ -99,6 +99,39 @@ scrollRight.onmouseup = (mouseEvent) => {
 }
 
 
+let cursorNoteDiv = document.createElement("div")
+cursorNoteDiv.classList = "mrkNote"
+let currHoveredMarker = null
+let mouseXY = []
+document.onmousemove = (mouseEvent) => {
+    mouseXY = [mouseEvent.clientX,mouseEvent.clientY]
+    if (currHoveredMarker != null) {
+        updateCursorNote()
+    }
+}
+
+function updateCursorNote() {
+    cursorNoteDiv.style.left = (mouseXY[0]+20).toString()+"px"
+    cursorNoteDiv.style.top = mouseXY[1].toString()+"px"
+    cursorNoteDiv.style.color = "rgb("+currHoveredMarker.color.join(",")+")"
+    if (currHoveredMarker.note) {
+        cursorNoteDiv.innerText = currHoveredMarker.legend+"\n"+currHoveredMarker.note
+    } else {
+        cursorNoteDiv.innerText = currHoveredMarker.legend
+    }
+}
+
+function showCursorNote(markerInfo) {
+    currHoveredMarker = markerInfo
+    document.getElementById("body").appendChild(cursorNoteDiv)
+    updateCursorNote()
+}
+
+function hideCursorNote() {
+    currHoveredMarker = null
+    cursorNoteDiv.remove()
+}
+
 function refreshExistingMarkers() {
     currLoadedMarkers.forEach(markContainer => {
         markerElement = markContainer.element
@@ -164,29 +197,24 @@ function createMarkerElement(markerInfo) {
         markNumber.classList = "mrkNum"
         newMarker.appendChild(markNumber)
     }
-    if (markerInfo.note) {
-        let noteDiv = document.createElement("div")
-        noteDiv.innerText = markerInfo.note
-        noteDiv.classList = "mrkNote"
-        noteDiv.style.opacity = 0
-        noteDiv.style.color = "rgb("+color.join()+")"
-        newMarker.onmouseenter = () => {
-            newMarker.appendChild(noteDiv)
-            noteDiv.style.opacity = 1
-            newMarker.style.zIndex = 1
-        }
-        newMarker.onmouseleave = () => {
-            newMarker.removeChild(noteDiv)
-            noteDiv.style.opacity = 0
-            newMarker.style.zIndex = 0
-        }
-    } else {
-        newMarker.onmouseenter = () => {
-            newMarker.style.zIndex = 1
-        }
-        newMarker.onmouseleave = () => {
-            newMarker.style.zIndex = 0
-        }
+    newMarker.onmouseenter = () => {
+        showCursorNote(markerInfo)
+        newMarker.style.zIndex = 1
+    }
+    newMarker.onmouseleave = () => {
+        hideCursorNote()
+        newMarker.style.zIndex = 0
+    }
+
+    newMarker.ontouchstart = () => {
+        let currMarkerBounds = newMarker.getBoundingClientRect()
+        mouseXY = [currMarkerBounds.right,currMarkerBounds.top]
+        showCursorNote(markerInfo)
+        newMarker.style.zIndex = 1
+    }
+    newMarker.ontouchend = () => {
+        hideCursorNote()
+        newMarker.style.zIndex = 0
     }
     return newMarker
 }
@@ -337,7 +365,7 @@ async function loadMapIdIndex(id,index) {
 
 let mapSelect = document.getElementById("mapSelect")
 let innerMapSelect = document.getElementById("maps")
-async function loadMapSelector() {
+async function loadMapSelector(filterStr) {
     allMapInfo = await allMapInfo
     innerMapSelect.innerHTML = ""
     let categories = {}
@@ -345,6 +373,9 @@ async function loadMapSelector() {
         let map = allMapInfo[key]
         if (Array.isArray(map)) {
             map = map[0]
+        }
+        if (!map.name.toLowerCase().includes(filterStr.toLowerCase())) {
+            return
         }
         if (!categories[map.category]) {
             categories[map.category] = [map]
@@ -372,6 +403,10 @@ async function loadMapSelector() {
             innerMapSelect.appendChild(mapButton)
         })
     })
+}
+
+document.getElementById("selectSearch").oninput = () => {
+    loadMapSelector(document.getElementById("selectSearch").value)
 }
 
 let mapSelectShown = false
@@ -585,4 +620,4 @@ console.log(baseMarkerInfo)
 loadMapIdIndex(currMapId,currMapIndex)
 window.onload = resizeRefresh
 window.onresize = resizeRefresh
-loadMapSelector()
+loadMapSelector("")

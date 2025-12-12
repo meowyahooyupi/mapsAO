@@ -1,7 +1,7 @@
 {
     "chest":{
         "id":"chest",
-        "legend":"Chests",
+        "legend":"Chest",
         "supportsNumbers":true,
         "color":[255,0,0]
     },
@@ -13,12 +13,12 @@
     },
     "quest":{
         "id":"quest",
-        "legend":"Quests",
+        "legend":"Quest",
         "color":[0,255,0]
     },
     "cook":{
         "id":"cook",
-        "legend":"Cooking Pots",
+        "legend":"Cooking Pot",
         "color":[255,0,255]
     },
     "secret":{
@@ -34,12 +34,12 @@
     },
     "cauldron":{
         "id":"cauldron",
-        "legend":"Cauldrons",
+        "legend":"Cauldron",
         "color":[255,255,0]
     },
     "jewel":{
         "id":"jewel",
-        "legend":"Jewelcrafting Tables",
+        "legend":"Jewelcrafting Table",
         "color":[150,20,20]
     },
     "hunt":{

@@ -36,7 +36,7 @@
         "markers":[{"id":"chest","amnt":1,"X":0.4668692850238479,"Y":0.4471314245756694},{"id":"chest","amnt":1,"X":0.42800918045157504,"Y":0.4017885195482776},{"id":"chest","amnt":1,"X":0.5057293895961207,"Y":0.5856791899371444},{"id":"chest","amnt":1,"X":0.5416002553551418,"Y":0.560488687144149},{"id":"chest","amnt":1,"X":0.4987544990318666,"Y":0.42194092178267395},{"id":"chest","amnt":1,"X":0.5057293895961207,"Y":0.4307575977602224},{"id":"chest","amnt":3,"X":0.41904146401181974,"Y":0.3400717877054387},{"id":"chest","amnt":5,"note":"Behind a breakable wall","X":0.5445894941683935,"Y":0.43957427373777075},{"id":"cook","X":0.48380830496560784,"Y":0.5831601396578449},{"id":"banditSpawn","X":0.4877939567166102,"Y":0.4458718994360196}],
         "customMarkers":{
             "banditSpawn":{
-                "legend":"Spire Bandit Spawn"
+                "legend":"Spire Bandit"
             }
         },
         "gatherable":["White Mushrooms","Brown Mushrooms"],
@@ -193,7 +193,7 @@
                     "legend":"Boss: Iris, The Anomaly"
                 },
                 "banditSpawn":{
-                    "legend":"Frost Brigand enemy spawn"
+                    "legend":"Frost Brigand"
                 }
             },            
             "gatherable":[],
@@ -214,7 +214,7 @@
                     "legend":"Entrances/Exits"
                 },
                 "banditSpawn":{
-                    "legend":"Ice Smuggler enemy spawn"
+                    "legend":"Ice Smuggler"
                 }
             },
             "gatherable":[],
@@ -257,7 +257,7 @@
                     "legend":"Blackwater Grotto Entrance"
                 },
                 "banditSpawn":{
-                    "legend":"Enemy spawn: Blackwater Criminal"
+                    "legend":"Blackwater Criminal"
                 },
                 "mentor":{
                     "id":"mentor",
@@ -287,16 +287,16 @@
                     "color":[255,255,255]
                 },
                 "banditSpawn":{
-                    "legend":"Enemy spawn: Blackwater Criminal"
+                    "legend":"Blackwater Criminal"
                 },
                 "banditSpawn2":{
                     "id":"banditSpawn2",
-                    "legend":"Enemy spawn: Assasin Journeyman",
+                    "legend":"Assasin Journeyman",
                     "color":[150,100,70]
                 },
                 "banditSpawn3":{
                     "id":"banditSpawn3",
-                    "legend":"Enemy spawn: Assasin",
+                    "legend":"Assasin",
                     "color":[150,20,20]
                 },
                 "boss":{
@@ -353,7 +353,7 @@
         "markers":[{"id":"chest","amnt":1,"X":0.3757002801120448,"Y":0.5012162377160888},{"id":"chest","amnt":1,"X":0.3322829131652661,"Y":0.49555938234210384},{"id":"chest","amnt":2,"X":0.3553921568627451,"Y":0.6697905278608414},{"id":"chest","amnt":2,"note":"Inside cave entrance","X":0.32948179271708683,"Y":0.6449003642153074},{"id":"chest","amnt":4,"X":0.2692577030812325,"Y":0.46274962117299095},{"id":"chest","amnt":3,"note":"Inside small cave","X":0.3911064425770308,"Y":0.5328946278104048},{"id":"chest","amnt":5,"X":0.42401960784313725,"Y":0.21837346901683963},{"id":"secret","X":0.42051820728291317,"Y":0.2319499219144036},{"id":"chest","amnt":1,"X":0.08928571428571429,"Y":0.7184394840771122},{"id":"chest","amnt":1,"X":0.0584733893557423,"Y":0.812343283285263},{"id":"chest","amnt":3,"X":0.15231092436974789,"Y":0.8892765163714588},{"id":"cave","note":"Under island at cloud height","X":0.26295518207282914,"Y":0.5147926906136528},{"id":"cave","note":"Under island at cloud height","X":0.25945378151260506,"Y":0.6924179493567812},{"id":"cave","note":"Under island at cloud height","X":0.33648459383753504,"Y":0.6833669807584053},{"id":"cave","X":0.35749299719887956,"Y":0.7082571444039393},{"id":"cave","X":0.125,"Y":0.8711745791747068},{"id":"banditSpawn","X":0.36375431788650614,"Y":0.5670171679350472},{"id":"banditSpawn","X":0.31741225234733045,"Y":0.5210967634896032},{"id":"banditSpawn","X":0.25006178376372845,"Y":0.6139358420423486}],
         "customMarkers":{
             "banditSpawn":{
-                "legend":"Enemy spawn: Hooded Figure"
+                "legend":"Hooded Figure"
             }
         },
         "gatherable":["Sky Pinecones","Horizon Rosemaries","Cloudcaps","Orange Swiftcaps"],
@@ -467,17 +467,17 @@
                     "color":[210,210,80]
                 },
                 "banditSpawn":{
-                    "legend":"Enemy spawn: Marine",
+                    "legend":"Marine",
                     "color":[50,140,230]
                 },
                 "banditSpawn2":{
                     "id":"banditSpawn2",
-                    "legend":"Enemy spawn: Navy Vice Captain",
+                    "legend":"Navy Vice Captain",
                     "color":[40,80,250]
                 },
                 "banditSpawn3":{
                     "id":"banditSpawn3",
-                    "legend":"Enemy spawn: Navy Captain",
+                    "legend":"Navy Captain",
                     "color":[50,40,100]
                 }
             },            
@@ -500,7 +500,7 @@
                     "color":[210,210,80]
                 },
                 "banditSpawn":{
-                    "legend":"Enemy spawn: Marine",
+                    "legend":"Marine",
                     "color":[50,140,230]
                 },
                 "boss":{
@@ -574,7 +574,7 @@
                 "legend":"Boss: Cernyx, Archon of Greenwish"
             },
             "banditSpawn":{
-                "legend":"Enemy spawn: Greenwish Cultist",
+                "legend":"Greenwish Cultist",
                 "color":[60,170,60]
             }
         },
@@ -611,16 +611,16 @@
                     "color":[140,95,60]
                 },
                 "banditSpawn":{
-                    "legend":"Enemy spawn: Ravenna Ensign"
+                    "legend":"Ravenna Ensign"
                 },
                 "banditSpawn2":{
                     "id":"banditSpawn2",
-                    "legend":"Enemy spawn: Ravenna Legionnaire",
+                    "legend":"Ravenna Legionnaire",
                     "color":[195,160,80]
                 },
                 "banditSpawn3":{
                     "id":"banditSpawn3",
-                    "legend":"Enemy spawn: Ravenna Centurion",
+                    "legend":"Ravenna Centurion",
                     "color":[240,70,30]
                 }
             },
@@ -642,7 +642,7 @@
                     "color":[140,95,60]
                 },
                 "banditSpawn":{
-                    "legend":"Enemy spawn: Ravenna Guard"
+                    "legend":"Ravenna Guard"
                 },
                 "boss":{
                     "legend":"Boss: General Argos,\nThe Lion of Old Ravenna"
@@ -766,16 +766,16 @@
                 "color":[255,255,255]
             },
             "banditSpawn":{
-                "legend":"Enemy spawn: Ravenna Ensign"
+                "legend":"Ravenna Ensign"
             },
             "banditSpawn2":{
                 "id":"banditSpawn2",
-                "legend":"Enemy spawn: Ravenna Legionnaire",
+                "legend":"Ravenna Legionnaire",
                 "color":[195,160,80]
             },
             "banditSpawn3":{
                 "id":"banditSpawn3",
-                "legend":"Enemy spawn: Ravenna Centurion",
+                "legend":"Ravenna Centurion",
                 "color":[240,70,30]
             },
             "boss":{
@@ -835,7 +835,7 @@
         "markers":[{"id":"chest","amnt":2,"X":0.06215846994535519,"Y":0.726353443781853},{"id":"chest","amnt":1,"X":0.09153005464480875,"Y":0.6003097579491197},{"id":"chest","amnt":1,"X":0.16393442622950818,"Y":0.6099232594109383},{"id":"chest","amnt":2,"X":0.17076502732240437,"Y":0.6376955969673033},{"id":"chest","amnt":2,"X":0.22540983606557377,"Y":0.5586512516145722},{"id":"chest","amnt":2,"X":0.16120218579234974,"Y":0.4678570711418406},{"id":"chest","amnt":2,"X":0.2226775956284153,"Y":0.41124422920001974},{"id":"chest","amnt":2,"X":0.2698087431693989,"Y":0.4368802330982028},{"id":"chest","amnt":1,"X":0.2527322404371585,"Y":0.3898808926182005},{"id":"chest","amnt":1,"X":0.2786885245901639,"Y":0.3824037248145638},{"id":"chest","amnt":1,"X":0.29098360655737704,"Y":0.41872139700365646},{"id":"chest","amnt":1,"X":0.31010928961748635,"Y":0.3824037248145638},{"id":"chest","amnt":2,"note":"Inside cave","X":0.3203551912568306,"Y":0.4091078955418378},{"id":"chest","amnt":1,"note":"Inside cave","X":0.3401639344262295,"Y":0.39094905944729147},{"id":"chest","amnt":1,"note":"Inside cave","X":0.3203551912568306,"Y":0.32899538336001577},{"id":"chest","amnt":2,"X":0.34972677595628415,"Y":0.34501788579638015},{"id":"chest","amnt":2,"X":0.34153005464480873,"Y":0.42085773066183835},{"id":"chest","amnt":1,"X":0.3005464480874317,"Y":0.2798597092218316},{"id":"chest","amnt":5,"note":"Inside cave","X":0.41530054644808745,"Y":0.2884050438545593},{"id":"chest","amnt":2,"X":0.4501366120218579,"Y":0.3012230458036508},{"id":"chest","amnt":1,"X":0.46789617486338797,"Y":0.323654549214561},{"id":"chest","amnt":1,"X":0.5047814207650273,"Y":0.2371330360581932},{"id":"chest","amnt":1,"X":0.5020491803278688,"Y":0.32258638238547},{"id":"chest","amnt":1,"X":0.5881147540983607,"Y":0.2339285355709203},{"id":"chest","amnt":1,"X":0.46584699453551914,"Y":0.38667639213092764},{"id":"chest","amnt":2,"X":0.412568306010929,"Y":0.4411529004145666},{"id":"chest","amnt":2,"X":0.45150273224043713,"Y":0.484947740407296},{"id":"chest","amnt":2,"X":0.5286885245901639,"Y":0.5244699130836615},{"id":"chest","amnt":1,"X":0.33060109289617484,"Y":0.5009702428436604},{"id":"chest","amnt":3,"X":0.4077868852459016,"Y":0.5768100877091186},{"id":"chest","amnt":1,"X":0.3271857923497268,"Y":0.6419682642836672},{"id":"chest","amnt":1,"X":0.35792349726775957,"Y":0.618468594043666},{"id":"chest","amnt":1,"X":0.3401639344262295,"Y":0.6708087686691231},{"id":"chest","amnt":1,"X":0.3394808743169399,"Y":0.7103309413454886},{"id":"chest","amnt":2,"X":0.25,"Y":0.6120595930691203},{"id":"chest","amnt":2,"X":0.2807377049180328,"Y":0.5832190886836643},{"id":"chest","amnt":3,"X":0.28415300546448086,"Y":0.6782859364727598},{"id":"chest","amnt":3,"X":0.20833333333333334,"Y":0.6825586037891236},{"id":"chest","amnt":3,"note":"Inside cave","X":0.23497267759562843,"Y":0.7327624447563987},{"id":"hunt","X":0.10109289617486339,"Y":0.5981734242909378},{"id":"hunt","X":0.2506830601092896,"Y":0.7381032789018536},{"id":"hunt","X":0.3394808743169399,"Y":0.6035142584363926},{"id":"hunt","X":0.5362021857923497,"Y":0.5287425804000253},{"id":"hunt","X":0.4385245901639344,"Y":0.23606486922910222},{"id":"cave","X":0.40846994535519127,"Y":0.20615619801455534},{"id":"cave","X":0.34972677595628415,"Y":0.3898808926182005},{"id":"cave","X":0.226775956284153,"Y":0.7904434535273106},{"id":"secret","X":0.27527322404371585,"Y":0.671876935498214},{"id":"cauldron","X":0.40095628415300544,"Y":0.5682647530763909},{"id":"banditSpawn","X":0.16939890710382513,"Y":0.5511740838109355},{"id":"banditSpawn","X":0.19398907103825136,"Y":0.4539709023636581},{"id":"banditSpawn","X":0.22472677595628415,"Y":0.4870840740654779},{"id":"banditSpawn","X":0.2739071038251366,"Y":0.4261985648072932},{"id":"banditSpawn","X":0.2575136612021858,"Y":0.3984262272509282},{"id":"banditSpawn","X":0.29713114754098363,"Y":0.4229940643200203},{"id":"banditSpawn","X":0.36885245901639346,"Y":0.3653130555491084},{"id":"boss","X":0.3271857923497268,"Y":0.3087002136072875}],
         "customMarkers":{
             "banditSpawn":{
-                "legend":"Enemy Spawn: Wolves Bandit"
+                "legend":"Wolves Bandit"
             },
             "boss":{
                 "legend":"Miniboss: Alpha,\nLeader of the Wolves"
