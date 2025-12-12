@@ -122,7 +122,6 @@ function updateCursorNote() {
         innerText += "\n"+currHoveredMarker.note
     }
     cursorNoteDiv.innerText = innerText
-
 }
 
 function showCursorNote(markerInfo) {
@@ -285,6 +284,10 @@ async function createLegend(mapInfo) {
         markDiv.style.display = "inline-flex"
 
         let markElement = createMarkerElement(element)
+        markElement.onmouseenter = ""
+        markElement.onmouseleave = ""
+        markElement.ontouchstart = ""
+        markElement.ontouchend = ""
         markElement.classList = "mrkLegend"
         let visible = true
         markElement.onmouseup = (mouseEvent) => {
