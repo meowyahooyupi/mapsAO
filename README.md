@@ -5,21 +5,25 @@ The entire webpage is pretty much just a big viewport where an image is shown an
 Anyways, the markers have an object structure as follows
 
 {
+
 	x -> X coordinate, (number from 0 to 1, basically a percentage)
 	y -> Y coordiante (functionally identical to x but on the y axis)
 	amnt -> the number that shows up on the marker (optional)
 	note -> the text that shows up when the marker is hovered over (optional)
 	id -> the id of the base marker "class" (if you could call it that), which is a string
+
 }
 
 Likewise, as you could guess from the "id" member, there are also what i would like to call the base marker classes, which define common information between markers of the same id.
 They follow the following structure
 
 {
+
 	id -> self explanatory, identifier of the class, is a string
 	legend -> the text that shows up on the legend of the maps
 	supportsNumbers -> whether the marker allows for the amnt property to show (its wiped in initMarkers otherwise)
 	color -> array of 3 numbers, each one corresponding to R,G and B (0-255)
+
 }
 
 Any marker will have a base marker class as its prototype, given to it through the initMarkers function (because, as i said, i dont have a proper constructor for markers)
@@ -28,8 +32,10 @@ The base marker classes themselves can be found inside the markerInfo.json file,
 Now, you might be wondering, "where the hell do you store the actual html element?", well its very simple. While the marker info itself does not have any place for the html element, when the markers are created (and placed inside the currLoadedMarkers array), they are wrapped within another object, this object basically serves as the link between the marker info and the html element, its structure is as follows:
 
 {
+
 	markerInfo -> self explanatory, the marker info we've been talking about
 	element -> the html element (a div) that represents the marker
+
 }
 
 During runtime, then, the array that holds all markers will actually only hold these objects, not just the markerInfo. The main reason behind this is that markerInfo needs to be stored within the json for the maps, and so i felt it was more appropriate to not modify the original objects when loading that json, specially since maps are going to be potentially loaded and unloaded several times (without fetching the json again after the initial page load).
@@ -41,6 +47,7 @@ Maps have a bit more of a complicated structure, but they do not have prototypes
 Their structure is as follows:
 
 {
+
 	id -> similar to the id of the base marker classes, just an identificatory string
 	index -> a number, it comes to play when a map has one or several sub maps, in which case several of these map structures are stored together in an array, this index being the index in that array
 	name -> the text that will show on the legend as the main title, and as the title in the map selector
@@ -54,6 +61,7 @@ Their structure is as follows:
 	gatherable -> an array with strings, these show in a list under the "gatherable items" header in the legend
 	sizeX -> size in pixels of the image on the X axis (we store that information in the json instead of just reading it off the file because we are not working directly with the file, we're just setting the src of the img element to it)
 	sizeY -> size in pixels of the image on the Y axis
+
 }
 
 That pretty much sums up most of the things you would need to know about the structure of a map, though i should mention the maps that are comprised of more than one image. Those are just stored as an array with several of these map structures, being differentiated by their index (they keep the same id)
