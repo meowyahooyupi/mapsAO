@@ -114,11 +114,15 @@ function updateCursorNote() {
     cursorNoteDiv.style.left = (mouseXY[0]+20).toString()+"px"
     cursorNoteDiv.style.top = mouseXY[1].toString()+"px"
     cursorNoteDiv.style.color = "rgb("+currHoveredMarker.color.join(",")+")"
-    if (currHoveredMarker.note) {
-        cursorNoteDiv.innerText = currHoveredMarker.legend+"\n"+currHoveredMarker.note
-    } else {
-        cursorNoteDiv.innerText = currHoveredMarker.legend
+    let innerText = currHoveredMarker.legend
+    if (currHoveredMarker.amnt) {
+        innerText += " ("+currHoveredMarker.amnt.toString()+")"
     }
+    if (currHoveredMarker.note) {
+        innerText += "\n"+currHoveredMarker.note
+    }
+    cursorNoteDiv.innerText = innerText
+
 }
 
 function showCursorNote(markerInfo) {
