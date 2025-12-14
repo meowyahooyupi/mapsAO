@@ -281,6 +281,7 @@ async function createLegend(mapInfo) {
 
         let markDiv = document.createElement("div")
         //markDiv.style.maxHeight = "1em"
+        markDiv.style.order = element.priority != null ? -element.priority : 0
         markDiv.style.display = "inline-flex"
 
         let markElement = createMarkerElement(element)
@@ -336,10 +337,12 @@ async function loadMap(mapLoad) {
     switch (mapLoad.legendPos) {
         case 1: {
             legendDiv.style.textAlign = "left"
+            legendDiv.style.alignItems = "flex-start"
             break
         }
         case 2: {
             legendDiv.style.textAlign = "right"
+            legendDiv.style.alignItems = "flex-end"
             break
         }
     }
@@ -394,8 +397,7 @@ async function loadMapSelector(filterStr) {
         let maps = categories[category]
         let catHeader = document.createElement("div")
         catHeader.innerText = category
-        catHeader.style.width = "100%"
-        catHeader.style.backgroundColor = "rgba(129, 57, 57, 0.3)"
+        catHeader.classList = "selectCatHeader"
         innerMapSelect.appendChild(catHeader)
         maps.forEach(map => {
             let mapButton = document.createElement("div")

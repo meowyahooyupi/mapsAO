@@ -23,7 +23,7 @@ They follow the following structure
 	legend -> the text that shows up on the legend of the maps
 	supportsNumbers -> whether the marker allows for the amnt property to show (its wiped in initMarkers otherwise)
 	color -> array of 3 numbers, each one corresponding to R,G and B (0-255)
-
+	priority -> a number (optional), determines the order in which the markers show up in the legend, a higher number will make the marker show up higher. its assumed to be 0 if not specified
 }
 
 Any marker will have a base marker class as its prototype, given to it through the initMarkers function (because, as i said, i dont have a proper constructor for markers)

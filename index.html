@@ -83,6 +83,9 @@
             }
             .legendMisc {
                 font-size:0.8em;
+                display:flex;
+                flex-direction: column;
+                align-items: inherit;
             }
             #mapSelect, #help{
                 width: 50%; 
@@ -128,6 +131,10 @@
                 cursor:pointer;
                 text-align: center;
                 z-index: 5;
+            }
+            .selectCatHeader {
+                width:100%;
+                background-color:rgba(129, 57, 57, 0.3)
             }
             label {
                 display:block;
@@ -190,7 +197,7 @@
             <div style="position:relative; overflow:hidden; margin:auto">
                 <div class="centeredTransform" style="top:50%; left:50%; width: 80%; height: 100%;">
                     <img id="mainMapImg" class="centeredTransform" src="" style="position:absolute; top:50%; left:50%; width:100%; height:100%; z-index:-2;">
-                    <div id="legend" style="z-index:1; position:relative; color:rgb(255,255,255); display:grid; line-height:100%; z-index:-1;">
+                    <div id="legend" style="z-index:1; position:relative; color:rgb(255,255,255); display:flex; flex-direction: column; line-height:100%; z-index:-1;">
                         <div id="mapName" class="legendHeader" style="order: 1;"></div>
                         <div id="markersLegend" class="legendMisc" style="order: 2;"></div>
                         <div id="gatherableHeader" class="legendHeader" style="order: 3;"><br>Gatherable Items</div>
