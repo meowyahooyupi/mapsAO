@@ -280,10 +280,10 @@ async function createLegend(mapInfo) {
         element.note = null
 
         let markDiv = document.createElement("div")
-        //markDiv.style.maxHeight = "1em"
         markDiv.style.order = element.priority != null ? -element.priority : 0
         markDiv.style.display = "inline-flex"
-
+        markDiv.style.height = "1em"
+        
         let markElement = createMarkerElement(element)
         markElement.onmouseenter = ""
         markElement.onmouseleave = ""
@@ -314,7 +314,6 @@ async function createLegend(mapInfo) {
         markDiv.appendChild(legendText)
 
         markerLegend.appendChild(markDiv)
-        markerLegend.appendChild(document.createElement("br"))
     })
 
     let gatherableHeader = document.getElementById("gatherableHeader")
