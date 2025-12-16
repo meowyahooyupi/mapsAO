@@ -149,7 +149,6 @@ function refreshExistingMarkers() {
             markSizeCalc = currMapInfo.sizeX > currMapInfo.sizeY ? markerSize/currMapInfo.sizeX : markerSize/currMapInfo.sizeY
         }
         calculateXYSize(markerElement,markSizeCalc)
-        markerElement.style.fontSize = markerElement.style.height
     })
 }
 
@@ -193,6 +192,7 @@ function createMarkerElement(markerInfo) {
     newMarker.appendChild(markColor)
     newMarker.style.top = (markerInfo.Y*100).toString()+"%"
     newMarker.style.left = (markerInfo.X*100).toString()+"%"
+    newMarker.style.containerType = "size"
 
     if (markerInfo.supportsNumbers && markerInfo.amnt) {
         let markNumber = document.createElement("div")
@@ -591,6 +591,8 @@ mapDiv.onmouseup = async (mouseEvent) => {
 
 if (!debugEnabled) {
     document.getElementById("editConfig").remove()
+} else {
+    document.getElementById("editConfig").style.opacity = 1
 }
 
 let htmlMain = document.getElementById("htmlMain")
