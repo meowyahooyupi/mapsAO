@@ -13,6 +13,13 @@
         "color":[235,127,127],
         "priority":998
     },
+    "gunpowder":{
+        "id":"gunpowder",
+        "legend":"Gunpowder Barrel",
+        "supportsNumbers":true,
+        "color":[255,160,70],
+        "priority":997
+    },
     "quest":{
         "id":"quest",
         "legend":"Quest",
@@ -27,14 +34,14 @@
         "id":"secret",
         "legend":"Island Secret",
         "color":[0,255,255],
-        "priority":997
+        "priority":996
     },
     "cave":{
         "id":"cave",
         "legend":"Cave Entrance",
         "supportsNumbers":true,
         "color":[210,210,80],
-        "priority":996
+        "priority":995
     },
     "cauldron":{
         "id":"cauldron",
@@ -50,7 +57,7 @@
         "id":"hunt",
         "legend":"Huntable NPC Spawn",
         "color":[255,145,255],
-        "priority":995
+        "priority":994
     },
     "boss":{
         "id":"boss",
