@@ -282,7 +282,6 @@ async function createLegend(mapInfo) {
         let markDiv = document.createElement("div")
         markDiv.style.order = element.priority != null ? -element.priority : 0
         markDiv.style.display = "inline-flex"
-        markDiv.style.height = "1em"
         
         let markElement = createMarkerElement(element)
         markElement.onmouseenter = ""
