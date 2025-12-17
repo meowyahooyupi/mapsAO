@@ -1,6 +1,20 @@
 Sup fellow uh... programmers i guess? This is sort of my first web app project, so before anything i just want to say sorry if my html or css or javascript is messy or is avoiding obviously easier alternatives, there's a good chance I just didn't find them when making the entire thing.
 
-Anyways, i suppose i should talk about the structure of the project or how it works.
+Right, if you're here just because you're wondering what this is, it's pretty much just a webpage that displays arcane odyssey island maps with little markers on them to... mark key things like chests, interactable things, you name it.
+The webpage itself has a help tab that talks about the different things you can interact with in the page, but if you just want a general idea here's a list
+- A tab with a full list of all the maps to select them and load them
+- Support for maps with more than 1 image (you can scroll through them)
+- Extra marker info when you hover over each one of them
+- Support for toggling specific markers by clicking on the icon in the legend
+- ...being able to zoom in? I don't know, i guess it's a feature
+- A debug mode (usually turned off) that allows you to place/remove markers and export them as a json
+
+If you're super curious about that "debug mode" by the way, currently there's not a way to toggle it in the live webpage, but if you really wanna mess around with it and make your own maps with custom markers and all you can try cloning the repository and turning it on on your own (it's just a variable named debugEnabled inside the code)
+
+Okay well that's pretty much it for the surface level stuff that isnt super nerdy and about code, so if you don't want to read about... code or code structures, this is your warning.
+
+
+Anyways, now i suppose i should talk about the structure of the project or how it works.
 The entire webpage is pretty much just a big viewport where an image is shown and little elements are put on top of it (those being the markers). Internally the markers are a... sort of class? not really a class because they dont have much of a proper constructor or anything (if we're not counting the function that makes the html element) but still kind of a class. 
 Anyways, the markers have an object structure as follows
 
