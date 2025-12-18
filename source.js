@@ -27,7 +27,7 @@ let currLoadedMarkers = []
 //just use this variable to determine whether "size" in calculateXYsize means in respect to the smallest or biggest dimension
 //thats to say, if the variable is true, then 1 unit of size will correspond to 100% of the smallest dimension, be it width or height
 //if the variable is false, 1 unit of size will correspond to 100% of the biggest dimension, be it width or height
-let scaleSmallest = true
+let scaleSmallest = false
 function calculateXYSize(element,size,aspect=1) {
     const parent = element.parentElement ? element.parentElement : document.documentElement
     const parentRect = parent.getBoundingClientRect()
@@ -211,7 +211,9 @@ function createMarkerElement(markerInfo) {
 
     newMarker.ontouchstart = () => {
         let currMarkerBounds = newMarker.getBoundingClientRect()
-        mouseXY = [currMarkerBounds.right,currMarkerBounds.top]
+        let height = currMarkerBounds.bottom-currMarkerBounds.top
+        let width = currMarkerBounds.right-currMarkerBounds.left
+        mouseXY = [currMarkerBounds.left+width/2,currMarkerBounds.top+height/2]
         showCursorNote(markerInfo)
         newMarker.style.zIndex = 1
     }
