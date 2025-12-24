@@ -27,7 +27,7 @@ let currLoadedMarkers = []
 //just use this variable to determine whether "size" in calculateXYsize means in respect to the smallest or biggest dimension
 //thats to say, if the variable is true, then 1 unit of size will correspond to 100% of the smallest dimension, be it width or height
 //if the variable is false, 1 unit of size will correspond to 100% of the biggest dimension, be it width or height
-let scaleSmallest = false
+let scaleSmallest = true
 function calculateXYSize(element,size,aspect=1) {
     const parent = element.parentElement ? element.parentElement : document.documentElement
     const parentRect = parent.getBoundingClientRect()
@@ -626,6 +626,51 @@ document.getElementById("zoomout").onmouseup = (mouseEvent) => {
 }
 
 setScale(1)
+
+let containerOverflow = document.getElementById("mapContainerOverflow")
+
+containerOverflow.onwheel = (event) => {
+    if (!event.ctrlKey) {
+        return
+    }
+    let wheelDirection = Math.sign(event.wheelDeltaY)
+    if (wheelDirection == 0) {
+        return
+    }
+    setScale(mapScale+0.1*wheelDirection)
+    event.preventDefault()
+}
+
+let touchScaling = false
+let touchBeganScale = 0
+let touchBeganDist = 0
+
+function calculateTouchDist(touches) {
+    return Math.hypot(touches[0].clientX-touches[1].clientX,touches[0].clientY-touches[1].clientY)
+}
+
+containerOverflow.ontouchstart = (event) => {
+    if (event.touches.length != 2) {
+        return
+    }
+    touchScaling = true
+    touchBeganScale = mapScale
+    touchBeganDist = calculateTouchDist(event.touches)
+    event.preventDefault()
+}
+containerOverflow.ontouchmove = (event) => {
+    if (!touchScaling) {
+        return
+    }
+    let distScale = calculateTouchDist(event.touches)/touchBeganDist
+    setScale(touchBeganScale*distScale)
+    event.preventDefault()
+}
+containerOverflow.ontouchend = () => {
+    touchScaling = false
+    touchBeganScale = 0
+    touchBeganDist = 0
+}
 
 console.log(baseMarkerInfo)
 loadMapIdIndex(currMapId,currMapIndex)
