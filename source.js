@@ -663,7 +663,7 @@ containerOverflow.ontouchmove = (event) => {
         return
     }
     let distScale = calculateTouchDist(event.touches)/touchBeganDist
-    setScale(touchBeganScale*distScale)
+    setScale(touchBeganScale+1*distScale)
     event.preventDefault()
 }
 containerOverflow.ontouchend = () => {
