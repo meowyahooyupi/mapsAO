@@ -70,12 +70,6 @@ function refreshScrollVisibility() {
         scrollRight.style.cursor = "default"
         scrollRight.style.opacity = 0
     }
-    let currRectLeft = scrollLeft.getBoundingClientRect()
-    let currWidthLeft = currRectLeft.right-currRectLeft.left
-    let currRectRight = scrollRight.getBoundingClientRect()
-    let currWidthRight = currRectRight.right-currRectRight.left
-    scrollLeft.style.fontSize = currWidthLeft.toString()+"px"
-    scrollRight.style.fontSize = currWidthRight.toString()+"px"
 }
 
 scrollLeft.onmouseup = (mouseEvent) => {
@@ -143,12 +137,16 @@ function refreshExistingMarkers() {
         markerElement.style.left = (markerInfo.X*100).toString()+"%"
 
         let markSizeCalc
+        let baseUnit
         if (scaleSmallest == true) {
             markSizeCalc = currMapInfo.sizeX < currMapInfo.sizeY ? markerSize/currMapInfo.sizeX : markerSize/currMapInfo.sizeY
+            baseUnit = "cqmin"
         } else {
             markSizeCalc = currMapInfo.sizeX > currMapInfo.sizeY ? markerSize/currMapInfo.sizeX : markerSize/currMapInfo.sizeY
+            baseUnit = "cqmax"
         }
-        calculateXYSize(markerElement,markSizeCalc)
+        markerElement.style.width = "calc(100"+baseUnit+"*"+markSizeCalc.toString()+")"
+        markerElement.style.height = "calc(100"+baseUnit+"*"+markSizeCalc.toString()+")"
     })
 }
 
@@ -254,8 +252,9 @@ function refreshLegend() {
     }
     let parentRect = legendDiv.parentElement.getBoundingClientRect()
     let height = parentRect.bottom-parentRect.top
-    let size = (currMapInfo.legendFSizeY != null ? currMapInfo.legendFSizeY : 17)/currMapInfo.sizeY*height
-    legendDiv.style.fontSize = size.toString()+"px"
+    let fontSize = currMapInfo.legendFSizeY != null ? currMapInfo.legendFSizeY : 17
+    let sizeRatio = fontSize/currMapInfo.sizeY
+    legendDiv.style.fontSize = "calc(100cqh*"+sizeRatio.toString()+")"
 }
 
 async function createLegend(mapInfo) {
@@ -348,6 +347,7 @@ async function loadMap(mapLoad) {
     }
     await loadMarkers(mapLoad.markers,mapLoad)
     await createLegend(mapLoad)
+    refreshScrollVisibility()
 }
 
 async function loadMapIdIndex(id,index) {
@@ -369,7 +369,6 @@ async function loadMapIdIndex(id,index) {
     }
     console.log(mapLoad)
     await loadMap(mapLoad)
-    resizeRefresh()
     return
 }
 
@@ -598,9 +597,6 @@ if (!debugEnabled) {
 let htmlMain = document.getElementById("htmlMain")
 function resizeRefresh() {
     calculateXYSize(containerMain, mapScale, mapAspect)
-    refreshExistingMarkers()
-    refreshScrollVisibility()
-    refreshLegend()
 }
 
 
@@ -659,13 +655,20 @@ containerOverflow.ontouchstart = (event) => {
     event.preventDefault()
 }
 containerOverflow.ontouchmove = (event) => {
-    if (!touchScaling) {
+    if (!touchScaling || event.touches.length != 2) {
         return
     }
-    let distScale = calculateTouchDist(event.touches)/touchBeganDist
-    setScale(touchBeganScale+(distScale-1))
+    let containerRect = containerOverflow.getBoundingClientRect()
+    let width = containerRect.right-containerRect.left
+    let height = containerRect.bottom-containerRect.top
+    let minSize = Math.min(width,height)
+
+    let currTouchDist = calculateTouchDist(event.touches)
+    let distScale = (currTouchDist-touchBeganDist)/minSize
+    setScale(touchBeganScale+distScale)
     event.preventDefault()
 }
+
 containerOverflow.ontouchend = () => {
     touchScaling = false
     touchBeganScale = 0
