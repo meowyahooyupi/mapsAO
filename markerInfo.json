@@ -68,5 +68,20 @@
         "id":"banditSpawn",
         "legend":"Enemy spawn",
         "color":[255,127,0]
+    },
+    "pouch":{
+        "id":"pouch",
+        "legend":"Pouch slot location",
+        "color":[0,0,255]
+    },
+    "faction":{
+        "id":"faction",
+        "legend":"Talent/Faction/Fleet spawn",
+        "color":[0,127,127]
+    },
+    "tower":{
+        "id":"tower",
+        "legend":"Pirate tower spawn",
+        "color":[127,0,127]
     }
 }
