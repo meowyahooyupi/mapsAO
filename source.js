@@ -295,7 +295,7 @@ async function createLegend(mapInfo) {
             if (mouseEvent.button != 0) {
                 return
             }
-            console.log(markElement)
+            //console.log(markElement)
             if (visible) {
                 visible = false
                 markElement.style.opacity = 0.5
@@ -367,7 +367,7 @@ async function loadMapIdIndex(id,index) {
         currMapIndex = 0
         currMapAmnt = 1
     }
-    console.log(mapLoad)
+    //console.log(mapLoad)
     await loadMap(mapLoad)
     return
 }
@@ -675,7 +675,7 @@ containerOverflow.ontouchend = () => {
     touchBeganDist = 0
 }
 
-console.log(baseMarkerInfo)
+//console.log(baseMarkerInfo)
 loadMapIdIndex(currMapId,currMapIndex)
 window.onload = resizeRefresh
 window.onresize = resizeRefresh
