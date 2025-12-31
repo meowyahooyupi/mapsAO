@@ -81,7 +81,7 @@
     },
     "tower":{
         "id":"tower",
-        "legend":"Pirate tower spawn",
+        "legend":"Enemy tower spawn",
         "color":[127,0,127]
     }
 }
