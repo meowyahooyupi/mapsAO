@@ -12,12 +12,21 @@ let defMarkerSize = 14
 let markerSize = defMarkerSize
 const defMarkColor = [255,0,0]
 
+let noCacheRequest = {
+    method:"GET",
+    headers:{
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "Pragma": "no-cache",
+        "Expires": 0
+    }
+}
+
 async function getBaseMarkerInfo() {
-    let res = await fetch("./markerInfo.json").then(response => response.json())
+    let res = await fetch("./markerInfo.json",noCacheRequest).then(response => response.json())
     return res
 }
 async function getMapInfo() {
-    let res = await fetch("./mapInfo.json").then(response=>response.json())
+    let res = await fetch("./mapInfo.json",noCacheRequest).then(response=>response.json())
     return res
 }
 let baseMarkerInfo = getBaseMarkerInfo()
