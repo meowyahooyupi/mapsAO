@@ -699,8 +699,6 @@ mapDiv.onpointermove = (event) => {
 }
 
 let touchScaling = false
-let touchScaleCenterX = 0
-let touchScaleCenterY = 0
 let touchBeganScale = 0
 let touchBeganDist = 0
 
@@ -715,13 +713,13 @@ containerOverflow.ontouchstart = (event) => {
     touchScaling = true
     touchBeganScale = mapScale
     touchBeganDist = calculateTouchDist(event.touches)
-    touchScaleCenterX = (event.touches[0].clientX+event.touches[1].clientX)/2
-    touchScaleCenterY = (event.touches[0].clientY+event.touches[1].clientY)/2
+    
     event.preventDefault()
 }
 
 containerOverflow.ontouchmove = (event) => {
     if (!touchScaling || event.touches.length != 2) {
+        touchScaling = false
         return
     }
     let containerRect = containerOverflow.getBoundingClientRect()
@@ -731,14 +729,14 @@ containerOverflow.ontouchmove = (event) => {
 
     let currTouchDist = calculateTouchDist(event.touches)
     let distScale = (currTouchDist-touchBeganDist)/minSize
+    let touchScaleCenterX = (event.touches[0].clientX+event.touches[1].clientX)/2
+    let touchScaleCenterY = (event.touches[0].clientY+event.touches[1].clientY)/2
     setScale(touchBeganScale*(distScale+1),touchScaleCenterX,touchScaleCenterY)
     event.preventDefault()
 }
 
 containerOverflow.ontouchend = () => {
     touchScaling = false
-    touchBeganScale = 0
-    touchBeganDist = 0
 }
 
 //console.log(baseMarkerInfo)
