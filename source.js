@@ -336,6 +336,7 @@ async function createLegend(mapInfo) {
 
 async function loadMap(mapLoad) {
     clearMarkers()
+    map.src = "" //setting it to nothing temporarily so that older images dont just get stuck there while its loading and the user gets confused
     map.src = mapLoad.imgPath
     currMapId = mapLoad.id
     currMapInfo = mapLoad
