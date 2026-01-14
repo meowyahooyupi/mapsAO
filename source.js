@@ -609,11 +609,27 @@ function resizeRefresh() {
 }
 
 
+let containerOverflow = document.getElementById("mapContainerOverflow")
+
 let minZoom=0.1
-function setScale(scale) {
+function setScale(scale,zoomX=0,zoomY=0) {
     mapScale = scale <= minZoom ? minZoom : scale
     document.getElementById("zoomDisplay").innerText = Math.round(mapScale*100).toString()+"%"
+
+    let mapContainerRect = containerMain.getBoundingClientRect()
+    let sizeXmap = mapContainerRect.right-mapContainerRect.left
+    let sizeYmap = mapContainerRect.bottom-mapContainerRect.top
+    let currScrollX = (containerOverflow.scrollLeft+zoomX)/sizeXmap
+    let currScrollY = (containerOverflow.scrollTop+zoomY)/sizeYmap
     resizeRefresh()
+    mapContainerRect = containerMain.getBoundingClientRect()
+    sizeXmap = mapContainerRect.right-mapContainerRect.left
+    sizeYmap = mapContainerRect.bottom-mapContainerRect.top
+    let pointPosX = currScrollX*sizeXmap-zoomX
+    let pointPosY = currScrollY*sizeYmap-zoomY
+    let X = pointPosX
+    let Y = pointPosY
+    containerOverflow.scroll(X,Y)
 }
 
 document.getElementById("zoomin").onmouseup = (mouseEvent) => {
@@ -632,18 +648,54 @@ document.getElementById("zoomout").onmouseup = (mouseEvent) => {
 
 setScale(1)
 
-let containerOverflow = document.getElementById("mapContainerOverflow")
-
+let ctrlZoom = false
 containerOverflow.onwheel = (event) => {
-    if (!event.ctrlKey) {
+    if (ctrlZoom && !event.ctrlKey) {
         return
     }
     let wheelDirection = Math.sign(event.wheelDeltaY)
     if (wheelDirection == 0) {
         return
     }
-    setScale(mapScale+0.1*wheelDirection)
+    setScale(mapScale+0.1*wheelDirection,event.clientX,event.clientY)
+    mapDiv.onpointerup(new PointerEvent("pointerup",{which:1}))
     event.preventDefault()
+}
+
+let grabScrolling = false
+let grabBeganScrollX = 0
+let grabBeganScrollY = 0
+let grabBeganX = 0
+let grabBeganY = 0
+mapDiv.onpointerdown = (event) => {
+    if (event.which != 1) {
+        return
+    }
+    grabScrolling = true
+    grabBeganScrollX = containerOverflow.scrollLeft
+    grabBeganScrollY = containerOverflow.scrollTop
+    grabBeganX = event.clientX
+    grabBeganY = event.clientY
+    mapDiv.style.cursor = "grabbing"
+    event.preventDefault()
+}
+
+mapDiv.onpointerup = (event) => {
+    if (event.which != 1) {
+        return
+    }
+    grabScrolling = false
+    mapDiv.style.cursor = "grab"
+    event.preventDefault()
+}
+
+mapDiv.onpointermove = (event) => {
+    if (!grabScrolling) {
+        return
+    }
+    let diffX = event.clientX-grabBeganX
+    let diffY = event.clientY-grabBeganY
+    containerOverflow.scroll(grabBeganScrollX-diffX,grabBeganScrollY-diffY)
 }
 
 let touchScaling = false
@@ -663,6 +715,7 @@ containerOverflow.ontouchstart = (event) => {
     touchBeganDist = calculateTouchDist(event.touches)
     event.preventDefault()
 }
+
 containerOverflow.ontouchmove = (event) => {
     if (!touchScaling || event.touches.length != 2) {
         return
@@ -674,7 +727,7 @@ containerOverflow.ontouchmove = (event) => {
 
     let currTouchDist = calculateTouchDist(event.touches)
     let distScale = (currTouchDist-touchBeganDist)/minSize
-    setScale(touchBeganScale+distScale)
+    setScale(touchBeganScale*distScale)
     event.preventDefault()
 }
 
