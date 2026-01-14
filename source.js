@@ -658,7 +658,7 @@ containerOverflow.onwheel = (event) => {
         return
     }
     setScale(mapScale+0.1*wheelDirection,event.clientX,event.clientY)
-    mapDiv.onpointerup(new PointerEvent("pointerup",{which:1}))
+    mapDiv.onmouseup(new MouseEvent("mouseup",{button:0}))
     event.preventDefault()
 }
 
@@ -667,8 +667,8 @@ let grabBeganScrollX = 0
 let grabBeganScrollY = 0
 let grabBeganX = 0
 let grabBeganY = 0
-mapDiv.onpointerdown = (event) => {
-    if (event.which != 1) {
+mapDiv.onmousedown = (event) => {
+    if (event.button != 0) {
         return
     }
     grabScrolling = true
@@ -680,8 +680,8 @@ mapDiv.onpointerdown = (event) => {
     event.preventDefault()
 }
 
-mapDiv.onpointerup = (event) => {
-    if (event.which != 1) {
+mapDiv.onmouseup = (event) => {
+    if (event.button != 0) {
         return
     }
     grabScrolling = false
@@ -689,7 +689,7 @@ mapDiv.onpointerup = (event) => {
     event.preventDefault()
 }
 
-mapDiv.onpointermove = (event) => {
+mapDiv.onmousemove = (event) => {
     if (!grabScrolling) {
         return
     }
