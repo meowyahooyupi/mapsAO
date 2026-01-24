@@ -1,16 +1,16 @@
-const map = document.getElementById("mainMapImg")
-const mapDiv = map.parentElement
-const containerMain = mapDiv.parentElement
-const legendDiv = document.getElementById("legend")
-let mapAspect = 2
-let mapScale = 1
-let currMapIndex = 0
-let currMapAmnt = 1
-let currMapId = "dawn"
+const map = document.getElementById("mainMapImg") //actual image element
+const mapDiv = map.parentElement //div that contains the image, markers, and legend
+const containerMain = mapDiv.parentElement //like mapDiv but also contains the left and right scroll buttons
+const legendDiv = document.getElementById("legend") //map legend
+let mapAspect = 2 //current map aspect ratio (the 2 is arbitrary it gets overwritten when a map loads)
+let mapScale = 1 //current map scale (1 is 100%)
+let currMapIndex = 0 //index of the map to account for multi image maps (if its a single image its 0)
+let currMapAmnt = 1 //amount of images for the map that is loaded
+let currMapId = "dawn" //self explanatory, dawn island is the default loaded map
 let currMapInfo = null
-let defMarkerSize = 14
-let markerSize = defMarkerSize
-const defMarkColor = [255,0,0]
+const defMarkerSize = 14 //default marker size
+let markerSize = defMarkerSize //marker size of the map that is loaded
+const defMarkColor = [255,0,0] //default marker color (red)
 
 let noCacheRequest = {
     method:"GET",
@@ -29,14 +29,14 @@ async function getMapInfo() {
     let res = await fetch("./mapInfo.json",noCacheRequest).then(response=>response.json())
     return res
 }
-let baseMarkerInfo = getBaseMarkerInfo()
-let allMapInfo = getMapInfo()
+const baseMarkerInfo = getBaseMarkerInfo()
+const allMapInfo = getMapInfo()
 let currLoadedMarkers = []
 
 //just use this variable to determine whether "size" in calculateXYsize means in respect to the smallest or biggest dimension
 //thats to say, if the variable is true, then 1 unit of size will correspond to 100% of the smallest dimension, be it width or height
 //if the variable is false, 1 unit of size will correspond to 100% of the biggest dimension, be it width or height
-let scaleSmallest = true
+const scaleSmallest = true
 function calculateXYSize(element,size,aspect=1) {
     const parent = element.parentElement ? element.parentElement : document.documentElement
     const parentRect = parent.getBoundingClientRect()
@@ -63,8 +63,10 @@ function calculateXYSize(element,size,aspect=1) {
     element.style.width = sizePxX.toString()+"px"
 }
 
-let scrollLeft = document.getElementById("scrollLeft")
-let scrollRight = document.getElementById("scrollRight")
+
+//left and right buttons for scrolling through the maps with several images
+const scrollLeft = document.getElementById("scrollLeft")
+const scrollRight = document.getElementById("scrollRight")
 function refreshScrollVisibility() {
     scrollLeft.style.opacity = 1
     scrollLeft.style.cursor = "pointer"
@@ -81,7 +83,7 @@ function refreshScrollVisibility() {
     }
 }
 
-scrollLeft.onmouseup = (mouseEvent) => {
+scrollLeft.addEventListener("mouseup", (mouseEvent) => {
     if (mouseEvent.button != 0) {
         return
     }
@@ -89,9 +91,9 @@ scrollLeft.onmouseup = (mouseEvent) => {
         return
     }
     loadMapIdIndex(currMapId,currMapIndex-1)
-}
+})
 
-scrollRight.onmouseup = (mouseEvent) => {
+scrollRight.addEventListener("mouseup", (mouseEvent) => {
     if (mouseEvent.button != 0) {
         return
     }
@@ -99,19 +101,20 @@ scrollRight.onmouseup = (mouseEvent) => {
         return
     }
     loadMapIdIndex(currMapId,currMapIndex+1)
-}
+})
 
 
-let cursorNoteDiv = document.createElement("div")
+//marker note on mouse hover
+const cursorNoteDiv = document.createElement("div")
 cursorNoteDiv.classList = "mrkNote"
 let currHoveredMarker = null
 let mouseXY = []
-document.onmousemove = (mouseEvent) => {
+document.addEventListener("mousemove", (mouseEvent) => {
     mouseXY = [mouseEvent.clientX,mouseEvent.clientY]
     if (currHoveredMarker != null) {
         updateCursorNote()
     }
-}
+})
 
 function updateCursorNote() {
     cursorNoteDiv.style.left = (mouseXY[0]+20).toString()+"px"
@@ -138,6 +141,8 @@ function hideCursorNote() {
     cursorNoteDiv.remove()
 }
 
+
+//everything marker related, refreshing their size, clearing them, initializing them, etc.
 function refreshExistingMarkers() {
     currLoadedMarkers.forEach(markContainer => {
         markerElement = markContainer.element
@@ -217,7 +222,7 @@ function createMarkerElement(markerInfo) {
     }
 
     newMarker.ontouchstart = () => {
-        let currMarkerBounds = newMarker.getBoundingClientRect()
+        const currMarkerBounds = newMarker.getBoundingClientRect()
         let height = currMarkerBounds.bottom-currMarkerBounds.top
         let width = currMarkerBounds.right-currMarkerBounds.left
         mouseXY = [currMarkerBounds.left+width/2,currMarkerBounds.top+height/2]
@@ -254,13 +259,15 @@ function toggleMarkerOpacity(markId, visible) {
     })
 }
 
+
+//map legends
 function refreshLegend() {
     if (currMapInfo == null) {
         console.log("no info")
         return
     }
-    let parentRect = legendDiv.parentElement.getBoundingClientRect()
-    let height = parentRect.bottom-parentRect.top
+    //const parentRect = legendDiv.parentElement.getBoundingClientRect()
+    //let height = parentRect.bottom-parentRect.top
     let fontSize = currMapInfo.legendFSizeY != null ? currMapInfo.legendFSizeY : 17
     let sizeRatio = fontSize/currMapInfo.sizeY
     legendDiv.style.fontSize = "calc(100cqh*"+sizeRatio.toString()+")"
@@ -268,10 +275,10 @@ function refreshLegend() {
 
 async function createLegend(mapInfo) {
     baseMarkerInfo = await baseMarkerInfo
-    let mainHeader = document.getElementById("mapName")
+    const mainHeader = document.getElementById("mapName")
     mainHeader.innerText = mapInfo.name + " Map"
 
-    let markerLegend = document.getElementById("markersLegend")
+    const markerLegend = document.getElementById("markersLegend")
     markerLegend.innerHTML = ""
 
     let markersBase = {}
@@ -294,13 +301,13 @@ async function createLegend(mapInfo) {
         markDiv.style.display = "inline-flex"
         
         let markElement = createMarkerElement(element)
-        markElement.onmouseenter = ""
-        markElement.onmouseleave = ""
-        markElement.ontouchstart = ""
-        markElement.ontouchend = ""
+        markElement.onmouseenter = null
+        markElement.onmouseleave = null
+        markElement.ontouchstart = null
+        markElement.ontouchend = null
         markElement.classList = "mrkLegend"
         let visible = true
-        markElement.onmouseup = (mouseEvent) => {
+        markElement.addEventListener("mouseup" = (mouseEvent) => {
             if (mouseEvent.button != 0) {
                 return
             }
@@ -314,7 +321,7 @@ async function createLegend(mapInfo) {
                 markElement.style.opacity = 1
                 toggleMarkerOpacity(element.id,visible)
             }
-        }
+        })
         markDiv.appendChild(markElement)
 
         let legendText = document.createElement("div")
@@ -325,8 +332,8 @@ async function createLegend(mapInfo) {
         markerLegend.appendChild(markDiv)
     })
 
-    let gatherableHeader = document.getElementById("gatherableHeader")
-    let gatherables = document.getElementById("gatherableList")
+    const gatherableHeader = document.getElementById("gatherableHeader")
+    const gatherables = document.getElementById("gatherableList")
     gatherableHeader.style.opacity = mapInfo.gatherable.length <= 0 ? 0 : 1
     gatherables.style.opacity = mapInfo.gatherable.length <= 0 ? 0 : 1
     gatherables.innerText = mapInfo.gatherable.join("\n")
@@ -334,6 +341,8 @@ async function createLegend(mapInfo) {
 }
 
 
+
+//map loading
 async function loadMap(mapLoad) {
     clearMarkers()
     map.src = "" //setting it to nothing temporarily so that older images dont just get stuck there while its loading and the user gets confused
@@ -382,8 +391,10 @@ async function loadMapIdIndex(id,index) {
     return
 }
 
-let mapSelect = document.getElementById("mapSelect")
-let innerMapSelect = document.getElementById("maps")
+
+//map select menu
+const mapSelect = document.getElementById("mapSelect") //includes the expand ribbon
+const innerMapSelect = document.getElementById("maps") //just the flexbox that contains the map buttons and the categories
 async function loadMapSelector(filterStr) {
     allMapInfo = await allMapInfo
     innerMapSelect.innerHTML = ""
@@ -412,23 +423,23 @@ async function loadMapSelector(filterStr) {
             let mapButton = document.createElement("div")
             mapButton.classList = "mapSelectElement"
             mapButton.innerText = map.name
-            mapButton.onmouseup = (mouseEvent) => {
+            mapButton.addEventListener("mouseup", (mouseEvent) => {
                 if (mouseEvent.button != 0) {
                     return
                 }
                 loadMapIdIndex(map.id,0)
-            }
+            })
             innerMapSelect.appendChild(mapButton)
         })
     })
 }
 
-document.getElementById("selectSearch").oninput = () => {
+document.getElementById("selectSearch").addEventListener("input", () => {
     loadMapSelector(document.getElementById("selectSearch").value)
-}
+})
 
 let mapSelectShown = false
-let selectExpandRibbon = document.getElementById("selectExpandRibbon")
+const selectExpandRibbon = document.getElementById("selectExpandRibbon")
 function setMapSelectVisibility(visibility) {
     mapSelectShown = visibility
     switch (mapSelectShown) {
@@ -448,18 +459,20 @@ function setMapSelectVisibility(visibility) {
         }
     }
 }
-selectExpandRibbon.onmouseup = (mouseEvent) => {
+selectExpandRibbon.addEventListener("mouseup", (mouseEvent) => {
     if (mouseEvent.button != 0) {
         return
     }
     setMapSelectVisibility(!mapSelectShown)
-}
+})
 setMapSelectVisibility(false)
 
+
+//help window
 let helpWindowShown = false
-let helpDiv = document.getElementById("help")
-let helpExpandRibbon = document.getElementById("helpExpandRibbon")
-let innerHelp = document.getElementById("innerHelp")
+const helpDiv = document.getElementById("help") //container for both the window and the expand ribbon
+const helpExpandRibbon = document.getElementById("helpExpandRibbon")
+const innerHelp = document.getElementById("innerHelp") //help window text
 function setHelpVisibility(visibility) {
     helpWindowShown = visibility
     switch (helpWindowShown) {
@@ -479,26 +492,28 @@ function setHelpVisibility(visibility) {
         }
     }
 }
-helpExpandRibbon.onmouseup = (mouseEvent) => {
+helpExpandRibbon.addEventListener("mouseup", (mouseEvent) => {
     if (mouseEvent.button != 0) {
         return
     }
     setHelpVisibility(!helpWindowShown)
-}
+})
 setHelpVisibility(false)
 
+
+//debug marker place, remove, export
 let debugEnabled = false
 let editPlacing = false
 let editRemoving = false
-let editMarkIdInput = document.getElementById("editMarkId")
-let editMarkAmntInput = document.getElementById("editMarkAmnt")
-let editMarkNoteInput = document.getElementById("editMarkNote")
-let editPlaceBtn = document.getElementById("editPlaceMarkers")
-let editRemoveBtn = document.getElementById("editRemoveMarkers")
-let editExportBtn = document.getElementById("editExportJSON")
-let editJSONOutput = document.getElementById("editJSONOutput")
+const editMarkIdInput = document.getElementById("editMarkId")
+const editMarkAmntInput = document.getElementById("editMarkAmnt")
+const editMarkNoteInput = document.getElementById("editMarkNote")
+const editPlaceBtn = document.getElementById("editPlaceMarkers")
+const editRemoveBtn = document.getElementById("editRemoveMarkers")
+const editExportBtn = document.getElementById("editExportJSON")
+const editJSONOutput = document.getElementById("editJSONOutput")
 
-editPlaceBtn.onmouseup = (mouseEvent) => {
+editPlaceBtn.addEventListener("mouseup", (mouseEvent) => {
     if (mouseEvent.button != 0) {
         return
     }
@@ -506,13 +521,15 @@ editPlaceBtn.onmouseup = (mouseEvent) => {
     editRemoving = false
     editPlacing = !editPlacing
     if (editPlacing) {
+        mapDiv.style.cursor = "default"
         editPlaceBtn.innerText = "Stop Placing"
     } else {
         editPlaceBtn.innerText = "Start Placing"
+        mapDiv.style.cursor = "grab"
     }
-}
+})
 
-editRemoveBtn.onmouseup = (mouseEvent) => {
+editRemoveBtn.addEventListener("mouseup", (mouseEvent) => {
     if (mouseEvent.button != 0) {
         return
     }
@@ -520,13 +537,15 @@ editRemoveBtn.onmouseup = (mouseEvent) => {
     editPlacing = false
     editRemoving = !editRemoving
     if (editRemoving) {
+        mapDiv.style.cursor = "default"
         editRemoveBtn.innerText = "Stop Removing"
     } else {
         editRemoveBtn.innerText = "Remove Markers"
+        mapDiv.style.cursor = "grab"
     }
-}
+})
 
-editExportBtn.onmouseup = (mouseEvent) => {
+editExportBtn.addEventListener("mouseup", (mouseEvent) => {
     if (mouseEvent.button != 0) {
         return
     }
@@ -535,9 +554,9 @@ editExportBtn.onmouseup = (mouseEvent) => {
         markArray.push(element.markerInfo)
     });
     editJSONOutput.value = JSON.stringify(markArray)
-}
+})
 
-mapDiv.onmouseup = async (mouseEvent) => {
+mapDiv.addEventListener("mouseup", async (mouseEvent) => {
     if (mouseEvent.button != 0) {
         return
     }
@@ -570,7 +589,7 @@ mapDiv.onmouseup = async (mouseEvent) => {
         if (markerNote != "") {
             markerInfo.note = markerNote
         }
-        let mapRect = mapDiv.getBoundingClientRect()
+        const mapRect = mapDiv.getBoundingClientRect()
         let width = mapRect.right-mapRect.left
         let height = mapRect.bottom-mapRect.top
         let xMouseRel = mouseEvent.clientX-mapRect.left
@@ -596,7 +615,7 @@ mapDiv.onmouseup = async (mouseEvent) => {
         }
         return
     }
-}
+})
 
 if (!debugEnabled) {
     document.getElementById("editConfig").remove()
@@ -604,13 +623,13 @@ if (!debugEnabled) {
     document.getElementById("editConfig").style.opacity = 1
 }
 
-let htmlMain = document.getElementById("htmlMain")
+
+//map scaling
 function resizeRefresh() {
     calculateXYSize(containerMain, mapScale, mapAspect)
 }
 
-
-let containerOverflow = document.getElementById("mapContainerOverflow")
+const containerOverflow = document.getElementById("mapContainerOverflow") //element that contains the entire map but that is allowed to overflow as to let scroll bars exist
 
 let minZoom=0.1
 function setScale(scale,zoomX=0,zoomY=0) {
@@ -633,24 +652,26 @@ function setScale(scale,zoomX=0,zoomY=0) {
     containerOverflow.scroll(X,Y)
 }
 
-document.getElementById("zoomin").onmouseup = (mouseEvent) => {
+document.getElementById("zoomin").addEventListener("mouseup", (mouseEvent) => {
     if (mouseEvent.button != 0) {
         return
     }
     setScale(mapScale+0.1)
-}
+})
 
-document.getElementById("zoomout").onmouseup = (mouseEvent) => {
+document.getElementById("zoomout").addEventListener("mouseup", (mouseEvent) => {
     if (mouseEvent.button != 0) {
         return
     }
     setScale(mapScale-0.1)
-}
+})
 
 setScale(1)
 
-let ctrlZoom = false
-containerOverflow.onwheel = (event) => {
+
+//zooming with the scroll wheel
+const ctrlZoom = false //if true, forces you to hold down ctrl to zoom
+containerOverflow.addEventListener("wheel", (event) => {
     if (ctrlZoom && !event.ctrlKey) {
         return
     }
@@ -659,17 +680,24 @@ containerOverflow.onwheel = (event) => {
         return
     }
     setScale(mapScale+0.1*wheelDirection,event.clientX,event.clientY)
-    mapDiv.onmouseup(new MouseEvent("mouseup",{button:0}))
+    if (!editPlacing && !editRemoving) {
+        mapDiv.dispatchEvent(new MouseEvent("mouseup",{button:0}))
+    }
     event.preventDefault()
-}
+})
 
+
+//moving image around by drag clicking
 let grabScrolling = false
 let grabBeganScrollX = 0
 let grabBeganScrollY = 0
 let grabBeganX = 0
 let grabBeganY = 0
-mapDiv.onmousedown = (event) => {
+mapDiv.addEventListener("mousedown", (event) => {
     if (event.button != 0) {
+        return
+    }
+    if (editPlacing || editRemoving) {
         return
     }
     grabScrolling = true
@@ -679,26 +707,31 @@ mapDiv.onmousedown = (event) => {
     grabBeganY = event.clientY
     mapDiv.style.cursor = "grabbing"
     event.preventDefault()
-}
+})
 
-mapDiv.onmouseup = (event) => {
+mapDiv.addEventListener("mouseup", (event) => {
     if (event.button != 0) {
+        return
+    }
+    if (editPlacing || editRemoving) {
         return
     }
     grabScrolling = false
     mapDiv.style.cursor = "grab"
     event.preventDefault()
-}
+})
 
-mapDiv.onmousemove = (event) => {
+mapDiv.addEventListener("mousemove", (event) => {
     if (!grabScrolling) {
         return
     }
     let diffX = event.clientX-grabBeganX
     let diffY = event.clientY-grabBeganY
     containerOverflow.scroll(grabBeganScrollX-diffX,grabBeganScrollY-diffY)
-}
+})
 
+
+//pinch zooming (mobile)
 let touchScaling = false
 let touchBeganScale = 0
 let touchBeganDist = 0
@@ -707,7 +740,7 @@ function calculateTouchDist(touches) {
     return Math.hypot(touches[0].clientX-touches[1].clientX,touches[0].clientY-touches[1].clientY)
 }
 
-containerOverflow.ontouchstart = (event) => {
+containerOverflow.addEventListener("touchstart", (event) => {
     if (event.touches.length != 2) {
         return
     }
@@ -716,9 +749,9 @@ containerOverflow.ontouchstart = (event) => {
     touchBeganDist = calculateTouchDist(event.touches)
     
     event.preventDefault()
-}
+})
 
-containerOverflow.ontouchmove = (event) => {
+containerOverflow.addEventListener("touchmove", (event) => {
     if (!touchScaling || event.touches.length != 2) {
         touchScaling = false
         return
@@ -734,13 +767,14 @@ containerOverflow.ontouchmove = (event) => {
     let touchScaleCenterY = (event.touches[0].clientY+event.touches[1].clientY)/2
     setScale(touchBeganScale*(distScale+1),touchScaleCenterX,touchScaleCenterY)
     event.preventDefault()
-}
+})
 
-containerOverflow.ontouchend = () => {
+containerOverflow.addEventListener("touchend", () => {
     touchScaling = false
-}
+})
 
-//console.log(baseMarkerInfo)
+
+//load default map as to have something
 loadMapIdIndex(currMapId,currMapIndex)
 window.onload = resizeRefresh
 window.onresize = resizeRefresh
