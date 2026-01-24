@@ -29,8 +29,8 @@ async function getMapInfo() {
     let res = await fetch("./mapInfo.json",noCacheRequest).then(response=>response.json())
     return res
 }
-const baseMarkerInfo = getBaseMarkerInfo()
-const allMapInfo = getMapInfo()
+let baseMarkerInfo = getBaseMarkerInfo()
+let allMapInfo = getMapInfo()
 let currLoadedMarkers = []
 
 //just use this variable to determine whether "size" in calculateXYsize means in respect to the smallest or biggest dimension
@@ -307,7 +307,7 @@ async function createLegend(mapInfo) {
         markElement.ontouchend = null
         markElement.classList = "mrkLegend"
         let visible = true
-        markElement.addEventListener("mouseup" = (mouseEvent) => {
+        markElement.addEventListener("mouseup", (mouseEvent) => {
             if (mouseEvent.button != 0) {
                 return
             }
